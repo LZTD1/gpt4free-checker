@@ -1,0 +1,67 @@
+name: Daily Provider Model Testing  
+  
+on:  
+  schedule:
+    - cron: '0 6,18 * * *'  
+  workflow_dispatch:
+  
+jobs:  
+  test-providers:  
+    runs-on: ubuntu-latest  
+      
+    steps:  
+    - name: Checkout repository  
+      uses: actions/checkout@v4  
+      with:  
+        token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  
+          
+    - name: Set up Python  
+      uses: actions/setup-python@v4  
+      with:  
+        python-version: "3.12"  
+        cache: 'pip'  
+          
+    - name: Install system dependencies  
+      run: |  
+        sudo apt-get update  
+        sudo apt-get install -y ffmpeg flac  
+
+    - name: Clear pip cache  
+      run: pip cache purge  
+  
+    - name: Install Python dependencies  
+      run: |  
+        pip install --upgrade pip  
+        pip install -r requirements.txt  
+  
+    - name: Monitor resources before testing  
+      run: |  
+        echo "Memory usage:"  
+        free -m  
+        echo "Disk usage:"  
+        df -h  
+  
+    - name: Clean filesystem before work  
+      run: |  
+        # Удаляем только временную папку, если она осталась от прошлого аварийного прогона
+        rm -rf reports.tmp/ || true  
+          
+    - name: Run provider testing with modular script  
+      run: |
+        python -m providers_tester \
+          --reports-dir reports \
+          --prev-summary reports/summary.json
+        
+    - name: Commit and push new results  
+      run: |  
+        git config --local user.email "${{ github.actor }}@users.noreply.github.com"  
+        git config --local user.name "${{ github.actor }}"  
+          
+        git add reports/
+          
+        if [ -n "$(git status --porcelain)" ]; then  
+          git commit -m "Daily provider test results - $(date '+%Y-%m-%d')"  
+          git push  
+        else  
+          echo "No changes to commit"  
+        fi

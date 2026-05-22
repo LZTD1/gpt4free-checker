@@ -1,0 +1,10 @@
+g4f[all]>=7.5.5,<8.0.0
+
+nodriver
+zendriver
+platformdirs
+
+aiohttp
+requests
+
+colorama
