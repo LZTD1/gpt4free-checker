@@ -50,7 +50,7 @@ class Discovery:
         for provider in g4f.Provider.__providers__:
             name = provider.__name__
             
-            if name in ("RetryProvider", "BaseProvider", "AsyncProvider", "AsyncGeneratorProvider"):
+            if name in ("RetryProvider", "BaseProvider", "AsyncProvider", "AsyncGeneratorProvider", "AnyProvider"):
                 continue
                 
             if CONFIG.filter_providers and name not in CONFIG.filter_providers:
