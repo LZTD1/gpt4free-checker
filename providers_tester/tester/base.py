@@ -6,6 +6,7 @@ from typing import Callable, Any, Coroutine
 from g4f.client import AsyncClient
 from ..models import TestResult, Capability, Status
 from ..config import CONFIG
+import random
 
 log = logging.getLogger(__name__)
 
@@ -75,6 +76,9 @@ class BaseTester:
             t0 = time.monotonic()
             try:
                 async with self.sem:
+                    stagger_delay = random.uniform(0.8, 2.5)
+                    await asyncio.sleep(stagger_delay)
+                    
                     result = await asyncio.wait_for(
                         test_coro_fn(),
                         timeout=float(CONFIG.request_timeout)

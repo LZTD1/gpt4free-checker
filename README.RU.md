@@ -4,7 +4,7 @@
 
 [![gpt4free-checker Models Online](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/LZTD1/gpt4free-checker/main/reports/badge.json)](https://github.com/LZTD1/gpt4free-checker/blob/main/reports/summary.md)
 
-Автоматизированный, легковесный и отказоустойчивый диагностический инструмент, предназначенный для регулярного мониторинга работы API-провайдеров и проверки доступности моделей в библиотеке `gpt4free` (`g4f`).
+Автоматизированный, легковесный и отказоустойчивый диагностический инструмент, предназначенный для регулярного мониторинга работы API-провайдеров и проверки доступности моделей в библиотеке [xtekky/gpt4free](https://github.com/xtekky/gpt4free).
 
 ## Фичи
 

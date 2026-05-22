@@ -4,7 +4,7 @@
 
 [![gpt4free-checker Models Online](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/LZTD1/gpt4free-checker/main/reports/badge.json)](https://github.com/LZTD1/gpt4free-checker/blob/main/reports/summary.md)
 
-An automated, lightweight, and resilient diagnostic test suite designed to monitor and verify active `gpt4free` (`g4f`) API providers and model availability.
+An automated, lightweight, and resilient diagnostic test suite designed to monitor and verify active [xtekky/gpt4free](https://github.com/xtekky/gpt4free) API providers and model availability.
 
 ## Features
 
