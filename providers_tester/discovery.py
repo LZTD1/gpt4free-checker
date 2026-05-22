@@ -30,7 +30,15 @@ def _infer_capabilities_from_metadata(provider_cls, model: str) -> Set[Capabilit
     if any(k in m_lower for k in ("sora", "cogvideo", "luma", "hunyuan", "mochi", "ltx-video", "wan2.0")):
         caps.add(Capability.VIDEO)
         caps.discard(Capability.TEXT)
-        
+
+    if Capability.IMAGE in caps:
+        media_required_keywords = (
+            "kontext", "img2img", "inpainting",
+            "upscale", "pix2pix"
+        )
+        if any(k in m_lower for k in media_required_keywords):
+            caps.discard(Capability.IMAGE)
+
     return caps
 
 

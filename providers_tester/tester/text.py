@@ -29,7 +29,7 @@ class TextTester(BaseTester):
                     parts.append(chunk)
                 elif isinstance(chunk, dict):
                     choices = chunk.get("choices")
-                    if choices:
+                    if choices and len(choices) > 0 and choices[0] is not None:
                         delta = choices[0].get("delta", {})
                         content = delta.get("content")
                         if content:

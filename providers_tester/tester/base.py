@@ -22,6 +22,40 @@ def classify_exception(exc: Exception) -> Status:
     return Status.EXCEPTION
 
 
+
+def extract_retry_after(exc: Exception) -> float | None:
+    headers = None
+    if hasattr(exc, "headers") and exc.headers:
+        headers = exc.headers
+    elif hasattr(exc, "response") and hasattr(exc.response, "headers") and exc.response.headers:
+        headers = exc.response.headers
+
+    if headers:
+        retry_after = headers.get("Retry-After") or headers.get("retry-after")
+        if retry_after:
+            try:
+                return float(retry_after)
+            except ValueError:
+                pass 
+
+    err_str = str(exc)
+
+    hms_match = re.search(r"try again in (\d+):(\d+):(\d+)", err_str, re.IGNORECASE)
+    if hms_match:
+        h, m, s = map(int, hms_match.groups())
+        return float(h * 3600 + m * 60 + s)
+
+    sec_match = re.search(r"try again in (\d+)\s*(s|sec|second)", err_str, re.IGNORECASE)
+    if sec_match:
+        return float(sec_match.group(1))
+
+    min_match = re.search(r"try again in (\d+)\s*(m|min|minute)", err_str, re.IGNORECASE)
+    if min_match:
+        return float(min_match.group(1)) * 60.0
+
+    return None
+
+
 class BaseTester:
     def __init__(self, client: AsyncClient, sem: asyncio.Semaphore):
         self.client = client
@@ -71,7 +105,24 @@ class BaseTester:
                 )
                 
             if attempt < retries:
-                await asyncio.sleep(0.5 * (attempt + 1))
+                wait_time = 0.5 * (attempt + 1)  
+                
+                if last_result.status == Status.API_ERROR:
+                    extracted_wait = extract_retry_after(e)
+                    if extracted_wait is not None:
+                        if extracted_wait > 45.0:
+                            log.warning(
+                                "Skipping retries for %s -> %s (requested wait of %.1fs exceeds maximum of 45s)",
+                                provider, model, extracted_wait
+                            )
+                            break
+                        wait_time = extracted_wait + 1
+                        log.info(
+                            "Rate limit hit on %s. Smart backing off for %.1fs as requested...",
+                            provider, wait_time
+                        )
+
+                await asyncio.sleep(wait_time)
                 
         return last_result or TestResult(
             provider=provider,

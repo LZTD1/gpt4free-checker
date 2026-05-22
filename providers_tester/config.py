@@ -9,7 +9,7 @@ class Config:
     api_key: str = "test-key"
     port: int = 8081
 
-    request_timeout: int = 60
+    request_timeout: int = 25
     server_startup_timeout: int = 60
     server_poll_interval: float = 1.0
 

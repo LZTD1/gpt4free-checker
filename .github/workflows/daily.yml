@@ -43,7 +43,6 @@ jobs:
   
     - name: Clean filesystem before work  
       run: |  
-        # Удаляем только временную папку, если она осталась от прошлого аварийного прогона
         rm -rf reports.tmp/ || true  
           
     - name: Run provider testing with modular script  
