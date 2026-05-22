@@ -10,21 +10,21 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `English (Australia)` | audio | ❌ `exception` | 3.04s | NameError: name 'gTTS_Service' is not defined |
-| `English (Canada)` | audio | ❌ `exception` | 3.96s | NameError: name 'gTTS_Service' is not defined |
-| `English (India)` | audio | ❌ `exception` | 2.88s | NameError: name 'gTTS_Service' is not defined |
-| `English (Ireland)` | audio | ❌ `exception` | 2.74s | NameError: name 'gTTS_Service' is not defined |
-| `English (Nigeria)` | audio | ❌ `exception` | 2.13s | NameError: name 'gTTS_Service' is not defined |
-| `English (South Africa)` | audio | ❌ `exception` | 3.12s | NameError: name 'gTTS_Service' is not defined |
-| `English (United Kingdom)` | audio | ❌ `exception` | 3.26s | NameError: name 'gTTS_Service' is not defined |
-| `English (United States)` | audio | ❌ `exception` | 3.66s | NameError: name 'gTTS_Service' is not defined |
-| `French (Canada)` | audio | ❌ `exception` | 3.03s | NameError: name 'gTTS_Service' is not defined |
-| `French (France)` | audio | ❌ `exception` | 3.35s | NameError: name 'gTTS_Service' is not defined |
-| `German (Germany)` | audio | ❌ `exception` | 4.00s | NameError: name 'gTTS_Service' is not defined |
-| `Mandarin (China Mainland)` | audio | ❌ `exception` | 3.69s | NameError: name 'gTTS_Service' is not defined |
-| `Mandarin (Taiwan)` | audio | ❌ `exception` | 3.84s | NameError: name 'gTTS_Service' is not defined |
-| `Portuguese (Brazil)` | audio | ❌ `exception` | 3.30s | NameError: name 'gTTS_Service' is not defined |
-| `Portuguese (Portugal)` | audio | ❌ `exception` | 2.13s | NameError: name 'gTTS_Service' is not defined |
-| `Spanish (Mexico)` | audio | ❌ `exception` | 4.27s | NameError: name 'gTTS_Service' is not defined |
-| `Spanish (Spain)` | audio | ❌ `exception` | 3.21s | NameError: name 'gTTS_Service' is not defined |
-| `Spanish (United States)` | audio | ❌ `exception` | 2.46s | NameError: name 'gTTS_Service' is not defined |
+| `English (Australia)` | audio | ❌ `exception` | 3.76s | NameError: name 'gTTS_Service' is not defined |
+| `English (Canada)` | audio | ❌ `exception` | 2.78s | NameError: name 'gTTS_Service' is not defined |
+| `English (India)` | audio | ❌ `exception` | 2.33s | NameError: name 'gTTS_Service' is not defined |
+| `English (Ireland)` | audio | ❌ `exception` | 3.23s | NameError: name 'gTTS_Service' is not defined |
+| `English (Nigeria)` | audio | ❌ `exception` | 3.10s | NameError: name 'gTTS_Service' is not defined |
+| `English (South Africa)` | audio | ❌ `exception` | 2.23s | NameError: name 'gTTS_Service' is not defined |
+| `English (United Kingdom)` | audio | ❌ `exception` | 3.67s | NameError: name 'gTTS_Service' is not defined |
+| `English (United States)` | audio | ❌ `exception` | 3.34s | NameError: name 'gTTS_Service' is not defined |
+| `French (Canada)` | audio | ❌ `exception` | 2.97s | NameError: name 'gTTS_Service' is not defined |
+| `French (France)` | audio | ❌ `exception` | 2.64s | NameError: name 'gTTS_Service' is not defined |
+| `German (Germany)` | audio | ❌ `exception` | 3.64s | NameError: name 'gTTS_Service' is not defined |
+| `Mandarin (China Mainland)` | audio | ❌ `exception` | 2.23s | NameError: name 'gTTS_Service' is not defined |
+| `Mandarin (Taiwan)` | audio | ❌ `exception` | 3.01s | NameError: name 'gTTS_Service' is not defined |
+| `Portuguese (Brazil)` | audio | ❌ `exception` | 2.64s | NameError: name 'gTTS_Service' is not defined |
+| `Portuguese (Portugal)` | audio | ❌ `exception` | 2.85s | NameError: name 'gTTS_Service' is not defined |
+| `Spanish (Mexico)` | audio | ❌ `exception` | 2.19s | NameError: name 'gTTS_Service' is not defined |
+| `Spanish (Spain)` | audio | ❌ `exception` | 3.12s | NameError: name 'gTTS_Service' is not defined |
+| `Spanish (United States)` | audio | ❌ `exception` | 3.45s | NameError: name 'gTTS_Service' is not defined |
