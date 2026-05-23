@@ -1,56 +1,104 @@
 [
   {
-    "provider": "BlackForestLabs_Flux1Dev",
-    "model": "flux",
-    "capability": "image",
-    "response_time": 19.581
+    "provider": "CohereForAI_C4AI_Command",
+    "model": "command-r7b-12-2024",
+    "capability": "text",
+    "response_time": 0.534
   },
   {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-r7b-arabic-02-2025",
     "capability": "text",
-    "response_time": 0.413
+    "response_time": 0.522
   },
   {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-r-plus-08-2024",
     "capability": "text",
-    "response_time": 0.502
-  },
-  {
-    "provider": "CohereForAI_C4AI_Command",
-    "model": "command-r7b-12-2024",
-    "capability": "text",
-    "response_time": 0.459
+    "response_time": 23.586
   },
   {
     "provider": "OperaAria",
     "model": "aria",
     "capability": "image",
-    "response_time": 12.567
+    "response_time": 10.424
   },
   {
-    "provider": "Qwen",
-    "model": "qwen3.5-max-2026-03-08",
+    "provider": "Perplexity",
+    "model": "r1",
     "capability": "text",
-    "response_time": 8.46
+    "response_time": 1.44
   },
   {
-    "provider": "Qwen",
-    "model": "qwen3.6-max-preview",
+    "provider": "Perplexity",
+    "model": "comet_max_assistant",
     "capability": "text",
-    "response_time": 7.901
+    "response_time": 1.161
+  },
+  {
+    "provider": "Perplexity",
+    "model": "claude40sonnetthinking_labs",
+    "capability": "text",
+    "response_time": 1.187
+  },
+  {
+    "provider": "Perplexity",
+    "model": "experimental",
+    "capability": "text",
+    "response_time": 1.534
+  },
+  {
+    "provider": "Perplexity",
+    "model": "claude2",
+    "capability": "text",
+    "response_time": 1.239
+  },
+  {
+    "provider": "Perplexity",
+    "model": "turbo",
+    "capability": "text",
+    "response_time": 1.681
+  },
+  {
+    "provider": "Perplexity",
+    "model": "gemini2flash",
+    "capability": "text",
+    "response_time": 1.479
+  },
+  {
+    "provider": "Perplexity",
+    "model": "gpt45",
+    "capability": "text",
+    "response_time": 1.337
+  },
+  {
+    "provider": "Perplexity",
+    "model": "o3pro",
+    "capability": "text",
+    "response_time": 1.404
   },
   {
     "provider": "Qwen",
     "model": "qwen3.6-plus-preview",
     "capability": "text",
-    "response_time": 6.779
+    "response_time": 5.761
+  },
+  {
+    "provider": "Qwen",
+    "model": "qwen3.6-max-preview",
+    "capability": "text",
+    "response_time": 7.288
+  },
+  {
+    "provider": "Qwen",
+    "model": "qwen3.5-max-2026-03-08",
+    "capability": "text",
+    "response_time": 10.497
   },
   {
     "provider": "Yqcloud",
     "model": "gpt-4",
     "capability": "text",
-    "response_time": 2.835
+    "response_time": 2.146
   }
 ]
