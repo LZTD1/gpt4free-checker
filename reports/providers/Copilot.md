@@ -10,7 +10,7 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `Copilot` | text | ❌ `timeout` | 26.80s | Timeout limit exceeded |
-| `Smart (GPT-5)` | text | ❌ `timeout` | 26.19s | Timeout limit exceeded |
-| `Study` | text | ❌ `timeout` | 27.28s | Timeout limit exceeded |
-| `Think Deeper` | text | ❌ `timeout` | 26.52s | Timeout limit exceeded |
+| `Copilot` | text | ❌ `timeout` | 27.26s | Timeout limit exceeded |
+| `Smart (GPT-5)` | text | ❌ `timeout` | 27.11s | Timeout limit exceeded |
+| `Study` | text | ❌ `timeout` | 27.45s | Timeout limit exceeded |
+| `Think Deeper` | text | ❌ `timeout` | 26.01s | Timeout limit exceeded |
