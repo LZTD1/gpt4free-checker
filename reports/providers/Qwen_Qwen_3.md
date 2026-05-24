@@ -10,11 +10,11 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `qwen-3-0.6b` | text | ❌ `timeout` | 25.85s | Timeout limit exceeded |
-| `qwen-3-1.7b` | text | ❌ `timeout` | 26.14s | Timeout limit exceeded |
-| `qwen-3-14b` | text | ❌ `timeout` | 27.14s | Timeout limit exceeded |
-| `qwen-3-235b` | text | ❌ `timeout` | 26.55s | Timeout limit exceeded |
-| `qwen-3-30b-a3b` | text | ❌ `timeout` | 27.00s | Timeout limit exceeded |
-| `qwen-3-32b` | text | ❌ `timeout` | 26.00s | Timeout limit exceeded |
-| `qwen-3-4b` | text | ❌ `timeout` | 25.82s | Timeout limit exceeded |
-| `qwen-3-8b` | text | ❌ `timeout` | 26.19s | Timeout limit exceeded |
+| `qwen-3-0.6b` | text | ❌ `exception` | 1.39s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
+| `qwen-3-1.7b` | text | ❌ `exception` | 1.94s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
+| `qwen-3-14b` | text | ❌ `exception` | 1.19s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
+| `qwen-3-235b` | text | ❌ `exception` | 1.98s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
+| `qwen-3-30b-a3b` | text | ❌ `exception` | 1.68s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
+| `qwen-3-32b` | text | ❌ `exception` | 1.42s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
+| `qwen-3-4b` | text | ❌ `exception` | 2.59s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
+| `qwen-3-8b` | text | ❌ `exception` | 2.01s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |

@@ -3,100 +3,103 @@
 - **Label:** Perplexity
 - **URL:** https://www.perplexity.ai
 - **Models:** 46
-- **Working tests:** 9 / 35
-- **Avg response time:** 1.42s
+- **Working tests:** 10 / 32
+- **Avg response time:** 1.47s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `claude40opus_research` | text | ✅ `ok` | 2.30s | contains expected token 'PONG' |
-| `claude40opusthinking` | text | ✅ `ok` | 1.33s | contains expected token 'PONG' |
-| `claude41opusthinking` | text | ✅ `ok` | 1.50s | contains expected token 'PONG' |
-| `claude45sonnetthinking` | text | ✅ `ok` | 1.20s | contains expected token 'PONG' |
-| `gpt4` | text | ✅ `ok` | 1.25s | contains expected token 'PONG' |
-| `gpt45` | text | ✅ `ok` | 1.24s | contains expected token 'PONG' |
-| `gpt5` | text | ✅ `ok` | 1.14s | contains expected token 'PONG' |
-| `o3_research` | text | ✅ `ok` | 1.28s | contains expected token 'PONG' |
-| `o3mini` | text | ✅ `ok` | 1.52s | contains expected token 'PONG' |
-| `claude35haiku` | text | ❌ `exception` | 9.96s | CloudflareError: Response 403: Cloudflare detected |
-| `claude37sonnetthinking` | text | ❌ `exception` | 5.05s | CloudflareError: Response 403: Cloudflare detected |
-| `claude3opus` | text | ❌ `exception` | 5.11s | CloudflareError: Response 403: Cloudflare detected |
-| `claude40sonnet_research` | text | ❌ `exception` | 4.99s | CloudflareError: Response 403: Cloudflare detected |
-| `claude40sonnetthinking_labs` | text | ❌ `exception` | 5.25s | CloudflareError: Response 403: Cloudflare detected |
-| `claude45sonnet` | text | ❌ `exception` | 4.44s | CloudflareError: Response 403: Cloudflare detected |
-| `comet_max_assistant` | text | ❌ `exception` | 4.32s | CloudflareError: Response 403: Cloudflare detected |
-| `experimental` | text | ❌ `exception` | 5.95s | CloudflareError: Response 403: Cloudflare detected |
-| `gemini` | text | ❌ `exception` | 10.11s | CloudflareError: Response 403: Cloudflare detected |
-| `gemini2flash` | text | ❌ `exception` | 5.82s | CloudflareError: Response 403: Cloudflare detected |
-| `gpt41` | text | ❌ `exception` | 4.61s | CloudflareError: Response 403: Cloudflare detected |
-| `grok` | text | ❌ `exception` | 5.82s | CloudflareError: Response 403: Cloudflare detected |
-| `mistral` | text | ❌ `exception` | 4.18s | CloudflareError: Response 403: Cloudflare detected |
-| `o3` | text | ❌ `exception` | 6.33s | CloudflareError: Response 403: Cloudflare detected |
-| `o3_labs` | text | ❌ `exception` | 5.37s | CloudflareError: Response 403: Cloudflare detected |
-| `o3pro` | text | ❌ `exception` | 4.44s | CloudflareError: Response 403: Cloudflare detected |
-| `o3pro_labs` | text | ❌ `exception` | 5.72s | CloudflareError: Response 403: Cloudflare detected |
-| `o3pro_research` | text | ❌ `exception` | 4.59s | CloudflareError: Response 403: Cloudflare detected |
-| `o4mini` | text | ❌ `exception` | 4.70s | CloudflareError: Response 403: Cloudflare detected |
-| `pplx_alpha` | text | ❌ `exception` | 5.37s | CloudflareError: Response 403: Cloudflare detected |
-| `pplx_beta` | text | ❌ `exception` | 4.72s | CloudflareError: Response 403: Cloudflare detected |
-| `pplx_pro` | text | ❌ `exception` | 6.35s | CloudflareError: Response 403: Cloudflare detected |
-| `pplx_pro_upgraded` | text | ❌ `exception` | 5.69s | CloudflareError: Response 403: Cloudflare detected |
-| `pplx_reasoning` | text | ❌ `exception` | 4.36s | CloudflareError: Response 403: Cloudflare detected |
-| `r1` | text | ❌ `exception` | 4.15s | CloudflareError: Response 403: Cloudflare detected |
-| `turbo` | text | ❌ `exception` | 5.75s | CloudflareError: Response 403: Cloudflare detected |
+| `claude40sonnetthinking_research` | text | ✅ `ok` | 1.17s | contains expected token 'PONG' |
+| `claude45sonnet` | text | ✅ `ok` | 1.09s | contains expected token 'PONG' |
+| `experimental` | text | ✅ `ok` | 1.22s | contains expected token 'PONG' |
+| `gpt41` | text | ✅ `ok` | 1.29s | contains expected token 'PONG' |
+| `gpt4o` | text | ✅ `ok` | 1.05s | contains expected token 'PONG' |
+| `grok4` | text | ✅ `ok` | 1.22s | contains expected token 'PONG' |
+| `o3_research` | text | ✅ `ok` | 3.53s | contains expected token 'PONG' |
+| `pplx_pro` | text | ✅ `ok` | 1.44s | contains expected token 'PONG' |
+| `pplx_reasoning` | text | ✅ `ok` | 1.45s | contains expected token 'PONG' |
+| `turbo` | text | ✅ `ok` | 1.23s | contains expected token 'PONG' |
+| `auto` | text | ❌ `exception` | 3.61s | CloudflareError: Response 403: Cloudflare detected |
+| `claude2` | text | ❌ `exception` | 4.09s | CloudflareError: Response 403: Cloudflare detected |
+| `claude35haiku` | text | ❌ `exception` | 10.26s | CloudflareError: Response 403: Cloudflare detected |
+| `claude37sonnetthinking` | text | ❌ `exception` | 3.79s | CloudflareError: Response 403: Cloudflare detected |
+| `claude40opus` | text | ❌ `exception` | 4.85s | CloudflareError: Response 403: Cloudflare detected |
+| `claude40opusthinking` | text | ❌ `exception` | 4.15s | CloudflareError: Response 403: Cloudflare detected |
+| `claude40opusthinking_research` | text | ❌ `exception` | 4.76s | CloudflareError: Response 403: Cloudflare detected |
+| `claude40sonnetthinking_labs` | text | ❌ `exception` | 4.61s | CloudflareError: Response 403: Cloudflare detected |
+| `claude41opusthinking` | text | ❌ `exception` | 4.44s | CloudflareError: Response 403: Cloudflare detected |
+| `claude45sonnetthinking` | text | ❌ `exception` | 3.75s | CloudflareError: Response 403: Cloudflare detected |
+| `comet_max_assistant` | text | ❌ `exception` | 4.27s | CloudflareError: Response 403: Cloudflare detected |
+| `gemini` | text | ❌ `exception` | 4.83s | CloudflareError: Response 403: Cloudflare detected |
+| `gpt5` | text | ❌ `exception` | 5.03s | CloudflareError: Response 403: Cloudflare detected |
+| `grok` | text | ❌ `exception` | 3.33s | CloudflareError: Response 403: Cloudflare detected |
+| `llama_x_large` | text | ❌ `exception` | 4.48s | CloudflareError: Response 403: Cloudflare detected |
+| `o1` | text | ❌ `exception` | 4.98s | CloudflareError: Response 403: Cloudflare detected |
+| `o3_labs` | text | ❌ `exception` | 5.02s | CloudflareError: Response 403: Cloudflare detected |
+| `o3mini` | text | ❌ `exception` | 4.01s | CloudflareError: Response 403: Cloudflare detected |
+| `o3pro_labs` | text | ❌ `exception` | 3.93s | CloudflareError: Response 403: Cloudflare detected |
+| `pplx_alpha` | text | ❌ `exception` | 4.57s | CloudflareError: Response 403: Cloudflare detected |
+| `pplx_beta` | text | ❌ `exception` | 4.49s | CloudflareError: Response 403: Cloudflare detected |
+| `pplx_pro_upgraded` | text | ❌ `exception` | 4.33s | CloudflareError: Response 403: Cloudflare detected |
 
 ## Sample successful responses
 
-### `claude40opusthinking` — text
+### `gpt41` — text
 
 ```
 PONG
 ```
 
-### `claude45sonnetthinking` — text
+### `pplx_pro` — text
 
 ```
 PONG
 ```
 
-### `claude41opusthinking` — text
+### `turbo` — text
 
 ```
 PONG
 ```
 
-### `claude40opus_research` — text
+### `claude45sonnet` — text
 
 ```
 PONG
 ```
 
-### `gpt45` — text
+### `grok4` — text
 
 ```
 PONG
 ```
 
-### `gpt4` — text
+### `pplx_reasoning` — text
 
 ```
 PONG
 ```
 
-### `gpt5` — text
+### `gpt4o` — text
 
 ```
 PONG
 ```
 
-### `o3mini` — text
+### `claude40sonnetthinking_research` — text
 
 ```
 PONG
 ```
 
 ### `o3_research` — text
+
+```
+PONG
+```
+
+### `experimental` — text
 
 ```
 PONG
