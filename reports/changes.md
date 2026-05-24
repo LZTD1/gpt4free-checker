@@ -1,16 +1,10 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **Perplexity** / `claude45sonnet` (text)
-- **Perplexity** / `experimental` (text)
-- **Perplexity** / `gpt41` (text)
-- **Perplexity** / `pplx_pro` (text)
-- **Perplexity** / `pplx_reasoning` (text)
-- **Perplexity** / `turbo` (text)
-
-## Newly Broken ❌
-- **Perplexity** / `claude40opusthinking` (text)
+- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
 - **Perplexity** / `claude41opusthinking` (text)
 - **Perplexity** / `claude45sonnetthinking` (text)
-- **Perplexity** / `gpt5` (text)
-- **Perplexity** / `o3mini` (text)
+- **Yqcloud** / `gpt-4` (text)
+
+## Newly Broken ❌
+_No working models broke since last run._
