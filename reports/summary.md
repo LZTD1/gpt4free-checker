@@ -1,20 +1,20 @@
 # g4f providers — daily test report
 
-_Generated: `2026-05-24T19:33:34.427199+00:00`_
+_Generated: `2026-05-25T11:42:35.050397+00:00`_
 
 ## Overview
 
 - **Providers:** 6 / 67 working
 - **Models discovered:** 222
-- **Tests run:** 171
-- **Successful:** 20 (11.7%)
-- **Avg response time (OK):** 3.726s
+- **Tests run:** 180
+- **Successful:** 18 (10.0%)
+- **Avg response time (OK):** 5.409s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 18 |
+| text | 16 |
 | image | 2 |
 | audio | 0 |
 | video | 0 |
@@ -23,11 +23,11 @@ _Generated: `2026-05-24T19:33:34.427199+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 68 |
-| `timeout` | 52 |
-| `ok` | 20 |
-| `api_error` | 18 |
-| `http_error` | 10 |
+| `exception` | 75 |
+| `timeout` | 63 |
+| `ok` | 18 |
+| `api_error` | 12 |
+| `http_error` | 9 |
 | `empty` | 2 |
 | `invalid` | 1 |
 
@@ -35,12 +35,12 @@ _Generated: `2026-05-24T19:33:34.427199+00:00`_
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 0 | 19.54s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 1.47s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 1 | 1 | 0 | 10.91s | image | ✅ |
-| [ Perplexity ](providers/Perplexity.md) | 46 | 10 | 8 | 1.46s | text | ✅ |
-| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 7.23s | text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 1.93s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 0 | 22.93s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 0.47s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 1 | 1 | 0 | 12.61s | image | ✅ |
+| [ Perplexity ](providers/Perplexity.md) | 46 | 8 | 28 | 1.49s | text | ✅ |
+| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 15.24s | text | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 2.30s | text | ✅ |
 | [ ApiAirforce ](providers/ApiAirforce.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Azure ](providers/Azure.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ BAAI_Ling ](providers/BAAI_Ling.md) | 6 | 0 | 6 | — | — | ❌ |
@@ -49,7 +49,7 @@ _Generated: `2026-05-24T19:33:34.427199+00:00`_
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Chatai ](providers/Chatai.md) | 1 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ Cloudflare ](providers/Cloudflare.md) | 39 | 0 | 21 | — | — | ❌ |
+| [ Cloudflare ](providers/Cloudflare.md) | 39 | 0 | 12 | — | — | ❌ |
 | [ Copilot ](providers/Copilot.md) | 4 | 0 | 4 | — | — | ❌ |
 | [ CopilotSession ](providers/CopilotSession.md) | 4 | 0 | 4 | — | — | ❌ |
 | [ CreateImagesProvider ](providers/CreateImagesProvider.md) | 0 | 0 | 0 | — | — | ❌ |
