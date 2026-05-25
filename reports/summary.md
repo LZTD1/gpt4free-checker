@@ -1,21 +1,21 @@
 # g4f providers — daily test report
 
-_Generated: `2026-05-25T11:42:35.050397+00:00`_
+_Generated: `2026-05-25T20:13:02.159874+00:00`_
 
 ## Overview
 
-- **Providers:** 6 / 67 working
+- **Providers:** 4 / 67 working
 - **Models discovered:** 222
-- **Tests run:** 180
-- **Successful:** 18 (10.0%)
-- **Avg response time (OK):** 5.409s
+- **Tests run:** 175
+- **Successful:** 18 (10.29%)
+- **Avg response time (OK):** 3.436s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 16 |
-| image | 2 |
+| text | 17 |
+| image | 1 |
 | audio | 0 |
 | video | 0 |
 
@@ -23,33 +23,32 @@ _Generated: `2026-05-25T11:42:35.050397+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 75 |
-| `timeout` | 63 |
+| `exception` | 71 |
+| `timeout` | 54 |
 | `ok` | 18 |
-| `api_error` | 12 |
+| `api_error` | 11 |
+| `invalid` | 10 |
 | `http_error` | 9 |
 | `empty` | 2 |
-| `invalid` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 0 | 22.93s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 0.47s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 1 | 1 | 0 | 12.61s | image | ✅ |
-| [ Perplexity ](providers/Perplexity.md) | 46 | 8 | 28 | 1.49s | text | ✅ |
-| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 15.24s | text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 2.30s | text | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 0.86s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 1 | 1 | 0 | 11.08s | image | ✅ |
+| [ Perplexity ](providers/Perplexity.md) | 46 | 10 | 23 | 1.96s | text | ✅ |
+| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 9.25s | text | ✅ |
 | [ ApiAirforce ](providers/ApiAirforce.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Azure ](providers/Azure.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ BAAI_Ling ](providers/BAAI_Ling.md) | 6 | 0 | 6 | — | — | ❌ |
 | [ BackendApi ](providers/BackendApi.md) | 0 | 0 | 0 | — | — | ❌ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 0 | 0 | — | — | ❌ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Chatai ](providers/Chatai.md) | 1 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ Cloudflare ](providers/Cloudflare.md) | 39 | 0 | 12 | — | — | ❌ |
+| [ Cloudflare ](providers/Cloudflare.md) | 39 | 0 | 11 | — | — | ❌ |
 | [ Copilot ](providers/Copilot.md) | 4 | 0 | 4 | — | — | ❌ |
 | [ CopilotSession ](providers/CopilotSession.md) | 4 | 0 | 4 | — | — | ❌ |
 | [ CreateImagesProvider ](providers/CreateImagesProvider.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -101,4 +100,5 @@ _Generated: `2026-05-25T11:42:35.050397+00:00`_
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 0 | — | — | ❌ |
 | [ WeWordle ](providers/WeWordle.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ YouTube ](providers/YouTube.md) | 5 | 0 | 5 | — | — | ❌ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ Yupp ](providers/Yupp.md) | 0 | 0 | 0 | — | — | ❌ |

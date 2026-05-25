@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gpt-4o` | text | ❌ `timeout` | 26.20s | Timeout limit exceeded |
+| `gpt-4o` | text | ❌ `timeout` | 26.22s | Timeout limit exceeded |

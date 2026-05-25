@@ -10,11 +10,11 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `qwen-3-0.6b` | text | ❌ `timeout` | 27.29s | Timeout limit exceeded |
-| `qwen-3-1.7b` | text | ❌ `timeout` | 27.49s | Timeout limit exceeded |
-| `qwen-3-14b` | text | ❌ `timeout` | 25.85s | Timeout limit exceeded |
-| `qwen-3-235b` | text | ❌ `timeout` | 26.15s | Timeout limit exceeded |
-| `qwen-3-30b-a3b` | text | ❌ `timeout` | 25.84s | Timeout limit exceeded |
-| `qwen-3-32b` | text | ❌ `timeout` | 25.90s | Timeout limit exceeded |
-| `qwen-3-4b` | text | ❌ `timeout` | 26.00s | Timeout limit exceeded |
-| `qwen-3-8b` | text | ❌ `timeout` | 26.11s | Timeout limit exceeded |
+| `qwen-3-0.6b` | text | ❌ `invalid` | 1.10s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
+| `qwen-3-1.7b` | text | ❌ `invalid` | 1.05s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
+| `qwen-3-14b` | text | ❌ `invalid` | 1.09s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
+| `qwen-3-235b` | text | ❌ `invalid` | 1.03s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
+| `qwen-3-30b-a3b` | text | ❌ `invalid` | 1.04s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
+| `qwen-3-32b` | text | ❌ `invalid` | 1.02s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
+| `qwen-3-4b` | text | ❌ `invalid` | 1.05s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
+| `qwen-3-8b` | text | ❌ `invalid` | 1.03s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
