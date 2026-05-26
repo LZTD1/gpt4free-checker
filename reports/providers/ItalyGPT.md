@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gpt-4o` | text | ❌ `timeout` | 26.22s | Timeout limit exceeded |
+| `gpt-4o` | text | ❌ `exception` | 1.70s | ClientResponseError: 405, message='Method Not Allowed', url='https://italygpt.it/api/chat' |

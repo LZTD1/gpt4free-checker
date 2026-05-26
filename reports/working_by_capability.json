@@ -2,113 +2,113 @@
   "text": [
     {
       "provider": "CohereForAI_C4AI_Command",
-      "model": "command-r-plus-08-2024",
+      "model": "command-r7b-arabic-02-2025",
       "capability": "text",
-      "response_time": 0.869
+      "response_time": 1.02
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-12-2024",
       "capability": "text",
-      "response_time": 0.803
+      "response_time": 1.34
     },
     {
       "provider": "CohereForAI_C4AI_Command",
-      "model": "command-r7b-arabic-02-2025",
+      "model": "command-r-plus-08-2024",
       "capability": "text",
-      "response_time": 0.957
-    },
-    {
-      "provider": "CohereForAI_C4AI_Command",
-      "model": "command-a-03-2025",
-      "capability": "text",
-      "response_time": 0.821
+      "response_time": 2.077
     },
     {
       "provider": "Perplexity",
-      "model": "o3pro",
+      "model": "grok",
       "capability": "text",
-      "response_time": 1.418
+      "response_time": 1.43
     },
     {
       "provider": "Perplexity",
-      "model": "claude37sonnetthinking",
+      "model": "claude45sonnet",
       "capability": "text",
-      "response_time": 1.504
+      "response_time": 1.541
     },
     {
       "provider": "Perplexity",
-      "model": "claude40opusthinking_research",
+      "model": "gpt41",
       "capability": "text",
-      "response_time": 1.837
-    },
-    {
-      "provider": "Perplexity",
-      "model": "gpt5",
-      "capability": "text",
-      "response_time": 2.374
-    },
-    {
-      "provider": "Perplexity",
-      "model": "comet_max_assistant",
-      "capability": "text",
-      "response_time": 1.954
+      "response_time": 1.545
     },
     {
       "provider": "Perplexity",
       "model": "o3pro_labs",
       "capability": "text",
-      "response_time": 1.956
+      "response_time": 1.534
     },
     {
       "provider": "Perplexity",
-      "model": "claude40opusthinking_labs",
+      "model": "auto",
       "capability": "text",
-      "response_time": 2.984
+      "response_time": 1.479
     },
     {
       "provider": "Perplexity",
-      "model": "claude41opusthinking",
+      "model": "o3",
       "capability": "text",
-      "response_time": 1.269
+      "response_time": 1.419
     },
     {
       "provider": "Perplexity",
-      "model": "o3_research",
+      "model": "experimental",
       "capability": "text",
-      "response_time": 1.73
+      "response_time": 2.236
     },
     {
       "provider": "Perplexity",
       "model": "claude40opus_research",
       "capability": "text",
-      "response_time": 2.545
+      "response_time": 1.485
     },
     {
-      "provider": "Qwen",
-      "model": "qwen3.6-plus-preview",
+      "provider": "Perplexity",
+      "model": "claude40sonnetthinking_labs",
       "capability": "text",
-      "response_time": 7.969
-    },
-    {
-      "provider": "Qwen",
-      "model": "qwen3.5-max-2026-03-08",
-      "capability": "text",
-      "response_time": 11.42
+      "response_time": 1.601
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-max-preview",
       "capability": "text",
-      "response_time": 8.358
+      "response_time": 8.66
+    },
+    {
+      "provider": "Qwen",
+      "model": "qwen3.6-plus-preview",
+      "capability": "text",
+      "response_time": 23.782
+    },
+    {
+      "provider": "Qwen",
+      "model": "qwen3.5-max-2026-03-08",
+      "capability": "text",
+      "response_time": 8.703
+    },
+    {
+      "provider": "Yqcloud",
+      "model": "gpt-4",
+      "capability": "text",
+      "response_time": 2.647
     }
   ],
   "image": [
     {
+      "provider": "BlackForestLabs_Flux1Dev",
+      "model": "flux-dev",
+      "capability": "image",
+      "response_time": 20.203
+    },
+    {
       "provider": "OperaAria",
       "model": "aria",
       "capability": "image",
-      "response_time": 11.076
+      "response_time": 13.166
     }
   ],
   "audio": [],

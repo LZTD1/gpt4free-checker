@@ -1,21 +1,21 @@
 # g4f providers — daily test report
 
-_Generated: `2026-05-25T20:13:02.159874+00:00`_
+_Generated: `2026-05-26T10:15:51.228118+00:00`_
 
 ## Overview
 
-- **Providers:** 4 / 67 working
+- **Providers:** 6 / 67 working
 - **Models discovered:** 222
-- **Tests run:** 175
-- **Successful:** 18 (10.29%)
-- **Avg response time (OK):** 3.436s
+- **Tests run:** 181
+- **Successful:** 18 (9.94%)
+- **Avg response time (OK):** 5.326s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 17 |
-| image | 1 |
+| text | 16 |
+| image | 2 |
 | audio | 0 |
 | video | 0 |
 
@@ -23,27 +23,28 @@ _Generated: `2026-05-25T20:13:02.159874+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 71 |
+| `exception` | 77 |
 | `timeout` | 54 |
 | `ok` | 18 |
-| `api_error` | 11 |
-| `invalid` | 10 |
+| `api_error` | 12 |
 | `http_error` | 9 |
+| `invalid` | 9 |
 | `empty` | 2 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 0.86s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 1 | 1 | 0 | 11.08s | image | ✅ |
-| [ Perplexity ](providers/Perplexity.md) | 46 | 10 | 23 | 1.96s | text | ✅ |
-| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 9.25s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 0 | 20.20s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 1.48s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 1 | 1 | 0 | 13.17s | image | ✅ |
+| [ Perplexity ](providers/Perplexity.md) | 46 | 9 | 27 | 1.59s | text | ✅ |
+| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 13.71s | text | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 2.65s | text | ✅ |
 | [ ApiAirforce ](providers/ApiAirforce.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Azure ](providers/Azure.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ BAAI_Ling ](providers/BAAI_Ling.md) | 6 | 0 | 6 | — | — | ❌ |
 | [ BackendApi ](providers/BackendApi.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 0 | 0 | — | — | ❌ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Chatai ](providers/Chatai.md) | 1 | 0 | 0 | — | — | ❌ |
@@ -95,10 +96,9 @@ _Generated: `2026-05-25T20:13:02.159874+00:00`_
 | [ Qwen_Qwen_3 ](providers/Qwen_Qwen_3.md) | 8 | 0 | 8 | — | — | ❌ |
 | [ RotatedProvider ](providers/RotatedProvider.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ SearXNG ](providers/SearXNG.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 0 | — | — | ❌ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 0 | — | — | ❌ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 0 | — | — | ❌ |
 | [ WeWordle ](providers/WeWordle.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ YouTube ](providers/YouTube.md) | 5 | 0 | 5 | — | — | ❌ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ Yupp ](providers/Yupp.md) | 0 | 0 | 0 | — | — | ❌ |

@@ -10,5 +10,5 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `GPT OSS 120B` | text | ❌ `exception` | 2.24s | RequestException: Failed to perform, curl: (6) Could not resolve host: chat.gradient.network. See https://curl.se/libcurl/c/libcurl-errors.html first for more d |
-| `Qwen3 235B` | text | ❌ `exception` | 2.09s | RequestException: Failed to perform, curl: (6) Could not resolve host: chat.gradient.network. See https://curl.se/libcurl/c/libcurl-errors.html first for more d |
+| `GPT OSS 120B` | text | ❌ `exception` | 1.59s | RequestException: Failed to perform, curl: (6) Could not resolve host: chat.gradient.network. See https://curl.se/libcurl/c/libcurl-errors.html first for more d |
+| `Qwen3 235B` | text | ❌ `exception` | 1.46s | RequestException: Failed to perform, curl: (6) Could not resolve host: chat.gradient.network. See https://curl.se/libcurl/c/libcurl-errors.html first for more d |
