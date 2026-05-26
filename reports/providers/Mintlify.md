@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `mintlify` | text | ❌ `exception` | 1.09s | ClientResponseError: 420, message='<none>', url='https://leaves.mintlify.com/api/assistant/mintlify/message' |
+| `mintlify` | text | ❌ `exception` | 2.13s | ClientResponseError: 420, message='<none>', url='https://leaves.mintlify.com/api/assistant/mintlify/message' |
