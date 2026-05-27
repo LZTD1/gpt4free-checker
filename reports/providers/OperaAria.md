@@ -4,19 +4,19 @@
 - **URL:** https://play.google.com/store/apps/details?id=com.opera.browser
 - **Models:** 1
 - **Working tests:** 1 / 1
-- **Avg response time:** 10.49s
+- **Avg response time:** 13.70s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `aria` | image | ✅ `ok` | 10.49s | Valid image generation output |
+| `aria` | image | ✅ `ok` | 13.70s | Valid image generation output |
 
 ## Sample successful responses
 
 ### `aria` — image
 
 ```
-/media/1779876631_Generate_a_image_a_single_red_apple_on_a_white_background,_minimalist_dc2540caf6a6
+/media/1779913776_Generate_a_image_a_single_red_apple_on_a_white_background,_minimalist_a2b44ba5caac
 ```
 
