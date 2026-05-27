@@ -2,119 +2,119 @@
   "text": [
     {
       "provider": "CohereForAI_C4AI_Command",
-      "model": "command-r-plus-08-2024",
+      "model": "command-r7b-arabic-02-2025",
       "capability": "text",
-      "response_time": 0.751
+      "response_time": 1.885
     },
     {
       "provider": "CohereForAI_C4AI_Command",
-      "model": "command-r7b-arabic-02-2025",
+      "model": "command-r-plus-08-2024",
       "capability": "text",
-      "response_time": 0.59
+      "response_time": 2.86
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-12-2024",
       "capability": "text",
-      "response_time": 0.608
+      "response_time": 3.39
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-a-03-2025",
       "capability": "text",
-      "response_time": 0.761
+      "response_time": 1.746
     },
     {
       "provider": "Perplexity",
-      "model": "gpt5_thinking",
+      "model": "o3_labs",
       "capability": "text",
-      "response_time": 1.65
-    },
-    {
-      "provider": "Perplexity",
-      "model": "auto",
-      "capability": "text",
-      "response_time": 1.554
-    },
-    {
-      "provider": "Perplexity",
-      "model": "experimental",
-      "capability": "text",
-      "response_time": 2.166
-    },
-    {
-      "provider": "Perplexity",
-      "model": "o3pro_labs",
-      "capability": "text",
-      "response_time": 1.432
-    },
-    {
-      "provider": "Perplexity",
-      "model": "o3pro",
-      "capability": "text",
-      "response_time": 1.626
-    },
-    {
-      "provider": "Perplexity",
-      "model": "gpt4",
-      "capability": "text",
-      "response_time": 1.794
-    },
-    {
-      "provider": "Perplexity",
-      "model": "o4mini",
-      "capability": "text",
-      "response_time": 4.116
-    },
-    {
-      "provider": "Perplexity",
-      "model": "gemini2flash",
-      "capability": "text",
-      "response_time": 1.552
-    },
-    {
-      "provider": "Perplexity",
-      "model": "o3mini",
-      "capability": "text",
-      "response_time": 1.371
+      "response_time": 1.545
     },
     {
       "provider": "Perplexity",
       "model": "o3pro_research",
       "capability": "text",
-      "response_time": 2.762
+      "response_time": 1.892
+    },
+    {
+      "provider": "Perplexity",
+      "model": "experimental",
+      "capability": "text",
+      "response_time": 1.616
+    },
+    {
+      "provider": "Perplexity",
+      "model": "grok",
+      "capability": "text",
+      "response_time": 1.474
+    },
+    {
+      "provider": "Perplexity",
+      "model": "pplx_pro",
+      "capability": "text",
+      "response_time": 1.406
+    },
+    {
+      "provider": "Perplexity",
+      "model": "pplx_alpha",
+      "capability": "text",
+      "response_time": 1.657
+    },
+    {
+      "provider": "Perplexity",
+      "model": "gpt5",
+      "capability": "text",
+      "response_time": 1.459
+    },
+    {
+      "provider": "Perplexity",
+      "model": "o3pro_labs",
+      "capability": "text",
+      "response_time": 1.37
+    },
+    {
+      "provider": "Perplexity",
+      "model": "claude40opusthinking_labs",
+      "capability": "text",
+      "response_time": 1.796
     },
     {
       "provider": "Qwen",
       "model": "qwen3.5-max-2026-03-08",
       "capability": "text",
-      "response_time": 8.803
+      "response_time": 10.012
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-plus-preview",
       "capability": "text",
-      "response_time": 5.395
+      "response_time": 6.607
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-max-preview",
       "capability": "text",
-      "response_time": 9.517
+      "response_time": 12.95
     },
     {
       "provider": "Yqcloud",
       "model": "gpt-4",
       "capability": "text",
-      "response_time": 2.352
+      "response_time": 2.524
     }
   ],
   "image": [
     {
+      "provider": "BlackForestLabs_Flux1Dev",
+      "model": "flux-dev",
+      "capability": "image",
+      "response_time": 19.156
+    },
+    {
       "provider": "OperaAria",
       "model": "aria",
       "capability": "image",
-      "response_time": 13.709
+      "response_time": 10.489
     }
   ],
   "audio": [],
