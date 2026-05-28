@@ -1,20 +1,20 @@
 # g4f providers — daily test report
 
-_Generated: `2026-05-28T10:20:08.056325+00:00`_
+_Generated: `2026-05-28T20:38:56.860352+00:00`_
 
 ## Overview
 
 - **Providers:** 4 / 67 working
 - **Models discovered:** 222
-- **Tests run:** 184
-- **Successful:** 15 (8.15%)
-- **Avg response time (OK):** 7.754s
+- **Tests run:** 180
+- **Successful:** 16 (8.89%)
+- **Avg response time (OK):** 3.307s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 14 |
+| text | 15 |
 | image | 1 |
 | audio | 0 |
 | video | 0 |
@@ -23,10 +23,10 @@ _Generated: `2026-05-28T10:20:08.056325+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 83 |
+| `exception` | 80 |
 | `timeout` | 50 |
-| `api_error` | 15 |
-| `ok` | 15 |
+| `ok` | 16 |
+| `api_error` | 13 |
 | `invalid` | 10 |
 | `http_error` | 9 |
 | `empty` | 2 |
@@ -35,10 +35,10 @@ _Generated: `2026-05-28T10:20:08.056325+00:00`_
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 12.31s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 1 | 1 | 0 | 11.68s | image | ✅ |
-| [ Perplexity ](providers/Perplexity.md) | 46 | 7 | 27 | 2.10s | text | ✅ |
-| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 13.56s | text | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 0.86s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 1 | 1 | 0 | 10.12s | image | ✅ |
+| [ Perplexity ](providers/Perplexity.md) | 46 | 8 | 25 | 1.55s | text | ✅ |
+| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 8.98s | text | ✅ |
 | [ ApiAirforce ](providers/ApiAirforce.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Azure ](providers/Azure.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ BAAI_Ling ](providers/BAAI_Ling.md) | 6 | 0 | 6 | — | — | ❌ |
@@ -48,7 +48,7 @@ _Generated: `2026-05-28T10:20:08.056325+00:00`_
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Chatai ](providers/Chatai.md) | 1 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ Cloudflare ](providers/Cloudflare.md) | 39 | 0 | 19 | — | — | ❌ |
+| [ Cloudflare ](providers/Cloudflare.md) | 39 | 0 | 16 | — | — | ❌ |
 | [ Copilot ](providers/Copilot.md) | 4 | 0 | 4 | — | — | ❌ |
 | [ CopilotSession ](providers/CopilotSession.md) | 4 | 0 | 4 | — | — | ❌ |
 | [ CreateImagesProvider ](providers/CreateImagesProvider.md) | 0 | 0 | 0 | — | — | ❌ |
