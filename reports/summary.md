@@ -1,14 +1,14 @@
 # g4f providers — daily test report
 
-_Generated: `2026-05-29T10:11:56.613960+00:00`_
+_Generated: `2026-05-29T20:40:59.471669+00:00`_
 
 ## Overview
 
-- **Providers:** 4 / 67 working
+- **Providers:** 5 / 67 working
 - **Models discovered:** 222
-- **Tests run:** 169
-- **Successful:** 9 (5.33%)
-- **Avg response time (OK):** 6.347s
+- **Tests run:** 176
+- **Successful:** 9 (5.11%)
+- **Avg response time (OK):** 4.591s
 
 ## Results by capability
 
@@ -23,9 +23,9 @@ _Generated: `2026-05-29T10:11:56.613960+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 52 |
-| `timeout` | 51 |
-| `api_error` | 36 |
+| `exception` | 82 |
+| `timeout` | 49 |
+| `api_error` | 15 |
 | `invalid` | 10 |
 | `http_error` | 9 |
 | `ok` | 9 |
@@ -35,10 +35,11 @@ _Generated: `2026-05-29T10:11:56.613960+00:00`_
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 0.83s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 1 | 1 | 0 | 20.60s | image | ✅ |
-| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 9.78s | text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 3.89s | text | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.26s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 1 | 1 | 0 | 9.24s | image | ✅ |
+| [ Perplexity ](providers/Perplexity.md) | 46 | 1 | 27 | 1.32s | text | ✅ |
+| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 9.26s | text | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 2.21s | text | ✅ |
 | [ ApiAirforce ](providers/ApiAirforce.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Azure ](providers/Azure.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ BAAI_Ling ](providers/BAAI_Ling.md) | 6 | 0 | 6 | — | — | ❌ |
@@ -48,7 +49,7 @@ _Generated: `2026-05-29T10:11:56.613960+00:00`_
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Chatai ](providers/Chatai.md) | 1 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ Cloudflare ](providers/Cloudflare.md) | 39 | 0 | 24 | — | — | ❌ |
+| [ Cloudflare ](providers/Cloudflare.md) | 39 | 0 | 17 | — | — | ❌ |
 | [ Copilot ](providers/Copilot.md) | 4 | 0 | 4 | — | — | ❌ |
 | [ CopilotSession ](providers/CopilotSession.md) | 4 | 0 | 4 | — | — | ❌ |
 | [ CreateImagesProvider ](providers/CreateImagesProvider.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -84,7 +85,6 @@ _Generated: `2026-05-29T10:11:56.613960+00:00`_
 | [ OpenAIFM ](providers/OpenAIFM.md) | 17 | 0 | 17 | — | — | ❌ |
 | [ OpenaiTemplate ](providers/OpenaiTemplate.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ OpenRouterFree ](providers/OpenRouterFree.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ Perplexity ](providers/Perplexity.md) | 46 | 0 | 13 | — | — | ❌ |
 | [ Pi ](providers/Pi.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ PollinationsAI ](providers/PollinationsAI.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ PollinationsAudio ](providers/PollinationsAudio.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -96,7 +96,7 @@ _Generated: `2026-05-29T10:11:56.613960+00:00`_
 | [ Qwen_Qwen_3 ](providers/Qwen_Qwen_3.md) | 8 | 0 | 8 | — | — | ❌ |
 | [ RotatedProvider ](providers/RotatedProvider.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ SearXNG ](providers/SearXNG.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 0 | — | — | ❌ |
 | [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 0 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 0 | — | — | ❌ |
 | [ WeWordle ](providers/WeWordle.md) | 1 | 0 | 1 | — | — | ❌ |

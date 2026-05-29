@@ -3,23 +3,47 @@
 - **Label:** Perplexity
 - **URL:** https://www.perplexity.ai
 - **Models:** 46
-- **Working tests:** 0 / 13
-- **Avg response time:** —
+- **Working tests:** 1 / 28
+- **Avg response time:** 1.32s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `claude40opusthinking` | text | ❌ `invalid` | 7.66s | expected 'PONG', got: 'Sign up and repeat your request.' |
-| `claude40opusthinking_labs` | text | ❌ `api_error` | 13.28s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
-| `claude40sonnet_research` | text | ❌ `api_error` | 13.70s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
-| `claude40sonnetthinking_labs` | text | ❌ `api_error` | 6.69s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
-| `claude45sonnet` | text | ❌ `api_error` | 14.15s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
-| `experimental` | text | ❌ `api_error` | 5.91s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
-| `gemini` | text | ❌ `api_error` | 18.89s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
-| `gpt4` | text | ❌ `api_error` | 1.12s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
-| `gpt45` | text | ❌ `api_error` | 13.68s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
-| `grok` | text | ❌ `api_error` | 13.14s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
-| `o3` | text | ❌ `api_error` | 13.49s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
-| `pplx_beta` | text | ❌ `api_error` | 13.02s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
-| `pplx_pro_upgraded` | text | ❌ `api_error` | 11.49s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
+| `comet_max_assistant` | text | ✅ `ok` | 1.32s | contains expected token 'PONG' |
+| `auto` | text | ❌ `exception` | 5.86s | CloudflareError: Response 403: Cloudflare detected |
+| `claude2` | text | ❌ `exception` | 10.03s | CloudflareError: Response 403: Cloudflare detected |
+| `claude3opus` | text | ❌ `exception` | 17.06s | CloudflareError: Response 403: Cloudflare detected |
+| `claude40opus_research` | text | ❌ `exception` | 9.58s | CloudflareError: Response 403: Cloudflare detected |
+| `claude40opusthinking_labs` | text | ❌ `exception` | 9.32s | CloudflareError: Response 403: Cloudflare detected |
+| `claude40opusthinking_research` | text | ❌ `exception` | 4.34s | CloudflareError: Response 403: Cloudflare detected |
+| `claude40sonnet_research` | text | ❌ `exception` | 9.64s | CloudflareError: Response 403: Cloudflare detected |
+| `claude40sonnetthinking_labs` | text | ❌ `exception` | 4.74s | CloudflareError: Response 403: Cloudflare detected |
+| `claude40sonnetthinking_research` | text | ❌ `exception` | 5.54s | CloudflareError: Response 403: Cloudflare detected |
+| `claude41opusthinking` | text | ❌ `exception` | 4.49s | CloudflareError: Response 403: Cloudflare detected |
+| `claude45sonnet` | text | ❌ `exception` | 3.94s | CloudflareError: Response 403: Cloudflare detected |
+| `experimental` | text | ❌ `exception` | 4.74s | CloudflareError: Response 403: Cloudflare detected |
+| `gemini` | text | ❌ `exception` | 5.94s | CloudflareError: Response 403: Cloudflare detected |
+| `gemini2flash` | text | ❌ `exception` | 5.12s | CloudflareError: Response 403: Cloudflare detected |
+| `gpt4` | text | ❌ `exception` | 10.13s | CloudflareError: Response 403: Cloudflare detected |
+| `gpt45` | text | ❌ `exception` | 5.04s | CloudflareError: Response 403: Cloudflare detected |
+| `gpt4o` | text | ❌ `exception` | 4.45s | CloudflareError: Response 403: Cloudflare detected |
+| `grok` | text | ❌ `exception` | 9.82s | CloudflareError: Response 403: Cloudflare detected |
+| `llama_x_large` | text | ❌ `exception` | 4.66s | CloudflareError: Response 403: Cloudflare detected |
+| `o1` | text | ❌ `exception` | 4.19s | CloudflareError: Response 403: Cloudflare detected |
+| `o3` | text | ❌ `exception` | 4.62s | CloudflareError: Response 403: Cloudflare detected |
+| `o3_research` | text | ❌ `exception` | 9.21s | CloudflareError: Response 403: Cloudflare detected |
+| `o3mini` | text | ❌ `exception` | 10.09s | CloudflareError: Response 403: Cloudflare detected |
+| `o3pro` | text | ❌ `exception` | 5.38s | CloudflareError: Response 403: Cloudflare detected |
+| `o3pro_labs` | text | ❌ `exception` | 4.22s | CloudflareError: Response 403: Cloudflare detected |
+| `o4mini` | text | ❌ `exception` | 5.54s | CloudflareError: Response 403: Cloudflare detected |
+| `pplx_beta` | text | ❌ `exception` | 4.74s | CloudflareError: Response 403: Cloudflare detected |
+
+## Sample successful responses
+
+### `comet_max_assistant` — text
+
+```
+PONG
+```
+

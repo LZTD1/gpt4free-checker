@@ -1,9 +1,7 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **Yqcloud** / `gpt-4` (text)
+_No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **Perplexity** / `claude40opusthinking_labs` (text)
-- **Perplexity** / `claude45sonnet` (text)
-- **Perplexity** / `pplx_beta` (text)
+- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
