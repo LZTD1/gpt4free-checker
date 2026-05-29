@@ -10,8 +10,8 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `apriel-5b-instruct` | text | ❌ `exception` | 1.52s | ClientConnectorDNSError: Cannot connect to host lambda.chat:443 ssl:default [No address associated with hostname] |
-| `deepseek-llama3.3-70b` | text | ❌ `exception` | 0.83s | ClientConnectorDNSError: Cannot connect to host lambda.chat:443 ssl:default [No address associated with hostname] |
-| `hermes-3-llama-3.1-405b-fp8` | text | ❌ `exception` | 2.44s | ClientConnectorDNSError: Cannot connect to host lambda.chat:443 ssl:default [No address associated with hostname] |
-| `llama3.3-70b-instruct-fp8` | text | ❌ `exception` | 1.60s | ClientConnectorDNSError: Cannot connect to host lambda.chat:443 ssl:default [No address associated with hostname] |
-| `qwen3-32b-fp8` | text | ❌ `exception` | 1.82s | ClientConnectorDNSError: Cannot connect to host lambda.chat:443 ssl:default [No address associated with hostname] |
+| `apriel-5b-instruct` | text | ❌ `exception` | 1.04s | ClientConnectorDNSError: Cannot connect to host lambda.chat:443 ssl:default [No address associated with hostname] |
+| `deepseek-llama3.3-70b` | text | ❌ `exception` | 2.21s | ClientConnectorDNSError: Cannot connect to host lambda.chat:443 ssl:default [No address associated with hostname] |
+| `hermes-3-llama-3.1-405b-fp8` | text | ❌ `exception` | 1.50s | ClientConnectorDNSError: Cannot connect to host lambda.chat:443 ssl:default [No address associated with hostname] |
+| `llama3.3-70b-instruct-fp8` | text | ❌ `exception` | 1.68s | ClientConnectorDNSError: Cannot connect to host lambda.chat:443 ssl:default [No address associated with hostname] |
+| `qwen3-32b-fp8` | text | ❌ `exception` | 1.49s | ClientConnectorDNSError: Cannot connect to host lambda.chat:443 ssl:default [No address associated with hostname] |
