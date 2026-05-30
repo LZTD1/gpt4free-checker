@@ -4,53 +4,46 @@
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-arabic-02-2025",
       "capability": "text",
-      "response_time": 0.314
-    },
-    {
-      "provider": "CohereForAI_C4AI_Command",
-      "model": "command-r7b-12-2024",
-      "capability": "text",
-      "response_time": 0.41
+      "response_time": 0.275
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r-plus-08-2024",
       "capability": "text",
-      "response_time": 0.581
+      "response_time": 0.511
     },
     {
-      "provider": "Qwen",
-      "model": "qwen3.6-max-preview",
+      "provider": "CohereForAI_C4AI_Command",
+      "model": "command-r7b-12-2024",
       "capability": "text",
-      "response_time": 8.556
-    },
-    {
-      "provider": "Qwen",
-      "model": "qwen3.5-max-2026-03-08",
-      "capability": "text",
-      "response_time": 10.448
+      "response_time": 0.286
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-plus-preview",
       "capability": "text",
-      "response_time": 6.076
+      "response_time": 6.23
+    },
+    {
+      "provider": "Qwen",
+      "model": "qwen3.6-max-preview",
+      "capability": "text",
+      "response_time": 5.607
+    },
+    {
+      "provider": "Qwen",
+      "model": "qwen3.5-max-2026-03-08",
+      "capability": "text",
+      "response_time": 15.382
     },
     {
       "provider": "Yqcloud",
       "model": "gpt-4",
       "capability": "text",
-      "response_time": 2.587
+      "response_time": 1.906
     }
   ],
-  "image": [
-    {
-      "provider": "OperaAria",
-      "model": "aria",
-      "capability": "image",
-      "response_time": 9.874
-    }
-  ],
+  "image": [],
   "audio": [],
   "video": []
 }

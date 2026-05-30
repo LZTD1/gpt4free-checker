@@ -10,11 +10,11 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `qwen-3-0.6b` | text | ❌ `invalid` | 0.81s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
-| `qwen-3-1.7b` | text | ❌ `invalid` | 1.06s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
+| `qwen-3-0.6b` | text | ❌ `invalid` | 0.83s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
+| `qwen-3-1.7b` | text | ❌ `invalid` | 0.81s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
 | `qwen-3-14b` | text | ❌ `invalid` | 0.82s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
-| `qwen-3-235b` | text | ❌ `invalid` | 0.89s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
-| `qwen-3-30b-a3b` | text | ❌ `invalid` | 0.77s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
-| `qwen-3-32b` | text | ❌ `invalid` | 1.71s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
-| `qwen-3-4b` | text | ❌ `invalid` | 3.78s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
-| `qwen-3-8b` | text | ❌ `invalid` | 1.93s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
+| `qwen-3-235b` | text | ❌ `invalid` | 0.83s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
+| `qwen-3-30b-a3b` | text | ❌ `invalid` | 0.83s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
+| `qwen-3-32b` | text | ❌ `invalid` | 0.78s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
+| `qwen-3-4b` | text | ❌ `invalid` | 0.86s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
+| `qwen-3-8b` | text | ❌ `invalid` | 0.74s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |

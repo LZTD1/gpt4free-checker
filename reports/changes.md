@@ -4,4 +4,4 @@
 _No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **Perplexity** / `comet_max_assistant` (text)
+_No working models broke since last run._
