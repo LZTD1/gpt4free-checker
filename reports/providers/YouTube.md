@@ -10,8 +10,8 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `1080p` | text | ❌ `exception` | 1.13s | NameError: name 'yt_dlp' is not defined |
-| `480p` | text | ❌ `exception` | 1.93s | NameError: name 'yt_dlp' is not defined |
-| `720p` | text | ❌ `exception` | 0.98s | NameError: name 'yt_dlp' is not defined |
-| `mp3` | text | ❌ `exception` | 2.37s | NameError: name 'yt_dlp' is not defined |
-| `search` | text | ❌ `exception` | 2.23s | NameError: name 'yt_dlp' is not defined |
+| `1080p` | text | ❌ `exception` | 1.94s | NameError: name 'yt_dlp' is not defined |
+| `480p` | text | ❌ `exception` | 1.21s | NameError: name 'yt_dlp' is not defined |
+| `720p` | text | ❌ `exception` | 1.54s | NameError: name 'yt_dlp' is not defined |
+| `mp3` | text | ❌ `exception` | 2.20s | NameError: name 'yt_dlp' is not defined |
+| `search` | text | ❌ `exception` | 2.29s | NameError: name 'yt_dlp' is not defined |

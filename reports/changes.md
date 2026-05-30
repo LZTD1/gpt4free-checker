@@ -4,4 +4,4 @@
 _No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+- **Perplexity** / `comet_max_assistant` (text)
