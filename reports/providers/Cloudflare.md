@@ -3,56 +3,43 @@
 - **Label:** Cloudflare AI
 - **URL:** https://playground.ai.cloudflare.com
 - **Models:** 39
-- **Working tests:** 0 / 16
+- **Working tests:** 0 / 11
 - **Avg response time:** —
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `deepseek-coder-6.7b` | text | ❌ `api_error` | 3.26s | RateLimitError: Response 429: <!doctype html>
+| `deepseek-distill-qwen-32b` | text | ❌ `api_error` | 7.84s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `deepseek-coder-6.7b-base` | text | ❌ `api_error` | 6.06s | RateLimitError: Response 429: <!doctype html>
+| `falcon-7b` | text | ❌ `api_error` | 6.66s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `falcon-7b` | text | ❌ `api_error` | 2.52s | RateLimitError: Response 429: <!doctype html>
+| `llama-2-7b` | text | ❌ `api_error` | 8.29s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `gemma-7b` | text | ❌ `api_error` | 6.14s | RateLimitError: Response 429: <!doctype html>
+| `llama-3-8b` | text | ❌ `api_error` | 7.57s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `hermes-2-pro-mistral-7b` | text | ❌ `api_error` | 3.46s | RateLimitError: Response 429: <!doctype html>
+| `llama-guard-3-8b` | text | ❌ `api_error` | 7.72s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `llama-3.2-11b-vision` | text | ❌ `api_error` | 6.21s | RateLimitError: Response 429: <!doctype html>
+| `llamaguard-7b` | text | ❌ `api_error` | 7.28s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `llama-3.2-1b` | text | ❌ `api_error` | 7.62s | RateLimitError: Response 429: <!doctype html>
+| `qwen-1.5-1.8b` | text | ❌ `api_error` | 7.76s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `llama-guard-3-8b` | text | ❌ `api_error` | 4.51s | RateLimitError: Response 429: <!doctype html>
+| `qwen1.5-0.5b` | text | ❌ `api_error` | 7.55s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `llamaguard-7b` | text | ❌ `api_error` | 6.43s | RateLimitError: Response 429: <!doctype html>
+| `sqlcoder-7b-2` | text | ❌ `api_error` | 3.67s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `mistral-7b-v0.1` | text | ❌ `api_error` | 6.14s | RateLimitError: Response 429: <!doctype html>
+| `tinyllama-1.1b-v1.0` | text | ❌ `api_error` | 7.30s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `neural-7b-v3-1` | text | ❌ `api_error` | 6.60s | RateLimitError: Response 429: <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie |
-| `openhermes-2.5-mistral-7b` | text | ❌ `api_error` | 7.12s | RateLimitError: Response 429: <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie |
-| `phi-2` | text | ❌ `api_error` | 6.14s | RateLimitError: Response 429: <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie |
-| `qwen1.5-0.5b` | text | ❌ `exception` | 6.91s | TypeError: 'NoneType' object is not subscriptable |
-| `starling-lm-7b-beta` | text | ❌ `api_error` | 5.89s | RateLimitError: Response 429: <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie |
-| `tinyllama-1.1b-v1.0` | text | ❌ `api_error` | 6.12s | RateLimitError: Response 429: <!doctype html>
+| `una-cybertron-7b-v2-bf16` | text | ❌ `api_error` | 8.00s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
