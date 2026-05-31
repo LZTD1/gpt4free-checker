@@ -1,56 +1,50 @@
 [
   {
     "provider": "CohereForAI_C4AI_Command",
-    "model": "command-r7b-12-2024",
+    "model": "command-r7b-arabic-02-2025",
     "capability": "text",
-    "response_time": 1.261
+    "response_time": 0.581
   },
   {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-r-plus-08-2024",
     "capability": "text",
-    "response_time": 1.711
+    "response_time": 0.763
   },
   {
     "provider": "CohereForAI_C4AI_Command",
-    "model": "command-r7b-arabic-02-2025",
+    "model": "command-r7b-12-2024",
     "capability": "text",
-    "response_time": 1.47
+    "response_time": 0.695
   },
   {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-a-03-2025",
     "capability": "text",
-    "response_time": 1.271
+    "response_time": 0.618
   },
   {
     "provider": "OperaAria",
     "model": "aria",
     "capability": "image",
-    "response_time": 8.146
-  },
-  {
-    "provider": "Qwen",
-    "model": "qwen3.6-plus-preview",
-    "capability": "text",
-    "response_time": 9.063
+    "response_time": 9.452
   },
   {
     "provider": "Qwen",
     "model": "qwen3.6-max-preview",
     "capability": "text",
-    "response_time": 9.469
+    "response_time": 7.147
+  },
+  {
+    "provider": "Qwen",
+    "model": "qwen3.6-plus-preview",
+    "capability": "text",
+    "response_time": 5.084
   },
   {
     "provider": "Qwen",
     "model": "qwen3.5-max-2026-03-08",
     "capability": "text",
-    "response_time": 17.553
-  },
-  {
-    "provider": "Yqcloud",
-    "model": "gpt-4",
-    "capability": "text",
-    "response_time": 2.517
+    "response_time": 10.542
   }
 ]
