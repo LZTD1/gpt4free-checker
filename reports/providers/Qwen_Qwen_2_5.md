@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `qwen-2.5` | text | ❌ `http_error` | 1.39s | ContentTypeError: 404, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url='https://qwen-qwen2-5.hf.space/queue/join' |
+| `qwen-2.5` | text | ❌ `http_error` | 1.44s | ContentTypeError: 404, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url='https://qwen-qwen2-5.hf.space/queue/join' |
