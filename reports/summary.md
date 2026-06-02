@@ -1,20 +1,20 @@
 # g4f providers — daily test report
 
-_Generated: `2026-06-01T21:47:46.569402+00:00`_
+_Generated: `2026-06-02T10:56:35.808565+00:00`_
 
 ## Overview
 
-- **Providers:** 3 / 67 working
+- **Providers:** 4 / 67 working
 - **Models discovered:** 222
-- **Tests run:** 159
-- **Successful:** 7 (4.4%)
-- **Avg response time (OK):** 5.66s
+- **Tests run:** 165
+- **Successful:** 8 (4.85%)
+- **Avg response time (OK):** 6.423s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 6 |
+| text | 7 |
 | image | 1 |
 | audio | 0 |
 | video | 0 |
@@ -23,31 +23,31 @@ _Generated: `2026-06-01T21:47:46.569402+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 53 |
-| `timeout` | 50 |
-| `api_error` | 26 |
-| `invalid` | 11 |
+| `exception` | 55 |
+| `timeout` | 51 |
+| `api_error` | 29 |
 | `http_error` | 10 |
-| `ok` | 7 |
+| `invalid` | 10 |
+| `ok` | 8 |
 | `empty` | 2 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.99s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 1 | 1 | 0 | 11.14s | image | ✅ |
-| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 8.50s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 0 | 22.12s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.68s | text | ✅ |
+| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 8.07s | text | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 3.01s | text | ✅ |
 | [ ApiAirforce ](providers/ApiAirforce.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Azure ](providers/Azure.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ BAAI_Ling ](providers/BAAI_Ling.md) | 6 | 0 | 6 | — | — | ❌ |
 | [ BackendApi ](providers/BackendApi.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 0 | 0 | — | — | ❌ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Chatai ](providers/Chatai.md) | 1 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ Cloudflare ](providers/Cloudflare.md) | 39 | 0 | 15 | — | — | ❌ |
+| [ Cloudflare ](providers/Cloudflare.md) | 39 | 0 | 19 | — | — | ❌ |
 | [ Copilot ](providers/Copilot.md) | 4 | 0 | 4 | — | — | ❌ |
 | [ CopilotSession ](providers/CopilotSession.md) | 4 | 0 | 4 | — | — | ❌ |
 | [ CreateImagesProvider ](providers/CreateImagesProvider.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -83,7 +83,8 @@ _Generated: `2026-06-01T21:47:46.569402+00:00`_
 | [ OpenAIFM ](providers/OpenAIFM.md) | 17 | 0 | 17 | — | — | ❌ |
 | [ OpenaiTemplate ](providers/OpenaiTemplate.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ OpenRouterFree ](providers/OpenRouterFree.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ Perplexity ](providers/Perplexity.md) | 46 | 0 | 13 | — | — | ❌ |
+| [ OperaAria ](providers/OperaAria.md) | 1 | 0 | 1 | — | — | ❌ |
+| [ Perplexity ](providers/Perplexity.md) | 46 | 0 | 12 | — | — | ❌ |
 | [ Pi ](providers/Pi.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ PollinationsAI ](providers/PollinationsAI.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ PollinationsAudio ](providers/PollinationsAudio.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -95,10 +96,9 @@ _Generated: `2026-06-01T21:47:46.569402+00:00`_
 | [ Qwen_Qwen_3 ](providers/Qwen_Qwen_3.md) | 8 | 0 | 8 | — | — | ❌ |
 | [ RotatedProvider ](providers/RotatedProvider.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ SearXNG ](providers/SearXNG.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 0 | — | — | ❌ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 0 | — | — | ❌ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 0 | — | — | ❌ |
 | [ WeWordle ](providers/WeWordle.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ YouTube ](providers/YouTube.md) | 5 | 0 | 5 | — | — | ❌ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ Yupp ](providers/Yupp.md) | 0 | 0 | 0 | — | — | ❌ |

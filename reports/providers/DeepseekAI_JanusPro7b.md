@@ -10,5 +10,5 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `janus-pro-7b` | text | ❌ `exception` | 1.20s | ResponseStatusError: Response 503: HTML content |
-| `janus-pro-7b-image` | image | ❌ `exception` | 1.10s | ResponseStatusError: Response 503: HTML content |
+| `janus-pro-7b` | text | ❌ `exception` | 2.30s | ResponseStatusError: Response 503: HTML content |
+| `janus-pro-7b-image` | image | ❌ `exception` | 2.15s | ResponseStatusError: Response 503: HTML content |
