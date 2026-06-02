@@ -10,4 +10,8 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `pi` | text | ❌ `timeout` | 27.03s | Timeout limit exceeded |
+| `pi` | text | ❌ `exception` | 5.06s | Exception: 
+                ---------------------
+                Failed to connect to browser
+                ---------------------
+                One of the  |

@@ -1,7 +1,8 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **Yqcloud** / `gpt-4` (text)
+- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+- **OperaAria** / `aria` (image)
 
 ## Newly Broken ❌
-- **OperaAria** / `aria` (image)
+_No working models broke since last run._
