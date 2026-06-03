@@ -10,16 +10,16 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `auto` | text | ❌ `api_error` | 4.35s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `claude35haiku` | text | ❌ `api_error` | 4.69s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `claude40opusthinking_labs` | text | ❌ `api_error` | 13.12s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `claude40sonnet_research` | text | ❌ `api_error` | 14.22s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `claude41opusthinking` | text | ❌ `api_error` | 4.90s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `gpt45` | text | ❌ `api_error` | 6.54s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `o3` | text | ❌ `api_error` | 13.62s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `o3pro_labs` | text | ❌ `api_error` | 13.54s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `o4mini` | text | ❌ `api_error` | 14.40s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `pplx_beta` | text | ❌ `api_error` | 6.02s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `pplx_pro` | text | ❌ `api_error` | 12.90s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `pplx_pro_upgraded` | text | ❌ `api_error` | 13.78s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `turbo` | text | ❌ `api_error` | 14.42s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
+| `auto` | text | ❌ `api_error` | 6.42s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
+| `claude40opusthinking_labs` | text | ❌ `api_error` | 12.34s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
+| `claude40sonnetthinking_research` | text | ❌ `api_error` | 14.35s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
+| `experimental` | text | ❌ `api_error` | 1.99s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
+| `gemini` | text | ❌ `api_error` | 19.71s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
+| `o3` | text | ❌ `api_error` | 13.82s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
+| `o3_labs` | text | ❌ `api_error` | 3.50s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
+| `o3_research` | text | ❌ `api_error` | 12.63s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
+| `o4mini` | text | ❌ `api_error` | 12.23s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
+| `pplx_beta` | text | ❌ `api_error` | 13.45s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
+| `pplx_pro` | text | ❌ `api_error` | 13.13s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |
+| `pplx_pro_upgraded` | text | ❌ `invalid` | 7.66s | expected 'PONG', got: 'Sign up and repeat your request.' |
+| `turbo` | text | ❌ `api_error` | 13.00s | RateLimitError: Response 429: {'status': 'failed', 'error_code': 'RATE_LIMITED', '_response_type': 'RATE_LIMITED', 'text': 'Query rate limit exceeded. Please tr |

@@ -2,53 +2,65 @@
   "text": [
     {
       "provider": "CohereForAI_C4AI_Command",
-      "model": "command-r7b-arabic-02-2025",
+      "model": "command-r-plus-08-2024",
       "capability": "text",
-      "response_time": 0.544
-    },
-    {
-      "provider": "CohereForAI_C4AI_Command",
-      "model": "command-r7b-12-2024",
-      "capability": "text",
-      "response_time": 0.558
+      "response_time": 0.733
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-a-03-2025",
       "capability": "text",
-      "response_time": 0.677
+      "response_time": 0.442
     },
     {
       "provider": "CohereForAI_C4AI_Command",
-      "model": "command-r-plus-08-2024",
+      "model": "command-r7b-12-2024",
       "capability": "text",
-      "response_time": 0.635
+      "response_time": 0.386
     },
     {
-      "provider": "Qwen",
-      "model": "qwen3.6-max-preview",
+      "provider": "CohereForAI_C4AI_Command",
+      "model": "command-r7b-arabic-02-2025",
       "capability": "text",
-      "response_time": 7.378
+      "response_time": 0.469
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-plus-preview",
       "capability": "text",
-      "response_time": 6.112
+      "response_time": 6.279
     },
     {
       "provider": "Qwen",
       "model": "qwen3.5-max-2026-03-08",
       "capability": "text",
-      "response_time": 13.944
+      "response_time": 9.697
+    },
+    {
+      "provider": "Qwen",
+      "model": "qwen3.6-max-preview",
+      "capability": "text",
+      "response_time": 9.237
+    },
+    {
+      "provider": "Yqcloud",
+      "model": "gpt-4",
+      "capability": "text",
+      "response_time": 4.01
     }
   ],
   "image": [
     {
+      "provider": "BlackForestLabs_Flux1Dev",
+      "model": "flux-dev",
+      "capability": "image",
+      "response_time": 19.203
+    },
+    {
       "provider": "OperaAria",
       "model": "aria",
       "capability": "image",
-      "response_time": 10.457
+      "response_time": 9.577
     }
   ],
   "audio": [],
