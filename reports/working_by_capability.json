@@ -2,59 +2,65 @@
   "text": [
     {
       "provider": "CohereForAI_C4AI_Command",
-      "model": "command-r7b-12-2024",
-      "capability": "text",
-      "response_time": 0.291
-    },
-    {
-      "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-arabic-02-2025",
       "capability": "text",
-      "response_time": 0.314
+      "response_time": 1.391
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r-plus-08-2024",
       "capability": "text",
-      "response_time": 0.277
+      "response_time": 2.689
+    },
+    {
+      "provider": "CohereForAI_C4AI_Command",
+      "model": "command-r7b-12-2024",
+      "capability": "text",
+      "response_time": 2.819
+    },
+    {
+      "provider": "CohereForAI_C4AI_Command",
+      "model": "command-a-03-2025",
+      "capability": "text",
+      "response_time": 1.187
     },
     {
       "provider": "OperaAria",
       "model": "aria-legacy",
       "capability": "text",
-      "response_time": 4.984
-    },
-    {
-      "provider": "Qwen",
-      "model": "qwen3.6-plus-preview",
-      "capability": "text",
-      "response_time": 6.852
-    },
-    {
-      "provider": "Qwen",
-      "model": "qwen3.6-max-preview",
-      "capability": "text",
-      "response_time": 6.89
+      "response_time": 11.079
     },
     {
       "provider": "Qwen",
       "model": "qwen3.5-max-2026-03-08",
       "capability": "text",
-      "response_time": 11.511
+      "response_time": 10.72
+    },
+    {
+      "provider": "Qwen",
+      "model": "qwen3.6-plus-preview",
+      "capability": "text",
+      "response_time": 5.662
+    },
+    {
+      "provider": "Qwen",
+      "model": "qwen3.6-max-preview",
+      "capability": "text",
+      "response_time": 5.692
+    },
+    {
+      "provider": "Yqcloud",
+      "model": "gpt-4",
+      "capability": "text",
+      "response_time": 4.696
     }
   ],
   "image": [
     {
-      "provider": "BlackForestLabs_Flux1Dev",
-      "model": "flux",
-      "capability": "image",
-      "response_time": 20.719
-    },
-    {
       "provider": "OperaAria",
       "model": "aria",
       "capability": "image",
-      "response_time": 12.139
+      "response_time": 13.229
     }
   ],
   "audio": [],
