@@ -1,8 +1,8 @@
-# StabilityAI_SD35Large
+# OllamaSwarm
 
-- **Label:** StabilityAI SD-3.5-Large
-- **URL:** https://stabilityai-stable-diffusion-3-5-large.hf.space
-- **Models:** 1
+- **Label:** Ollama Swarm 🐝
+- **URL:** https://ollama.com
+- **Models:** 0
 - **Working tests:** 0 / 0
 - **Avg response time:** —
 

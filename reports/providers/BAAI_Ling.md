@@ -10,9 +10,9 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `ling-1t` | text | ❌ `http_error` | 1.24s | ResponseStatusError: Response 404: HTML content |
-| `ling-flash-2.0` | text | ❌ `http_error` | 2.20s | ResponseStatusError: Response 404: HTML content |
-| `ling-mini-2.0` | text | ❌ `http_error` | 1.89s | ResponseStatusError: Response 404: HTML content |
-| `ring-1t` | text | ❌ `http_error` | 1.13s | ResponseStatusError: Response 404: HTML content |
-| `ring-flash-2.0` | text | ❌ `http_error` | 1.85s | ResponseStatusError: Response 404: HTML content |
-| `ring-mini-2.0` | text | ❌ `http_error` | 1.04s | ResponseStatusError: Response 404: HTML content |
+| `ling-1t` | text | ❌ `http_error` | 1.72s | ResponseStatusError: Response 404: HTML content |
+| `ling-flash-2.0` | text | ❌ `http_error` | 2.18s | ResponseStatusError: Response 404: HTML content |
+| `ling-mini-2.0` | text | ❌ `http_error` | 1.87s | ResponseStatusError: Response 404: HTML content |
+| `ring-1t` | text | ❌ `http_error` | 1.55s | ResponseStatusError: Response 404: HTML content |
+| `ring-flash-2.0` | text | ❌ `http_error` | 2.37s | ResponseStatusError: Response 404: HTML content |
+| `ring-mini-2.0` | text | ❌ `http_error` | 2.15s | ResponseStatusError: Response 404: HTML content |
