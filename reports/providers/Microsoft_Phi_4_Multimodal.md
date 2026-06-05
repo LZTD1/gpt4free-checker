@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `phi-4-multimodal` | text | ❌ `exception` | 2.11s | ResponseStatusError: Response 503: HTML content |
+| `phi-4-multimodal` | text | ❌ `exception` | 2.73s | ResponseStatusError: Response 503: HTML content |

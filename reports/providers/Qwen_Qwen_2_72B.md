@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `qwen-2-72b` | text | ❌ `http_error` | 1.82s | ContentTypeError: 404, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url='https://qwen-qwen2-72b-instruct.hf.space/queue/ |
+| `qwen-2-72b` | text | ❌ `http_error` | 2.21s | ContentTypeError: 404, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url='https://qwen-qwen2-72b-instruct.hf.space/queue/ |
