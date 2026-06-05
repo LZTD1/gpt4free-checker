@@ -3,49 +3,41 @@
 - **Label:** Cloudflare AI
 - **URL:** https://playground.ai.cloudflare.com
 - **Models:** 39
-- **Working tests:** 0 / 13
+- **Working tests:** 0 / 11
 - **Avg response time:** —
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `deepseek-coder-6.7b-base` | text | ❌ `api_error` | 6.68s | RateLimitError: Response 429: <!doctype html>
+| `llama-3.2-1b` | text | ❌ `api_error` | 6.88s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `llama-2-13b` | text | ❌ `api_error` | 6.98s | RateLimitError: Response 429: <!doctype html>
+| `llama-4-scout` | text | ❌ `api_error` | 7.60s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `llama-2-7b` | text | ❌ `api_error` | 7.98s | RateLimitError: Response 429: <!doctype html>
+| `llamaguard-7b` | text | ❌ `api_error` | 7.61s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `llama-3.1-8b` | text | ❌ `api_error` | 6.40s | RateLimitError: Response 429: <!doctype html>
+| `openchat-3.5-0106` | text | ❌ `api_error` | 8.03s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `llama-3.2-3b` | text | ❌ `api_error` | 8.02s | RateLimitError: Response 429: <!doctype html>
+| `openhermes-2.5-mistral-7b` | text | ❌ `api_error` | 8.93s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `llama-guard-3-8b` | text | ❌ `api_error` | 7.61s | RateLimitError: Response 429: <!doctype html>
+| `qwen-1.5-7b` | text | ❌ `api_error` | 8.08s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `mistral-small-3.1-24b` | text | ❌ `api_error` | 7.72s | RateLimitError: Response 429: <!doctype html>
+| `qwen-2.5-coder-32b` | text | ❌ `api_error` | 8.34s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `openhermes-2.5-mistral-7b` | text | ❌ `api_error` | 8.00s | RateLimitError: Response 429: <!doctype html>
+| `qwq-32b` | text | ❌ `api_error` | 7.69s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `phi-2` | text | ❌ `api_error` | 6.88s | RateLimitError: Response 429: <!doctype html>
+| `sqlcoder-7b-2` | text | ❌ `api_error` | 7.68s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |
-| `qwen-1.5-1.8b` | text | ❌ `api_error` | 8.03s | RateLimitError: Response 429: <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie |
-| `qwq-32b` | text | ❌ `api_error` | 7.59s | RateLimitError: Response 429: <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie |
-| `sqlcoder-7b-2` | text | ❌ `api_error` | 8.23s | RateLimitError: Response 429: <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie |
-| `zephyr-7b-beta` | text | ❌ `api_error` | 8.07s | RateLimitError: Response 429: <!doctype html>
+| `una-cybertron-7b-v2-bf16` | text | ❌ `exception` | 8.18s | TypeError: 'NoneType' object is not subscriptable |
+| `zephyr-7b-beta` | text | ❌ `api_error` | 7.61s | RateLimitError: Response 429: <!doctype html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie |

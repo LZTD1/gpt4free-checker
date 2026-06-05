@@ -10,11 +10,11 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `qwen-3-0.6b` | text | ❌ `invalid` | 1.05s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
-| `qwen-3-1.7b` | text | ❌ `invalid` | 0.96s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
-| `qwen-3-14b` | text | ❌ `invalid` | 1.08s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
-| `qwen-3-235b` | text | ❌ `invalid` | 1.06s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
-| `qwen-3-30b-a3b` | text | ❌ `invalid` | 1.09s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
-| `qwen-3-32b` | text | ❌ `invalid` | 1.09s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
-| `qwen-3-4b` | text | ❌ `invalid` | 1.06s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
-| `qwen-3-8b` | text | ❌ `invalid` | 1.06s | expected 'PONG', got: '<span style="color: var(--color-red-500)">\'NoneType\' object has no attribute \'ch' |
+| `qwen-3-0.6b` | text | ❌ `exception` | 3.26s | ResponseStatusError: Response 503: {'detail': 'Queue is full. Max size is 100 and size is 100.'} |
+| `qwen-3-1.7b` | text | ❌ `timeout` | 26.98s | Timeout limit exceeded |
+| `qwen-3-14b` | text | ❌ `exception` | 3.51s | ResponseStatusError: Response 503: {'detail': 'Queue is full. Max size is 100 and size is 100.'} |
+| `qwen-3-235b` | text | ❌ `exception` | 3.68s | ResponseStatusError: Response 503: {'detail': 'Queue is full. Max size is 100 and size is 100.'} |
+| `qwen-3-30b-a3b` | text | ❌ `timeout` | 25.91s | Timeout limit exceeded |
+| `qwen-3-32b` | text | ❌ `timeout` | 26.10s | Timeout limit exceeded |
+| `qwen-3-4b` | text | ❌ `timeout` | 26.82s | Timeout limit exceeded |
+| `qwen-3-8b` | text | ❌ `exception` | 2.52s | ResponseStatusError: Response 503: {'detail': 'Queue is full. Max size is 100 and size is 100.'} |
