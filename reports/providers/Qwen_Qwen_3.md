@@ -10,11 +10,11 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `qwen-3-0.6b` | text | ❌ `exception` | 2.77s | ResponseStatusError: Response 503: {'detail': 'Queue is full. Max size is 100 and size is 100.'} |
-| `qwen-3-1.7b` | text | ❌ `timeout` | 26.65s | Timeout limit exceeded |
-| `qwen-3-14b` | text | ❌ `timeout` | 27.47s | Timeout limit exceeded |
-| `qwen-3-235b` | text | ❌ `timeout` | 26.65s | Timeout limit exceeded |
-| `qwen-3-30b-a3b` | text | ❌ `exception` | 2.24s | ResponseStatusError: Response 503: {'detail': 'Queue is full. Max size is 100 and size is 100.'} |
-| `qwen-3-32b` | text | ❌ `timeout` | 26.42s | Timeout limit exceeded |
-| `qwen-3-4b` | text | ❌ `exception` | 2.72s | ResponseStatusError: Response 503: {'detail': 'Queue is full. Max size is 100 and size is 100.'} |
-| `qwen-3-8b` | text | ❌ `exception` | 2.84s | ResponseStatusError: Response 503: {'detail': 'Queue is full. Max size is 100 and size is 100.'} |
+| `qwen-3-0.6b` | text | ❌ `timeout` | 27.40s | Timeout limit exceeded |
+| `qwen-3-1.7b` | text | ❌ `timeout` | 27.03s | Timeout limit exceeded |
+| `qwen-3-14b` | text | ❌ `timeout` | 26.42s | Timeout limit exceeded |
+| `qwen-3-235b` | text | ❌ `timeout` | 26.49s | Timeout limit exceeded |
+| `qwen-3-30b-a3b` | text | ❌ `timeout` | 27.16s | Timeout limit exceeded |
+| `qwen-3-32b` | text | ❌ `timeout` | 26.08s | Timeout limit exceeded |
+| `qwen-3-4b` | text | ❌ `timeout` | 26.51s | Timeout limit exceeded |
+| `qwen-3-8b` | text | ❌ `timeout` | 25.83s | Timeout limit exceeded |

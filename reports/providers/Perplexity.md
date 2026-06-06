@@ -3,22 +3,78 @@
 - **Label:** Perplexity
 - **URL:** https://www.perplexity.ai
 - **Models:** 46
-- **Working tests:** 0 / 12
-- **Avg response time:** —
+- **Working tests:** 9 / 11
+- **Avg response time:** 2.57s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `claude35haiku` | text | ❌ `api_error` | 9.90s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `claude40opus` | text | ❌ `api_error` | 13.10s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `claude40opusthinking_labs` | text | ❌ `api_error` | 12.08s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `claude40sonnetthinking_labs` | text | ❌ `api_error` | 5.65s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `experimental` | text | ❌ `api_error` | 13.51s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `grok4` | text | ❌ `api_error` | 13.12s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `o3` | text | ❌ `api_error` | 12.18s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `o3mini` | text | ❌ `api_error` | 4.67s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `o3pro` | text | ❌ `api_error` | 5.64s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `o3pro_research` | text | ❌ `api_error` | 12.44s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `o4mini` | text | ❌ `api_error` | 12.99s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
-| `r1` | text | ❌ `api_error` | 13.79s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
+| `claude40opusthinking` | text | ✅ `ok` | 2.83s | contains expected token 'PONG' |
+| `claude40sonnetthinking_research` | text | ✅ `ok` | 3.19s | contains expected token 'PONG' |
+| `claude45sonnetthinking` | text | ✅ `ok` | 2.91s | contains expected token 'PONG' |
+| `experimental` | text | ✅ `ok` | 3.07s | contains expected token 'PONG' |
+| `gpt5` | text | ✅ `ok` | 2.57s | contains expected token 'PONG' |
+| `grok` | text | ✅ `ok` | 2.83s | contains expected token 'PONG' |
+| `o3_labs` | text | ✅ `ok` | 1.46s | contains expected token 'PONG' |
+| `o3_research` | text | ✅ `ok` | 2.97s | contains expected token 'PONG' |
+| `o3pro_labs` | text | ✅ `ok` | 1.33s | contains expected token 'PONG' |
+| `gemini` | text | ❌ `api_error` | 11.27s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
+| `o1` | text | ❌ `api_error` | 11.39s | RateLimitError: Response 429: <!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset |
+
+## Sample successful responses
+
+### `o3_labs` — text
+
+```
+PONG
+```
+
+### `grok` — text
+
+```
+PONG
+```
+
+### `claude40sonnetthinking_research` — text
+
+```
+PONG
+```
+
+### `claude40opusthinking` — text
+
+```
+PONG
+```
+
+### `claude45sonnetthinking` — text
+
+```
+PONG
+```
+
+### `experimental` — text
+
+```
+PONG
+```
+
+### `o3_research` — text
+
+```
+PONG
+```
+
+### `gpt5` — text
+
+```
+PONG
+```
+
+### `o3pro_labs` — text
+
+```
+PONG
+```
+
