@@ -1,20 +1,20 @@
 # g4f providers — daily test report
 
-_Generated: `2026-06-05T20:11:51.556004+00:00`_
+_Generated: `2026-06-06T08:50:36.952342+00:00`_
 
 ## Overview
 
 - **Providers:** 4 / 68 working
 - **Models discovered:** 223
-- **Tests run:** 157
-- **Successful:** 10 (6.37%)
-- **Avg response time (OK):** 5.271s
+- **Tests run:** 156
+- **Successful:** 9 (5.77%)
+- **Avg response time (OK):** 6.618s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 9 |
+| text | 8 |
 | image | 1 |
 | audio | 0 |
 | video | 0 |
@@ -23,22 +23,22 @@ _Generated: `2026-06-05T20:11:51.556004+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `timeout` | 58 |
-| `exception` | 52 |
+| `exception` | 55 |
+| `timeout` | 54 |
 | `api_error` | 24 |
 | `http_error` | 10 |
-| `ok` | 10 |
+| `ok` | 9 |
 | `empty` | 2 |
-| `invalid` | 1 |
+| `invalid` | 2 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 0.71s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 2 | 2 | 0 | 10.21s | image, text | ✅ |
-| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 9.19s | text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 1.88s | text | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.41s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 2 | 2 | 0 | 9.40s | image, text | ✅ |
+| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 9.72s | text | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 10.36s | text | ✅ |
 | [ ApiAirforce ](providers/ApiAirforce.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Azure ](providers/Azure.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ BAAI_Ling ](providers/BAAI_Ling.md) | 6 | 0 | 6 | — | — | ❌ |
@@ -97,7 +97,7 @@ _Generated: `2026-06-05T20:11:51.556004+00:00`_
 | [ Qwen_Qwen_3 ](providers/Qwen_Qwen_3.md) | 8 | 0 | 8 | — | — | ❌ |
 | [ RotatedProvider ](providers/RotatedProvider.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ SearXNG ](providers/SearXNG.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 0 | — | — | ❌ |
 | [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 0 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 0 | — | — | ❌ |
 | [ WeWordle ](providers/WeWordle.md) | 1 | 0 | 1 | — | — | ❌ |
