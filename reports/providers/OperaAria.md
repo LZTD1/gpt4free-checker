@@ -4,14 +4,14 @@
 - **URL:** https://play.google.com/store/apps/details?id=com.opera.browser
 - **Models:** 2
 - **Working tests:** 2 / 2
-- **Avg response time:** 11.60s
+- **Avg response time:** 9.46s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `aria` | image | ✅ `ok` | 15.40s | Valid image generation output |
-| `aria-legacy` | text | ✅ `ok` | 7.79s | contains expected token 'PONG' |
+| `aria` | image | ✅ `ok` | 12.93s | Valid image generation output |
+| `aria-legacy` | text | ✅ `ok` | 6.00s | contains expected token 'PONG' |
 
 ## Sample successful responses
 
@@ -24,6 +24,6 @@ PONG
 ### `aria` — image
 
 ```
-/media/1780824344_a_single_red_apple_on_a_white_background,_minimalist_8421e03178869bfe.png?url=http
+/media/1780860895_a_single_red_apple_on_a_white_background,_minimalist_5a0818626cf6f635.png?url=http
 ```
 

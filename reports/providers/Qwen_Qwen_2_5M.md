@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `qwen-2.5-1m` | text | ❌ `exception` | 2.10s | ContentTypeError: 503, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url='https://qwen-qwen2-5-1m-demo.hf.space/run/predi |
+| `qwen-2.5-1m` | text | ❌ `exception` | 2.23s | ContentTypeError: 503, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url='https://qwen-qwen2-5-1m-demo.hf.space/run/predi |

@@ -1,9 +1,7 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **Yqcloud** / `gpt-4` (text)
+_No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **Perplexity** / `claude40opusthinking` (text)
-- **Perplexity** / `claude40sonnetthinking_research` (text)
-- **Perplexity** / `claude45sonnetthinking` (text)
+- **Yqcloud** / `gpt-4` (text)
