@@ -1,7 +1,9 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **Perplexity** / `experimental` (text)
+- **Yqcloud** / `gpt-4` (text)
 
 ## Newly Broken ❌
-- **Yqcloud** / `gpt-4` (text)
+- **Perplexity** / `claude40opusthinking` (text)
+- **Perplexity** / `claude40sonnetthinking_research` (text)
+- **Perplexity** / `claude45sonnetthinking` (text)
