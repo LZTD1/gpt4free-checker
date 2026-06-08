@@ -2,53 +2,59 @@
   "text": [
     {
       "provider": "CohereForAI_C4AI_Command",
-      "model": "command-r7b-12-2024",
-      "capability": "text",
-      "response_time": 0.239
-    },
-    {
-      "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-arabic-02-2025",
       "capability": "text",
-      "response_time": 0.229
+      "response_time": 0.187
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r-plus-08-2024",
       "capability": "text",
-      "response_time": 0.236
+      "response_time": 0.494
+    },
+    {
+      "provider": "CohereForAI_C4AI_Command",
+      "model": "command-r7b-12-2024",
+      "capability": "text",
+      "response_time": 0.23
     },
     {
       "provider": "OperaAria",
       "model": "aria-legacy",
       "capability": "text",
-      "response_time": 5.366
+      "response_time": 4.4
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-max-preview",
       "capability": "text",
-      "response_time": 6.552
+      "response_time": 6.921
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-plus-preview",
       "capability": "text",
-      "response_time": 5.58
+      "response_time": 7.685
     },
     {
       "provider": "Qwen",
       "model": "qwen3.5-max-2026-03-08",
       "capability": "text",
-      "response_time": 11.397
+      "response_time": 15.509
     }
   ],
   "image": [
     {
+      "provider": "BlackForestLabs_Flux1Dev",
+      "model": "flux",
+      "capability": "image",
+      "response_time": 19.797
+    },
+    {
       "provider": "OperaAria",
       "model": "aria",
       "capability": "image",
-      "response_time": 11.329
+      "response_time": 10.0
     }
   ],
   "audio": [],
