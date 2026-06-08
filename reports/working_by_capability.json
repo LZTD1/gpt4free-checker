@@ -2,45 +2,45 @@
   "text": [
     {
       "provider": "CohereForAI_C4AI_Command",
-      "model": "command-r7b-arabic-02-2025",
+      "model": "command-r7b-12-2024",
       "capability": "text",
-      "response_time": 1.427
+      "response_time": 0.239
     },
     {
       "provider": "CohereForAI_C4AI_Command",
-      "model": "command-r7b-12-2024",
+      "model": "command-r7b-arabic-02-2025",
       "capability": "text",
-      "response_time": 1.916
+      "response_time": 0.229
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r-plus-08-2024",
       "capability": "text",
-      "response_time": 22.865
+      "response_time": 0.236
     },
     {
       "provider": "OperaAria",
       "model": "aria-legacy",
       "capability": "text",
-      "response_time": 5.996
-    },
-    {
-      "provider": "Qwen",
-      "model": "qwen3.6-plus-preview",
-      "capability": "text",
-      "response_time": 7.425
-    },
-    {
-      "provider": "Qwen",
-      "model": "qwen3.5-max-2026-03-08",
-      "capability": "text",
-      "response_time": 10.107
+      "response_time": 5.366
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-max-preview",
       "capability": "text",
-      "response_time": 7.02
+      "response_time": 6.552
+    },
+    {
+      "provider": "Qwen",
+      "model": "qwen3.6-plus-preview",
+      "capability": "text",
+      "response_time": 5.58
+    },
+    {
+      "provider": "Qwen",
+      "model": "qwen3.5-max-2026-03-08",
+      "capability": "text",
+      "response_time": 11.397
     }
   ],
   "image": [
@@ -48,7 +48,7 @@
       "provider": "OperaAria",
       "model": "aria",
       "capability": "image",
-      "response_time": 12.928
+      "response_time": 11.329
     }
   ],
   "audio": [],

@@ -4,4 +4,4 @@
 _No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **Yqcloud** / `gpt-4` (text)
+_No working models broke since last run._
