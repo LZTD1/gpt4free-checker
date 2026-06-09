@@ -1,20 +1,20 @@
 # g4f providers — daily test report
 
-_Generated: `2026-06-09T10:04:53.697358+00:00`_
+_Generated: `2026-06-09T11:37:19.527898+00:00`_
 
 ## Overview
 
-- **Providers:** 5 / 68 working
-- **Models discovered:** 223
-- **Tests run:** 161
-- **Successful:** 11 (6.83%)
-- **Avg response time (OK):** 7.29s
+- **Providers:** 6 / 47 working
+- **Models discovered:** 149
+- **Tests run:** 149
+- **Successful:** 12 (8.05%)
+- **Avg response time (OK):** 8.036s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 9 |
+| text | 10 |
 | image | 2 |
 | audio | 0 |
 | video | 0 |
@@ -23,69 +23,53 @@ _Generated: `2026-06-09T10:04:53.697358+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 58 |
-| `timeout` | 53 |
-| `api_error` | 26 |
-| `ok` | 11 |
-| `http_error` | 10 |
-| `empty` | 2 |
-| `invalid` | 1 |
+| `timeout` | 47 |
+| `invalid` | 40 |
+| `exception` | 33 |
+| `ok` | 12 |
+| `empty` | 7 |
+| `api_error` | 5 |
+| `http_error` | 4 |
+| `rate_limited` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 0 | 20.00s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 0.82s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 2 | 2 | 0 | 9.47s | image, text | ✅ |
-| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 9.05s | text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 10.79s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 1 | 27.33s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 1.08s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 2 | 2 | 0 | 16.20s | image, text | ✅ |
+| [ Perplexity ](providers/Perplexity.md) | 46 | 1 | 45 | 2.63s | text | ✅ |
+| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 9.08s | text | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 2.53s | text | ✅ |
 | [ ApiAirforce ](providers/ApiAirforce.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Azure ](providers/Azure.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ BAAI_Ling ](providers/BAAI_Ling.md) | 6 | 0 | 6 | — | — | ❌ |
-| [ BackendApi ](providers/BackendApi.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ Chatai ](providers/Chatai.md) | 1 | 0 | 0 | — | — | ❌ |
+| [ Chatai ](providers/Chatai.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ Cloudflare ](providers/Cloudflare.md) | 39 | 0 | 15 | — | — | ❌ |
 | [ Copilot ](providers/Copilot.md) | 4 | 0 | 4 | — | — | ❌ |
 | [ CopilotSession ](providers/CopilotSession.md) | 4 | 0 | 4 | — | — | ❌ |
-| [ CreateImagesProvider ](providers/CreateImagesProvider.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Custom ](providers/Custom.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ DeepInfra ](providers/DeepInfra.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ DeepseekAI_JanusPro7b ](providers/DeepseekAI_JanusPro7b.md) | 2 | 0 | 2 | — | — | ❌ |
-| [ EasyChat ](providers/EasyChat.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ EdgeTTS ](providers/EdgeTTS.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ Feature ](providers/Feature.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ GeminiPro ](providers/GeminiPro.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ GLM ](providers/GLM.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ GoogleSearch ](providers/GoogleSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ GradientNetwork ](providers/GradientNetwork.md) | 2 | 0 | 2 | — | — | ❌ |
 | [ Groq ](providers/Groq.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ gTTS ](providers/gTTS.md) | 18 | 0 | 18 | — | — | ❌ |
 | [ HuggingFace ](providers/HuggingFace.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ HuggingFaceInference ](providers/HuggingFaceInference.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ HuggingSpace ](providers/HuggingSpace.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ ItalyGPT ](providers/ItalyGPT.md) | 1 | 0 | 1 | — | — | ❌ |
-| [ IterListProvider ](providers/IterListProvider.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ LambdaChat ](providers/LambdaChat.md) | 5 | 0 | 5 | — | — | ❌ |
 | [ LMArena ](providers/LMArena.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ Local ](providers/Local.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ MarkItDown ](providers/MarkItDown.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ MetaAI ](providers/MetaAI.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Microsoft_Phi_4_Multimodal ](providers/Microsoft_Phi_4_Multimodal.md) | 1 | 0 | 1 | — | — | ❌ |
-| [ Mintlify ](providers/Mintlify.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ Nvidia ](providers/Nvidia.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ OIVSCodeSer0501 ](providers/OIVSCodeSer0501.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ OIVSCodeSer2 ](providers/OIVSCodeSer2.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Ollama ](providers/Ollama.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ OllamaSwarm ](providers/OllamaSwarm.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ OpenaiChat ](providers/OpenaiChat.md) | 23 | 0 | 23 | — | — | ❌ |
 | [ OpenAIFM ](providers/OpenAIFM.md) | 17 | 0 | 17 | — | — | ❌ |
-| [ OpenaiTemplate ](providers/OpenaiTemplate.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ OpenRouterFree ](providers/OpenRouterFree.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ Perplexity ](providers/Perplexity.md) | 46 | 0 | 12 | — | — | ❌ |
 | [ Pi ](providers/Pi.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ PollinationsAI ](providers/PollinationsAI.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ PollinationsAudio ](providers/PollinationsAudio.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -95,11 +79,7 @@ _Generated: `2026-06-09T10:04:53.697358+00:00`_
 | [ Qwen_Qwen_2_5M ](providers/Qwen_Qwen_2_5M.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ Qwen_Qwen_2_72B ](providers/Qwen_Qwen_2_72B.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ Qwen_Qwen_3 ](providers/Qwen_Qwen_3.md) | 8 | 0 | 8 | — | — | ❌ |
-| [ RotatedProvider ](providers/RotatedProvider.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ SearXNG ](providers/SearXNG.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 0 | — | — | ❌ |
-| [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 0 | — | — | ❌ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
+| [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ WeWordle ](providers/WeWordle.md) | 1 | 0 | 1 | — | — | ❌ |
-| [ YouTube ](providers/YouTube.md) | 5 | 0 | 5 | — | — | ❌ |
-| [ Yupp ](providers/Yupp.md) | 0 | 0 | 0 | — | — | ❌ |

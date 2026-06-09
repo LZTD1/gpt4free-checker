@@ -1,68 +1,74 @@
 [
   {
     "provider": "BlackForestLabs_Flux1Dev",
-    "model": "flux",
+    "model": "flux-dev",
     "capability": "image",
-    "response_time": 20.004
-  },
-  {
-    "provider": "CohereForAI_C4AI_Command",
-    "model": "command-r7b-12-2024",
-    "capability": "text",
-    "response_time": 0.743
-  },
-  {
-    "provider": "CohereForAI_C4AI_Command",
-    "model": "command-r7b-arabic-02-2025",
-    "capability": "text",
-    "response_time": 0.787
-  },
-  {
-    "provider": "CohereForAI_C4AI_Command",
-    "model": "command-r-plus-08-2024",
-    "capability": "text",
-    "response_time": 0.805
+    "response_time": 27.326
   },
   {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-a-03-2025",
     "capability": "text",
-    "response_time": 0.964
+    "response_time": 2.181
   },
   {
-    "provider": "OperaAria",
-    "model": "aria-legacy",
+    "provider": "CohereForAI_C4AI_Command",
+    "model": "command-r-plus-08-2024",
     "capability": "text",
-    "response_time": 5.895
+    "response_time": 0.952
+  },
+  {
+    "provider": "CohereForAI_C4AI_Command",
+    "model": "command-r7b-12-2024",
+    "capability": "text",
+    "response_time": 0.607
+  },
+  {
+    "provider": "CohereForAI_C4AI_Command",
+    "model": "command-r7b-arabic-02-2025",
+    "capability": "text",
+    "response_time": 0.584
   },
   {
     "provider": "OperaAria",
     "model": "aria",
     "capability": "image",
-    "response_time": 13.043
+    "response_time": 26.219
+  },
+  {
+    "provider": "OperaAria",
+    "model": "aria-legacy",
+    "capability": "text",
+    "response_time": 6.182
+  },
+  {
+    "provider": "Perplexity",
+    "model": "claude2",
+    "capability": "text",
+    "response_time": 2.631
   },
   {
     "provider": "Qwen",
     "model": "qwen3.6-max-preview",
     "capability": "text",
-    "response_time": 9.522
+    "response_time": 8.669
   },
   {
     "provider": "Qwen",
     "model": "qwen3.5-max-2026-03-08",
     "capability": "text",
-    "response_time": 11.853
+    "response_time": 13.24
   },
   {
     "provider": "Qwen",
     "model": "qwen3.6-plus-preview",
     "capability": "text",
-    "response_time": 5.78
+    "response_time": 5.319
   },
   {
     "provider": "Yqcloud",
     "model": "gpt-4",
     "capability": "text",
-    "response_time": 10.793
+    "response_time": 2.526
   }
 ]
