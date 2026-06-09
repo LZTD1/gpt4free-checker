@@ -4,4 +4,4 @@
 _No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **BlackForestLabs_Flux1Dev** / `flux` (image)
+- **Perplexity** / `claude2` (text)

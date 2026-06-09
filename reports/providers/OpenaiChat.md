@@ -14,7 +14,7 @@
 | `gpt-4` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-4.1` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-4.1-mini` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `gpt-4.5` | text | ❌ `exception` | 5.67s | Exception: 
+| `gpt-4.5` | text | ❌ `exception` | 3.56s | Exception: 
                 ---------------------
                 Failed to connect to browser
                 ---------------------

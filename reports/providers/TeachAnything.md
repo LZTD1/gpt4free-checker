@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gemma` | text | ❌ `api_error` | 0.04s | ClientResponseError: 403, message='Forbidden', url='https://www.teach-anything.com/api/generate' |
+| `gemma` | text | ❌ `api_error` | 0.07s | ClientResponseError: 403, message='Forbidden', url='https://www.teach-anything.com/api/generate' |
