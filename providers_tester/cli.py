@@ -7,12 +7,12 @@ def parse_args() -> Config:
     parser = argparse.ArgumentParser(
         description="gpt4free test runner engine for validating active providers"
     )
-    
+
     parser.add_argument(
         "--concurrency",
         type=int,
         default=int(os.getenv("TEST_CONCURRENCY", CONFIG.max_concurrent)),
-        help="Max simultaneous requests allowed"
+        help="Max simultaneous providers tested in parallel"
     )
     parser.add_argument(
         "--timeout",
@@ -25,6 +25,18 @@ def parse_args() -> Config:
         type=int,
         default=int(os.getenv("TEST_RETRIES", CONFIG.retries_count)),
         help="Retries on standard connection or rate errors"
+    )
+    parser.add_argument(
+        "--inter-model-pause",
+        type=float,
+        default=float(os.getenv("TEST_INTER_MODEL_PAUSE", CONFIG.inter_model_pause)),
+        help="Base pause (seconds) between sequential model tests within one provider (anti-429)"
+    )
+    parser.add_argument(
+        "--inter-model-pause-jitter",
+        type=float,
+        default=float(os.getenv("TEST_INTER_MODEL_PAUSE_JITTER", CONFIG.inter_model_pause_jitter)),
+        help="Max random extra seconds added on top of --inter-model-pause to desync parallel providers"
     )
     parser.add_argument(
         "--capabilities",
@@ -60,7 +72,7 @@ def parse_args() -> Config:
     caps = []
     if args.capabilities:
         caps = [c.strip().lower() for c in args.capabilities.split(",") if c.strip()]
-        
+
     provs = []
     if args.providers:
         provs = [p.strip() for p in args.providers.split(",") if p.strip()]
@@ -69,6 +81,8 @@ def parse_args() -> Config:
         max_concurrent=args.concurrency,
         request_timeout=args.timeout,
         retries_count=args.retries,
+        inter_model_pause=args.inter_model_pause,
+        inter_model_pause_jitter=args.inter_model_pause_jitter,
         filter_capabilities=caps,
         filter_providers=provs,
         include_auth=args.include_auth,

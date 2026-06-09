@@ -15,6 +15,7 @@ class Status(str, Enum):
     INVALID_CONTENT = "invalid"
     HTTP_ERROR = "http_error"
     API_ERROR = "api_error"
+    RATE_LIMITED = "rate_limited"
     TIMEOUT = "timeout"
     EMPTY = "empty"
     EXCEPTION = "exception"
