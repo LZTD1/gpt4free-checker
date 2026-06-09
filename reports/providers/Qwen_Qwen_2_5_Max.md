@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `qwen-2.5-max` | text | ❌ `http_error` | 1.18s | ContentTypeError: 404, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url='https://qwen-qwen2-5-max-demo.hf.space/gradio_a |
+| `qwen-2.5-max` | text | ❌ `http_error` | 1.40s | ContentTypeError: 404, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url='https://qwen-qwen2-5-max-demo.hf.space/gradio_a |
