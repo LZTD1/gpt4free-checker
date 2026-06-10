@@ -1,7 +1,7 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-_No newly working capabilities since last run._
+- **BlackForestLabs_Flux1Dev** / `flux` (image)
 
 ## Newly Broken ❌
-- **Perplexity** / `claude2` (text)
+_No working models broke since last run._
