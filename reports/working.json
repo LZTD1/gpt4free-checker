@@ -1,38 +1,44 @@
 [
   {
+    "provider": "BlackForestLabs_Flux1Dev",
+    "model": "flux-dev",
+    "capability": "image",
+    "response_time": 24.707
+  },
+  {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-r-plus-08-2024",
     "capability": "text",
-    "response_time": 0.209
+    "response_time": 0.557
   },
   {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-r7b-12-2024",
     "capability": "text",
-    "response_time": 0.224
+    "response_time": 0.569
   },
   {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-r7b-arabic-02-2025",
     "capability": "text",
-    "response_time": 0.195
+    "response_time": 0.522
   },
   {
     "provider": "OperaAria",
     "model": "aria",
     "capability": "image",
-    "response_time": 14.491
+    "response_time": 12.873
   },
   {
     "provider": "OperaAria",
     "model": "aria-legacy",
     "capability": "text",
-    "response_time": 4.273
+    "response_time": 5.135
   },
   {
-    "provider": "Perplexity",
-    "model": "o3mini",
+    "provider": "Yqcloud",
+    "model": "gpt-4",
     "capability": "text",
-    "response_time": 2.228
+    "response_time": 4.494
   }
 ]
