@@ -4,43 +4,31 @@
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r-plus-08-2024",
       "capability": "text",
-      "response_time": 0.297
+      "response_time": 0.209
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-12-2024",
       "capability": "text",
-      "response_time": 0.266
+      "response_time": 0.224
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-arabic-02-2025",
       "capability": "text",
-      "response_time": 0.248
+      "response_time": 0.195
     },
     {
       "provider": "OperaAria",
       "model": "aria-legacy",
       "capability": "text",
-      "response_time": 4.865
+      "response_time": 4.273
     },
     {
-      "provider": "Qwen",
-      "model": "qwen3.6-max-preview",
+      "provider": "Perplexity",
+      "model": "o3mini",
       "capability": "text",
-      "response_time": 6.925
-    },
-    {
-      "provider": "Qwen",
-      "model": "qwen3.5-max-2026-03-08",
-      "capability": "text",
-      "response_time": 14.378
-    },
-    {
-      "provider": "Qwen",
-      "model": "qwen3.6-plus-preview",
-      "capability": "text",
-      "response_time": 8.927
+      "response_time": 2.228
     }
   ],
   "image": [
@@ -48,7 +36,7 @@
       "provider": "OperaAria",
       "model": "aria",
       "capability": "image",
-      "response_time": 11.594
+      "response_time": 14.491
     }
   ],
   "audio": [],

@@ -1,10 +1,9 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-_No newly working capabilities since last run._
+- **Perplexity** / `o3mini` (text)
 
 ## Newly Broken ❌
-- **BlackForestLabs_Flux1Dev** / `flux` (image)
-- **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
-- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
-- **Yqcloud** / `gpt-4` (text)
+- **Qwen** / `qwen3.5-max-2026-03-08` (text)
+- **Qwen** / `qwen3.6-max-preview` (text)
+- **Qwen** / `qwen3.6-plus-preview` (text)

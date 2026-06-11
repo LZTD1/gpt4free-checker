@@ -1,8 +1,6 @@
-CohereForAI_C4AI_Command|command-r-plus-08-2024|text|0.297
-CohereForAI_C4AI_Command|command-r7b-12-2024|text|0.266
-CohereForAI_C4AI_Command|command-r7b-arabic-02-2025|text|0.248
-OperaAria|aria-legacy|text|4.865
-OperaAria|aria|image|11.594
-Qwen|qwen3.5-max-2026-03-08|text|14.378
-Qwen|qwen3.6-max-preview|text|6.925
-Qwen|qwen3.6-plus-preview|text|8.927
+CohereForAI_C4AI_Command|command-r-plus-08-2024|text|0.209
+CohereForAI_C4AI_Command|command-r7b-12-2024|text|0.224
+CohereForAI_C4AI_Command|command-r7b-arabic-02-2025|text|0.195
+OperaAria|aria-legacy|text|4.273
+OperaAria|aria|image|14.491
+Perplexity|o3mini|text|2.228

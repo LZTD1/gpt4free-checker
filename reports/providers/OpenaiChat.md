@@ -25,7 +25,7 @@
 | `gpt-5-2-instant` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-5-2-thinking` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-5-instant` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `gpt-5-thinking` | text | ❌ `exception` | 3.56s | Exception: 
+| `gpt-5-thinking` | text | ❌ `exception` | 10.82s | Exception: 
                 ---------------------
                 Failed to connect to browser
                 ---------------------

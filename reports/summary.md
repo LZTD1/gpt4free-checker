@@ -1,20 +1,20 @@
 # g4f providers — daily test report
 
-_Generated: `2026-06-10T21:25:03.011610+00:00`_
+_Generated: `2026-06-11T11:32:35.411123+00:00`_
 
 ## Overview
 
 - **Providers:** 3 / 45 working
 - **Models discovered:** 147
 - **Tests run:** 147
-- **Successful:** 8 (5.44%)
-- **Avg response time (OK):** 5.937s
+- **Successful:** 6 (4.08%)
+- **Avg response time (OK):** 3.603s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 7 |
+| text | 5 |
 | image | 1 |
 | audio | 0 |
 | video | 0 |
@@ -24,20 +24,20 @@ _Generated: `2026-06-10T21:25:03.011610+00:00`_
 | Status | Count |
 | --- | ---: |
 | `timeout` | 48 |
-| `invalid` | 43 |
-| `exception` | 30 |
-| `ok` | 8 |
+| `invalid` | 42 |
+| `api_error` | 25 |
+| `exception` | 15 |
 | `empty` | 8 |
-| `api_error` | 6 |
-| `http_error` | 4 |
+| `ok` | 6 |
+| `http_error` | 3 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.27s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 2 | 2 | 0 | 8.23s | image, text | ✅ |
-| [ Qwen ](providers/Qwen.md) | 19 | 3 | 16 | 10.08s | text | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.21s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 2 | 2 | 0 | 9.38s | image, text | ✅ |
+| [ Perplexity ](providers/Perplexity.md) | 46 | 1 | 45 | 2.23s | text | ✅ |
 | [ ApiAirforce ](providers/ApiAirforce.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 0 | 2 | — | — | ❌ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -65,11 +65,11 @@ _Generated: `2026-06-10T21:25:03.011610+00:00`_
 | [ OpenaiChat ](providers/OpenaiChat.md) | 23 | 0 | 23 | — | — | ❌ |
 | [ OpenAIFM ](providers/OpenAIFM.md) | 17 | 0 | 17 | — | — | ❌ |
 | [ OpenRouterFree ](providers/OpenRouterFree.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ Perplexity ](providers/Perplexity.md) | 46 | 0 | 46 | — | — | ❌ |
 | [ Pi ](providers/Pi.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ PollinationsAI ](providers/PollinationsAI.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ PollinationsAudio ](providers/PollinationsAudio.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ PollinationsImage ](providers/PollinationsImage.md) | 0 | 0 | 0 | — | — | ❌ |
+| [ Qwen ](providers/Qwen.md) | 19 | 0 | 19 | — | — | ❌ |
 | [ Qwen_Qwen_2_5 ](providers/Qwen_Qwen_2_5.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ Qwen_Qwen_2_5_Max ](providers/Qwen_Qwen_2_5_Max.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ Qwen_Qwen_2_5M ](providers/Qwen_Qwen_2_5M.md) | 1 | 0 | 1 | — | — | ❌ |
