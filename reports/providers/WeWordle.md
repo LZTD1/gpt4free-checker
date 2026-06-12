@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gpt-4` | text | ❌ `exception` | 2.39s | ClientResponseError: 500, message='Internal Server Error', url='https://wewordle.org/gptapi/v1/web/turbo' |
+| `gpt-4` | text | ❌ `exception` | 2.63s | ClientResponseError: 500, message='Internal Server Error', url='https://wewordle.org/gptapi/v1/web/turbo' |

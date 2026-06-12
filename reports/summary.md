@@ -1,21 +1,21 @@
 # g4f providers — daily test report
 
-_Generated: `2026-06-12T11:10:18.659401+00:00`_
+_Generated: `2026-06-12T21:05:54.741811+00:00`_
 
 ## Overview
 
-- **Providers:** 4 / 45 working
+- **Providers:** 3 / 45 working
 - **Models discovered:** 147
 - **Tests run:** 147
 - **Successful:** 7 (4.76%)
-- **Avg response time (OK):** 6.212s
+- **Avg response time (OK):** 8.197s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 5 |
-| image | 2 |
+| text | 4 |
+| image | 3 |
 | audio | 0 |
 | video | 0 |
 
@@ -24,8 +24,8 @@ _Generated: `2026-06-12T11:10:18.659401+00:00`_
 | Status | Count |
 | --- | ---: |
 | `timeout` | 47 |
-| `invalid` | 42 |
-| `api_error` | 24 |
+| `invalid` | 43 |
+| `api_error` | 23 |
 | `exception` | 16 |
 | `empty` | 8 |
 | `ok` | 7 |
@@ -35,10 +35,9 @@ _Generated: `2026-06-12T11:10:18.659401+00:00`_
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 1 | 19.81s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.55s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 2 | 2 | 0 | 9.26s | image, text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 3.52s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 19.51s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.24s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 2 | 2 | 0 | 8.81s | image, text | ✅ |
 | [ ApiAirforce ](providers/ApiAirforce.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -80,3 +79,4 @@ _Generated: `2026-06-12T11:10:18.659401+00:00`_
 | [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ WeWordle ](providers/WeWordle.md) | 1 | 0 | 1 | — | — | ❌ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 0 | 1 | — | — | ❌ |
