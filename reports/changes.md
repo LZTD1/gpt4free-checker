@@ -1,8 +1,7 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
-- **Yqcloud** / `gpt-4` (text)
+_No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **Perplexity** / `o3mini` (text)
+_No working models broke since last run._

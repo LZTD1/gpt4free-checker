@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gpt-4o` | text | ❌ `exception` | 0.68s | ClientResponseError: 405, message='Method Not Allowed', url='https://italygpt.it/api/chat' |
+| `gpt-4o` | text | ❌ `exception` | 0.67s | ClientResponseError: 405, message='Method Not Allowed', url='https://italygpt.it/api/chat' |

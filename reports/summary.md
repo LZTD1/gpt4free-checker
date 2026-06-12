@@ -1,6 +1,6 @@
 # g4f providers — daily test report
 
-_Generated: `2026-06-11T21:17:39.630259+00:00`_
+_Generated: `2026-06-12T11:10:18.659401+00:00`_
 
 ## Overview
 
@@ -8,7 +8,7 @@ _Generated: `2026-06-11T21:17:39.630259+00:00`_
 - **Models discovered:** 147
 - **Tests run:** 147
 - **Successful:** 7 (4.76%)
-- **Avg response time (OK):** 6.979s
+- **Avg response time (OK):** 6.212s
 
 ## Results by capability
 
@@ -27,19 +27,18 @@ _Generated: `2026-06-11T21:17:39.630259+00:00`_
 | `invalid` | 42 |
 | `api_error` | 24 |
 | `exception` | 16 |
+| `empty` | 8 |
 | `ok` | 7 |
-| `empty` | 7 |
 | `http_error` | 3 |
-| `rate_limited` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 1 | 24.71s | image | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 1 | 19.81s | image | ✅ |
 | [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.55s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 2 | 2 | 0 | 9.00s | image, text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 4.49s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 2 | 2 | 0 | 9.26s | image, text | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 3.52s | text | ✅ |
 | [ ApiAirforce ](providers/ApiAirforce.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |

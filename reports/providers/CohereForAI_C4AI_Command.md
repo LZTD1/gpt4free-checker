@@ -10,12 +10,12 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `command-r-plus-08-2024` | text | ✅ `ok` | 0.56s | contains expected token 'PONG' |
-| `command-r7b-12-2024` | text | ✅ `ok` | 0.57s | contains expected token 'PONG' |
-| `command-r7b-arabic-02-2025` | text | ✅ `ok` | 0.52s | contains expected token 'PONG' |
-| `command-a-03-2025` | text | ❌ `invalid` | 0.55s | expected 'PONG', got: 'PING' |
-| `command-r` | text | ❌ `empty` | 0.37s | Empty response |
-| `command-r-08-2024` | text | ❌ `invalid` | 0.51s | expected 'PONG', got: 'Ping' |
+| `command-r-plus-08-2024` | text | ✅ `ok` | 0.52s | contains expected token 'PONG' |
+| `command-r7b-12-2024` | text | ✅ `ok` | 0.62s | contains expected token 'PONG' |
+| `command-r7b-arabic-02-2025` | text | ✅ `ok` | 0.50s | contains expected token 'PONG' |
+| `command-a-03-2025` | text | ❌ `invalid` | 0.52s | expected 'PONG', got: 'PING' |
+| `command-r` | text | ❌ `empty` | 0.41s | Empty response |
+| `command-r-08-2024` | text | ❌ `invalid` | 1.08s | expected 'PONG', got: 'Ping' |
 | `command-r-plus` | text | ❌ `empty` | 0.39s | Empty response |
 
 ## Sample successful responses
