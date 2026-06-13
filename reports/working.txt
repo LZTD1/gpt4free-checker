@@ -1,9 +1,6 @@
-BlackForestLabs_Flux1Dev|flux-dev|image|24.800
-BlackForestLabs_Flux1Dev|flux|image|25.435
-CohereForAI_C4AI_Command|command-r-plus-08-2024|text|1.058
-CohereForAI_C4AI_Command|command-r7b-12-2024|text|3.162
-CohereForAI_C4AI_Command|command-r7b-arabic-02-2025|text|2.763
-OperaAria|aria-legacy|text|4.384
-OperaAria|aria|image|12.540
-StabilityAI_SD35Large|sd-3.5-large|image|34.657
-Yqcloud|gpt-4|text|1.926
+CohereForAI_C4AI_Command|command-r-plus-08-2024|text|0.405
+CohereForAI_C4AI_Command|command-r7b-12-2024|text|0.447
+CohereForAI_C4AI_Command|command-r7b-arabic-02-2025|text|0.456
+OperaAria|aria-legacy|text|4.888
+OperaAria|aria|image|12.599
+Yqcloud|gpt-4|text|2.586
