@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gpt-4o-mini` | text | ❌ `api_error` | 0.07s | ClientResponseError: 401, message='Unauthorized', url='https://chatai.aritek.app/stream' |
+| `gpt-4o-mini` | text | ❌ `api_error` | 0.06s | ClientResponseError: 401, message='Unauthorized', url='https://chatai.aritek.app/stream' |

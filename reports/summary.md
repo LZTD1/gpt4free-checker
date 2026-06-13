@@ -1,21 +1,21 @@
 # g4f providers — daily test report
 
-_Generated: `2026-06-12T21:05:54.741811+00:00`_
+_Generated: `2026-06-13T10:12:05.869112+00:00`_
 
 ## Overview
 
-- **Providers:** 3 / 45 working
+- **Providers:** 5 / 45 working
 - **Models discovered:** 147
 - **Tests run:** 147
-- **Successful:** 7 (4.76%)
-- **Avg response time (OK):** 8.197s
+- **Successful:** 9 (6.12%)
+- **Avg response time (OK):** 12.303s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 4 |
-| image | 3 |
+| text | 5 |
+| image | 4 |
 | audio | 0 |
 | video | 0 |
 
@@ -24,20 +24,23 @@ _Generated: `2026-06-12T21:05:54.741811+00:00`_
 | Status | Count |
 | --- | ---: |
 | `timeout` | 47 |
-| `invalid` | 43 |
-| `api_error` | 23 |
+| `invalid` | 42 |
+| `api_error` | 21 |
 | `exception` | 16 |
+| `ok` | 9 |
 | `empty` | 8 |
-| `ok` | 7 |
 | `http_error` | 3 |
+| `rate_limited` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 19.51s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.24s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 2 | 2 | 0 | 8.81s | image, text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 25.12s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 2.33s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 2 | 2 | 0 | 8.46s | image, text | ✅ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 1 | 0 | 34.66s | image | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 1.93s | text | ✅ |
 | [ ApiAirforce ](providers/ApiAirforce.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -76,7 +79,5 @@ _Generated: `2026-06-12T21:05:54.741811+00:00`_
 | [ Qwen_Qwen_2_72B ](providers/Qwen_Qwen_2_72B.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ Qwen_Qwen_3 ](providers/Qwen_Qwen_3.md) | 8 | 0 | 8 | — | — | ❌ |
 | [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ WeWordle ](providers/WeWordle.md) | 1 | 0 | 1 | — | — | ❌ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 0 | 1 | — | — | ❌ |

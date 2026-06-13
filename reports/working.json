@@ -3,42 +3,54 @@
     "provider": "BlackForestLabs_Flux1Dev",
     "model": "flux-dev",
     "capability": "image",
-    "response_time": 19.539
+    "response_time": 24.8
   },
   {
     "provider": "BlackForestLabs_Flux1Dev",
     "model": "flux",
     "capability": "image",
-    "response_time": 19.485
+    "response_time": 25.435
   },
   {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-r-plus-08-2024",
     "capability": "text",
-    "response_time": 0.304
+    "response_time": 1.058
   },
   {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-r7b-12-2024",
     "capability": "text",
-    "response_time": 0.234
+    "response_time": 3.162
   },
   {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-r7b-arabic-02-2025",
     "capability": "text",
-    "response_time": 0.193
+    "response_time": 2.763
   },
   {
     "provider": "OperaAria",
     "model": "aria",
     "capability": "image",
-    "response_time": 12.931
+    "response_time": 12.54
   },
   {
     "provider": "OperaAria",
     "model": "aria-legacy",
     "capability": "text",
-    "response_time": 4.692
+    "response_time": 4.384
+  },
+  {
+    "provider": "StabilityAI_SD35Large",
+    "model": "sd-3.5-large",
+    "capability": "image",
+    "response_time": 34.657
+  },
+  {
+    "provider": "Yqcloud",
+    "model": "gpt-4",
+    "capability": "text",
+    "response_time": 1.926
   }
 ]
