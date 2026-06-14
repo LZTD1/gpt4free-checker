@@ -3,11 +3,20 @@
 - **Label:** TeachAnything
 - **URL:** https://www.teach-anything.com
 - **Models:** 1
-- **Working tests:** 0 / 1
-- **Avg response time:** —
+- **Working tests:** 1 / 1
+- **Avg response time:** 2.47s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gemma` | text | ❌ `api_error` | 0.02s | ClientResponseError: 403, message='Forbidden', url='https://www.teach-anything.com/api/generate' |
+| `gemma` | text | ✅ `ok` | 2.47s | contains expected token 'PONG' |
+
+## Sample successful responses
+
+### `gemma` — text
+
+```
+PONG
+```
+

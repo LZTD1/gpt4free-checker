@@ -1,7 +1,7 @@
-# ApiAirforce
+# EasyChat
 
-- **Label:** Api.Airforce
-- **URL:** https://api.airforce
+- **Label:** EasyChat
+- **URL:** https://chat3.eqing.tech
 - **Models:** 0
 - **Working tests:** 0 / 0
 - **Avg response time:** —
