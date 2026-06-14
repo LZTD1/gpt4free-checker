@@ -10,11 +10,11 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `qwen-3-0.6b` | text | ❌ `exception` | 0.13s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
-| `qwen-3-1.7b` | text | ❌ `exception` | 0.25s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
-| `qwen-3-14b` | text | ❌ `exception` | 0.12s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
-| `qwen-3-235b` | text | ❌ `exception` | 0.14s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
-| `qwen-3-30b-a3b` | text | ❌ `exception` | 0.12s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
-| `qwen-3-32b` | text | ❌ `exception` | 0.13s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
-| `qwen-3-4b` | text | ❌ `exception` | 0.16s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
-| `qwen-3-8b` | text | ❌ `exception` | 0.16s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
+| `qwen-3-0.6b` | text | ❌ `exception` | 0.02s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
+| `qwen-3-1.7b` | text | ❌ `exception` | 0.03s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
+| `qwen-3-14b` | text | ❌ `exception` | 0.02s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
+| `qwen-3-235b` | text | ❌ `exception` | 0.05s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
+| `qwen-3-30b-a3b` | text | ❌ `exception` | 0.02s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
+| `qwen-3-32b` | text | ❌ `exception` | 0.06s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
+| `qwen-3-4b` | text | ❌ `exception` | 0.02s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |
+| `qwen-3-8b` | text | ❌ `exception` | 0.06s | ResponseStatusError: Response 503: {'detail': 'Queue is stopped.'} |

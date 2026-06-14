@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `pi` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
+| `pi` | text | ❌ `exception` | 0.00s | FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/.g4f/cookies' |
