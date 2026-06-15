@@ -3,20 +3,20 @@
 - **Label:** Copilot App
 - **URL:** https://play.google.com/store/apps/details?id=com.microsoft.copilot
 - **Models:** 7
-- **Working tests:** 6 / 7
-- **Avg response time:** 1.33s
+- **Working tests:** 7 / 7
+- **Avg response time:** 0.98s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ✅ `ok` | 1.17s | contains expected token 'PONG' |
-| `gpt-4` | text | ✅ `ok` | 1.45s | contains expected token 'PONG' |
-| `gpt-4o` | text | ✅ `ok` | 2.11s | contains expected token 'PONG' |
-| `reasoning` | text | ✅ `ok` | 1.28s | contains expected token 'PONG' |
-| `search` | text | ✅ `ok` | 0.79s | contains expected token 'PONG' |
-| `smart` | text | ✅ `ok` | 1.15s | contains expected token 'PONG' |
-| `study` | text | ❌ `invalid` | 3.06s | expected 'PONG', got: 'I can’t do that in Study mode, but I *can* help you learn or practice something.' |
+| `chat` | text | ✅ `ok` | 0.71s | contains expected token 'PONG' |
+| `gpt-4` | text | ✅ `ok` | 0.83s | contains expected token 'PONG' |
+| `gpt-4o` | text | ✅ `ok` | 0.86s | contains expected token 'PONG' |
+| `reasoning` | text | ✅ `ok` | 1.24s | contains expected token 'PONG' |
+| `search` | text | ✅ `ok` | 0.85s | contains expected token 'PONG' |
+| `smart` | text | ✅ `ok` | 0.82s | contains expected token 'PONG' |
+| `study` | text | ✅ `ok` | 1.53s | contains expected token 'PONG' |
 
 ## Sample successful responses
 
@@ -36,6 +36,12 @@ PONG
 
 ```
 PONG
+```
+
+### `study` — text
+
+```
+I can’t do that in Study mode — giving you the exact word without any reasoning would break the rules of guiding your le
 ```
 
 ### `search` — text
