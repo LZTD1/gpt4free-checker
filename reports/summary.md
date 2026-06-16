@@ -1,21 +1,21 @@
 # g4f providers — daily test report
 
-_Generated: `2026-06-15T21:49:48.811046+00:00`_
+_Generated: `2026-06-16T12:08:37.752571+00:00`_
 
 ## Overview
 
-- **Providers:** 6 / 39 working
+- **Providers:** 7 / 39 working
 - **Models discovered:** 150
 - **Tests run:** 150
 - **Successful:** 21 (14.0%)
-- **Avg response time (OK):** 2.285s
+- **Avg response time (OK):** 4.105s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 20 |
-| image | 1 |
+| text | 19 |
+| image | 2 |
 | audio | 0 |
 | video | 0 |
 
@@ -24,24 +24,24 @@ _Generated: `2026-06-15T21:49:48.811046+00:00`_
 | Status | Count |
 | --- | ---: |
 | `timeout` | 47 |
-| `invalid` | 43 |
-| `api_error` | 23 |
+| `invalid` | 44 |
+| `api_error` | 22 |
 | `ok` | 21 |
-| `empty` | 7 |
+| `empty` | 8 |
 | `exception` | 7 |
-| `rate_limited` | 2 |
+| `rate_limited` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 0.68s | text | ✅ |
-| [ CopilotApp ](providers/CopilotApp.md) | 7 | 7 | 0 | 0.98s | text | ✅ |
-| [ Felo ](providers/Felo.md) | 5 | 2 | 3 | 4.32s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 2 | 2 | 0 | 9.26s | image, text | ✅ |
-| [ WeWordle ](providers/WeWordle.md) | 7 | 5 | 2 | 1.86s | text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 1.97s | text | ✅ |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 0 | 2 | — | — | ❌ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 1 | 26.26s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.33s | text | ✅ |
+| [ CopilotApp ](providers/CopilotApp.md) | 7 | 7 | 0 | 1.73s | text | ✅ |
+| [ Felo ](providers/Felo.md) | 5 | 2 | 3 | 7.54s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 2 | 2 | 0 | 8.78s | image, text | ✅ |
+| [ WeWordle ](providers/WeWordle.md) | 7 | 5 | 2 | 2.27s | text | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 2.85s | text | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
