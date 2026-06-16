@@ -3,20 +3,20 @@
 - **Label:** WeWordle
 - **URL:** https://chat-gpt.com
 - **Models:** 7
-- **Working tests:** 5 / 7
-- **Avg response time:** 2.27s
+- **Working tests:** 6 / 7
+- **Avg response time:** 2.86s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `deepseek` | text | ✅ `ok` | 0.81s | contains expected token 'PONG' |
-| `deepseek-r1` | text | ✅ `ok` | 1.81s | contains expected token 'PONG' |
-| `deepseek-reasoner` | text | ✅ `ok` | 5.39s | contains expected token 'PONG' |
-| `gpt-4` | text | ✅ `ok` | 1.72s | contains expected token 'PONG' |
-| `v3` | text | ✅ `ok` | 1.63s | contains expected token 'PONG' |
-| `gpt-4o` | text | ❌ `invalid` | 2.22s | expected 'PONG', got: 'PING' |
-| `gpt-4o-mini` | text | ❌ `invalid` | 1.19s | expected 'PONG', got: 'Game' |
+| `deepseek` | text | ✅ `ok` | 1.15s | contains expected token 'PONG' |
+| `deepseek-r1` | text | ✅ `ok` | 9.30s | contains expected token 'PONG' |
+| `deepseek-reasoner` | text | ✅ `ok` | 1.19s | contains expected token 'PONG' |
+| `gpt-4` | text | ✅ `ok` | 2.09s | contains expected token 'PONG' |
+| `gpt-4o` | text | ✅ `ok` | 2.18s | contains expected token 'PONG' |
+| `v3` | text | ✅ `ok` | 1.22s | contains expected token 'PONG' |
+| `gpt-4o-mini` | text | ❌ `invalid` | 1.30s | expected 'PONG', got: 'Ping' |
 
 ## Sample successful responses
 
@@ -27,6 +27,12 @@ PONG
 ```
 
 ### `gpt-4` — text
+
+```
+PONG
+```
+
+### `gpt-4o` — text
 
 ```
 PONG
