@@ -1,8 +1,10 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **TeachAnything** / `gemma` (text)
-- **WeWordle** / `gpt-4o` (text)
+- **BlackForestLabs_Flux1Dev** / `flux` (image)
+- **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
 
 ## Newly Broken ❌
-- **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
+- **CopilotApp** / `study` (text)
+- **WeWordle** / `gpt-4o` (text)
+- **Yqcloud** / `gpt-4` (text)

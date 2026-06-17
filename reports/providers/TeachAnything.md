@@ -4,13 +4,13 @@
 - **URL:** https://www.teach-anything.com
 - **Models:** 1
 - **Working tests:** 1 / 1
-- **Avg response time:** 6.58s
+- **Avg response time:** 1.20s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gemma` | text | ✅ `ok` | 6.58s | contains expected token 'PONG' |
+| `gemma` | text | ✅ `ok` | 1.20s | contains expected token 'PONG' |
 
 ## Sample successful responses
 

@@ -3,20 +3,20 @@
 - **Label:** Copilot App
 - **URL:** https://play.google.com/store/apps/details?id=com.microsoft.copilot
 - **Models:** 7
-- **Working tests:** 7 / 7
-- **Avg response time:** 1.31s
+- **Working tests:** 6 / 7
+- **Avg response time:** 1.54s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ✅ `ok` | 0.96s | contains expected token 'PONG' |
-| `gpt-4` | text | ✅ `ok` | 0.90s | contains expected token 'PONG' |
-| `gpt-4o` | text | ✅ `ok` | 1.75s | contains expected token 'PONG' |
-| `reasoning` | text | ✅ `ok` | 1.25s | contains expected token 'PONG' |
-| `search` | text | ✅ `ok` | 0.80s | contains expected token 'PONG' |
-| `smart` | text | ✅ `ok` | 1.10s | contains expected token 'PONG' |
-| `study` | text | ✅ `ok` | 2.39s | contains expected token 'PONG' |
+| `chat` | text | ✅ `ok` | 1.42s | contains expected token 'PONG' |
+| `gpt-4` | text | ✅ `ok` | 3.30s | contains expected token 'PONG' |
+| `gpt-4o` | text | ✅ `ok` | 1.08s | contains expected token 'PONG' |
+| `reasoning` | text | ✅ `ok` | 1.52s | contains expected token 'PONG' |
+| `search` | text | ✅ `ok` | 0.77s | contains expected token 'PONG' |
+| `smart` | text | ✅ `ok` | 1.15s | contains expected token 'PONG' |
+| `study` | text | ❌ `invalid` | 12.25s | expected 'PONG', got: 'Since you’re in **Study Mode**, I can’t just obey a command without understandin' |
 
 ## Sample successful responses
 
@@ -36,12 +36,6 @@ PONG
 
 ```
 PONG
-```
-
-### `study` — text
-
-```
-I hear what you’re asking — but since we’re in **Study Mode**, I can’t just give a one‑word answer on command. Study Mod
 ```
 
 ### `search` — text
