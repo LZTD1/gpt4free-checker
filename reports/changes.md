@@ -1,10 +1,9 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **BlackForestLabs_Flux1Dev** / `flux` (image)
-- **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
+_No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **CopilotApp** / `study` (text)
-- **WeWordle** / `gpt-4o` (text)
-- **Yqcloud** / `gpt-4` (text)
+- **BlackForestLabs_Flux1Dev** / `flux` (image)
+- **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
+- **TeachAnything** / `gemma` (text)
