@@ -11,4 +11,4 @@
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
 | `deepseek` | text | ❌ `exception` | 0.02s | CloudflareError: Response 403: Cloudflare detected |
-| `deepseek-v3` | text | ❌ `exception` | 0.05s | CloudflareError: Response 403: Cloudflare detected |
+| `deepseek-v3` | text | ❌ `exception` | 0.02s | CloudflareError: Response 403: Cloudflare detected |
