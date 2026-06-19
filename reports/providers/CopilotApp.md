@@ -3,20 +3,20 @@
 - **Label:** Copilot App
 - **URL:** https://play.google.com/store/apps/details?id=com.microsoft.copilot
 - **Models:** 7
-- **Working tests:** 6 / 7
-- **Avg response time:** 0.96s
+- **Working tests:** 7 / 7
+- **Avg response time:** 1.67s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ✅ `ok` | 0.83s | contains expected token 'PONG' |
-| `gpt-4` | text | ✅ `ok` | 0.92s | contains expected token 'PONG' |
-| `gpt-4o` | text | ✅ `ok` | 1.00s | contains expected token 'PONG' |
-| `reasoning` | text | ✅ `ok` | 1.17s | contains expected token 'PONG' |
-| `search` | text | ✅ `ok` | 0.87s | contains expected token 'PONG' |
-| `smart` | text | ✅ `ok` | 1.00s | contains expected token 'PONG' |
-| `study` | text | ❌ `invalid` | 8.39s | expected 'PONG', got: 'It looks like you’re asking for a very specific output — **exactly one word** — ' |
+| `chat` | text | ✅ `ok` | 1.61s | contains expected token 'PONG' |
+| `gpt-4` | text | ✅ `ok` | 0.96s | contains expected token 'PONG' |
+| `gpt-4o` | text | ✅ `ok` | 1.03s | contains expected token 'PONG' |
+| `reasoning` | text | ✅ `ok` | 1.27s | contains expected token 'PONG' |
+| `search` | text | ✅ `ok` | 0.82s | contains expected token 'PONG' |
+| `smart` | text | ✅ `ok` | 0.89s | contains expected token 'PONG' |
+| `study` | text | ✅ `ok` | 5.09s | contains expected token 'PONG' |
 
 ## Sample successful responses
 
@@ -36,6 +36,12 @@ PONG
 
 ```
 PONG
+```
+
+### `study` — text
+
+```
+It looks like you’re asking for a very specific output — **one exact word** — but since we’re in **Study Mode**, I’m not
 ```
 
 ### `search` — text
