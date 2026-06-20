@@ -1,8 +1,8 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **CopilotApp** / `study` (text)
-- **TeachAnything** / `gemma` (text)
+_No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **BlackForestLabs_Flux1Dev** / `flux` (image)
+- **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
+- **CopilotApp** / `study` (text)
