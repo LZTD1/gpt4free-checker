@@ -3,11 +3,20 @@
 - **Label:** TeachAnything
 - **URL:** https://www.teach-anything.com
 - **Models:** 1
-- **Working tests:** 0 / 1
-- **Avg response time:** —
+- **Working tests:** 1 / 1
+- **Avg response time:** 5.42s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gemma` | text | ❌ `exception` | 0.74s | HTTPError: HTTP Error 500:  |
+| `gemma` | text | ✅ `ok` | 5.42s | contains expected token 'PONG' |
+
+## Sample successful responses
+
+### `gemma` — text
+
+```
+PONG
+```
+
