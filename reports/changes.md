@@ -1,11 +1,11 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **CopilotApp** / `study` (text)
-
-## Newly Broken ❌
 - **BlackForestLabs_Flux1Dev** / `flux` (image)
 - **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
-- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
 - **TeachAnything** / `gemma` (text)
+- **WeWordle** / `gpt-4o` (text)
 - **Yqcloud** / `gpt-4` (text)
+
+## Newly Broken ❌
+- **CopilotApp** / `study` (text)
