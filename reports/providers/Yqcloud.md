@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gpt-4` | text | ❌ `exception` | 0.60s | ClientConnectorCertificateError: Cannot connect to host api.binjie.fun:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate |
+| `gpt-4` | text | ❌ `exception` | 0.51s | ClientConnectorCertificateError: Cannot connect to host api.binjie.fun:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate |
