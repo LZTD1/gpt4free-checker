@@ -3,120 +3,168 @@
     "provider": "BlackForestLabs_Flux1Dev",
     "model": "flux-dev",
     "capability": "image",
-    "response_time": 24.379
+    "response_time": 23.472
   },
   {
     "provider": "BlackForestLabs_Flux1Dev",
     "model": "flux",
     "capability": "image",
-    "response_time": 24.577
+    "response_time": 18.875
+  },
+  {
+    "provider": "CohereForAI_C4AI_Command",
+    "model": "command-a-03-2025",
+    "capability": "text",
+    "response_time": 2.154
   },
   {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-r-plus-08-2024",
     "capability": "text",
-    "response_time": 0.272
+    "response_time": 0.447
   },
   {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-r7b-12-2024",
     "capability": "text",
-    "response_time": 0.246
+    "response_time": 0.295
   },
   {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-r7b-arabic-02-2025",
     "capability": "text",
-    "response_time": 0.225
+    "response_time": 0.419
   },
   {
     "provider": "CopilotApp",
     "model": "smart",
     "capability": "text",
-    "response_time": 0.913
+    "response_time": 1.741
   },
   {
     "provider": "CopilotApp",
     "model": "reasoning",
     "capability": "text",
-    "response_time": 1.274
+    "response_time": 1.123
   },
   {
     "provider": "CopilotApp",
     "model": "chat",
     "capability": "text",
-    "response_time": 1.579
+    "response_time": 2.13
   },
   {
     "provider": "CopilotApp",
     "model": "search",
     "capability": "text",
-    "response_time": 0.681
+    "response_time": 0.796
   },
   {
     "provider": "CopilotApp",
     "model": "gpt-4",
     "capability": "text",
-    "response_time": 0.949
+    "response_time": 1.162
   },
   {
     "provider": "CopilotApp",
     "model": "gpt-4o",
     "capability": "text",
-    "response_time": 1.076
+    "response_time": 0.881
   },
   {
     "provider": "Felo",
     "model": "felo-chat",
     "capability": "text",
-    "response_time": 2.23
+    "response_time": 1.947
   },
   {
     "provider": "Felo",
     "model": "felo-document",
     "capability": "text",
-    "response_time": 6.792
+    "response_time": 8.598
   },
   {
     "provider": "OperaAria",
     "model": "aria",
     "capability": "image",
-    "response_time": 12.146
+    "response_time": 12.352
+  },
+  {
+    "provider": "Qwen",
+    "model": "qwen3.6-max-preview",
+    "capability": "text",
+    "response_time": 8.4
+  },
+  {
+    "provider": "Qwen",
+    "model": "qwen-latest-series-invite-beta-v24",
+    "capability": "text",
+    "response_time": 8.936
+  },
+  {
+    "provider": "Qwen",
+    "model": "qwen-latest-series-invite-beta-v16",
+    "capability": "text",
+    "response_time": 4.155
+  },
+  {
+    "provider": "Qwen",
+    "model": "qwen3.5-max-2026-03-08",
+    "capability": "text",
+    "response_time": 7.234
+  },
+  {
+    "provider": "Qwen",
+    "model": "qwen3.6-plus-preview",
+    "capability": "text",
+    "response_time": 6.708
+  },
+  {
+    "provider": "StabilityAI_SD35Large",
+    "model": "sd-3.5-large",
+    "capability": "image",
+    "response_time": 35.22
+  },
+  {
+    "provider": "TeachAnything",
+    "model": "gemma",
+    "capability": "text",
+    "response_time": 2.81
   },
   {
     "provider": "WeWordle",
     "model": "v3",
     "capability": "text",
-    "response_time": 2.466
+    "response_time": 3.894
   },
   {
     "provider": "WeWordle",
     "model": "gpt-4",
     "capability": "text",
-    "response_time": 2.094
+    "response_time": 2.101
   },
   {
     "provider": "WeWordle",
-    "model": "gpt-4o-mini",
+    "model": "gpt-4o",
     "capability": "text",
-    "response_time": 1.259
+    "response_time": 1.324
   },
   {
     "provider": "WeWordle",
     "model": "deepseek",
     "capability": "text",
-    "response_time": 0.765
+    "response_time": 1.768
   },
   {
     "provider": "WeWordle",
     "model": "deepseek-reasoner",
     "capability": "text",
-    "response_time": 3.402
+    "response_time": 1.204
   },
   {
     "provider": "WeWordle",
     "model": "deepseek-r1",
     "capability": "text",
-    "response_time": 15.194
+    "response_time": 0.836
   }
 ]
