@@ -10,20 +10,12 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `auto` | text | ❌ `exception` | 8.41s | Exception: 
-                ---------------------
-                Failed to connect to browser
-                ---------------------
-                One of the  |
+| `auto` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-4` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-4.1` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-4.1-mini` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-4.5` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `gpt-4o` | text | ❌ `exception` | 3.86s | Exception: 
-                ---------------------
-                Failed to connect to browser
-                ---------------------
-                One of the  |
+| `gpt-4o` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-4o-mini` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-5` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-5-1` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
@@ -33,7 +25,11 @@
 | `gpt-5-2-instant` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-5-2-thinking` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-5-instant` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `gpt-5-thinking` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
+| `gpt-5-thinking` | text | ❌ `exception` | 10.63s | Exception: 
+                ---------------------
+                Failed to connect to browser
+                ---------------------
+                One of the  |
 | `gpt-image` | image | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `o1` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `o1-mini` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
