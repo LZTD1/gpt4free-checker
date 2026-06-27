@@ -3,20 +3,20 @@
 - **Label:** Copilot App
 - **URL:** https://play.google.com/store/apps/details?id=com.microsoft.copilot
 - **Models:** 7
-- **Working tests:** 7 / 7
-- **Avg response time:** 1.69s
+- **Working tests:** 6 / 7
+- **Avg response time:** 0.98s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ✅ `ok` | 1.81s | contains expected token 'PONG' |
-| `gpt-4` | text | ✅ `ok` | 1.15s | contains expected token 'PONG' |
-| `gpt-4o` | text | ✅ `ok` | 1.00s | contains expected token 'PONG' |
-| `reasoning` | text | ✅ `ok` | 1.20s | contains expected token 'PONG' |
-| `search` | text | ✅ `ok` | 0.61s | contains expected token 'PONG' |
-| `smart` | text | ✅ `ok` | 1.22s | contains expected token 'PONG' |
-| `study` | text | ✅ `ok` | 4.83s | contains expected token 'PONG' |
+| `chat` | text | ✅ `ok` | 1.00s | contains expected token 'PONG' |
+| `gpt-4` | text | ✅ `ok` | 0.87s | contains expected token 'PONG' |
+| `gpt-4o` | text | ✅ `ok` | 1.03s | contains expected token 'PONG' |
+| `reasoning` | text | ✅ `ok` | 1.13s | contains expected token 'PONG' |
+| `search` | text | ✅ `ok` | 0.70s | contains expected token 'PONG' |
+| `smart` | text | ✅ `ok` | 1.17s | contains expected token 'PONG' |
+| `study` | text | ❌ `invalid` | 5.48s | expected 'PONG', got: 'It looks like you’re giving me a very strict instruction — **but since you’re in' |
 
 ## Sample successful responses
 
@@ -36,12 +36,6 @@ PONG
 
 ```
 PONG
-```
-
-### `study` — text
-
-```
-It looks like you want a very specific one‑word reply — but since you’re in **Study Mode**, I can’t just give the answer
 ```
 
 ### `search` — text
