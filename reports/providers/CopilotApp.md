@@ -4,19 +4,19 @@
 - **URL:** https://play.google.com/store/apps/details?id=com.microsoft.copilot
 - **Models:** 7
 - **Working tests:** 6 / 7
-- **Avg response time:** 0.98s
+- **Avg response time:** 0.96s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ✅ `ok` | 1.00s | contains expected token 'PONG' |
+| `chat` | text | ✅ `ok` | 0.84s | contains expected token 'PONG' |
 | `gpt-4` | text | ✅ `ok` | 0.87s | contains expected token 'PONG' |
-| `gpt-4o` | text | ✅ `ok` | 1.03s | contains expected token 'PONG' |
-| `reasoning` | text | ✅ `ok` | 1.13s | contains expected token 'PONG' |
-| `search` | text | ✅ `ok` | 0.70s | contains expected token 'PONG' |
-| `smart` | text | ✅ `ok` | 1.17s | contains expected token 'PONG' |
-| `study` | text | ❌ `invalid` | 5.48s | expected 'PONG', got: 'It looks like you’re giving me a very strict instruction — **but since you’re in' |
+| `gpt-4o` | text | ✅ `ok` | 0.85s | contains expected token 'PONG' |
+| `reasoning` | text | ✅ `ok` | 1.37s | contains expected token 'PONG' |
+| `search` | text | ✅ `ok` | 0.93s | contains expected token 'PONG' |
+| `smart` | text | ✅ `ok` | 0.91s | contains expected token 'PONG' |
+| `study` | text | ❌ `invalid` | 4.23s | expected 'PONG', got: 'Since you’re in **Study Mode**, I can’t just follow a command to output a single' |
 
 ## Sample successful responses
 

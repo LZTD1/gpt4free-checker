@@ -1,20 +1,20 @@
 # g4f providers — daily test report
 
-_Generated: `2026-06-27T20:16:09.682036+00:00`_
+_Generated: `2026-06-28T09:47:57.657500+00:00`_
 
 ## Overview
 
 - **Providers:** 7 / 38 working
 - **Models discovered:** 153
 - **Tests run:** 153
-- **Successful:** 25 (16.34%)
-- **Avg response time (OK):** 3.711s
+- **Successful:** 23 (15.03%)
+- **Avg response time (OK):** 3.557s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 24 |
+| text | 22 |
 | image | 1 |
 | audio | 0 |
 | video | 0 |
@@ -23,10 +23,10 @@ _Generated: `2026-06-27T20:16:09.682036+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `timeout` | 48 |
-| `invalid` | 43 |
-| `ok` | 25 |
+| `timeout` | 47 |
+| `invalid` | 46 |
 | `exception` | 24 |
+| `ok` | 23 |
 | `empty` | 8 |
 | `api_error` | 3 |
 | `rate_limited` | 1 |
@@ -36,13 +36,13 @@ _Generated: `2026-06-27T20:16:09.682036+00:00`_
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 1.00s | text | ✅ |
-| [ CopilotApp ](providers/CopilotApp.md) | 7 | 6 | 1 | 0.98s | text | ✅ |
-| [ Felo ](providers/Felo.md) | 5 | 2 | 3 | 3.94s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 2 | 1 | 1 | 14.41s | image | ✅ |
-| [ Qwen ](providers/Qwen.md) | 23 | 5 | 18 | 6.72s | text | ✅ |
-| [ WeWordle ](providers/WeWordle.md) | 7 | 6 | 1 | 4.02s | text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 2.87s | text | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 1.55s | text | ✅ |
+| [ CopilotApp ](providers/CopilotApp.md) | 7 | 6 | 1 | 0.96s | text | ✅ |
+| [ Felo ](providers/Felo.md) | 5 | 2 | 3 | 4.48s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 2 | 1 | 1 | 10.86s | image | ✅ |
+| [ Qwen ](providers/Qwen.md) | 23 | 5 | 18 | 7.20s | text | ✅ |
+| [ TeachAnything ](providers/TeachAnything.md) | 1 | 1 | 0 | 2.25s | text | ✅ |
+| [ WeWordle ](providers/WeWordle.md) | 7 | 5 | 2 | 2.67s | text | ✅ |
 | [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 0 | 2 | — | — | ❌ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -73,4 +73,4 @@ _Generated: `2026-06-27T20:16:09.682036+00:00`_
 | [ PollinationsAudio ](providers/PollinationsAudio.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ PollinationsImage ](providers/PollinationsImage.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
-| [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 1 | — | — | ❌ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 0 | 1 | — | — | ❌ |

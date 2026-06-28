@@ -10,5 +10,5 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `flux` | image | ❌ `api_error` | 0.37s | ResponseError: You have exceeded your ZeroGPU quota (112s requested vs. 68s left). Try again in 18:08:26. Authenticate with a Hugging Face token for more quota  |
-| `flux-dev` | image | ❌ `api_error` | 0.33s | ResponseError: You have exceeded your ZeroGPU quota (112s requested vs. 68s left). Try again in 18:08:32. Authenticate with a Hugging Face token for more quota  |
+| `flux` | image | ❌ `api_error` | 0.12s | ResponseError: You have exceeded your ZeroGPU quota (112s requested vs. 0s left). Try again in 0:00:00. Authenticate with a Hugging Face token for more quota -  |
+| `flux-dev` | image | ❌ `api_error` | 0.14s | ResponseError: You have exceeded your ZeroGPU quota (112s requested vs. 0s left). Try again in 0:00:00. Authenticate with a Hugging Face token for more quota -  |

@@ -2,147 +2,135 @@
   "text": [
     {
       "provider": "CohereForAI_C4AI_Command",
-      "model": "command-a-03-2025",
-      "capability": "text",
-      "response_time": 0.618
-    },
-    {
-      "provider": "CohereForAI_C4AI_Command",
       "model": "command-r-plus-08-2024",
       "capability": "text",
-      "response_time": 0.656
+      "response_time": 1.636
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-12-2024",
       "capability": "text",
-      "response_time": 0.542
+      "response_time": 1.712
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-arabic-02-2025",
       "capability": "text",
-      "response_time": 2.171
+      "response_time": 1.289
     },
     {
       "provider": "CopilotApp",
       "model": "smart",
       "capability": "text",
-      "response_time": 1.166
+      "response_time": 0.911
     },
     {
       "provider": "CopilotApp",
       "model": "reasoning",
       "capability": "text",
-      "response_time": 1.126
+      "response_time": 1.372
     },
     {
       "provider": "CopilotApp",
       "model": "chat",
       "capability": "text",
-      "response_time": 1.0
+      "response_time": 0.836
     },
     {
       "provider": "CopilotApp",
       "model": "search",
       "capability": "text",
-      "response_time": 0.703
+      "response_time": 0.931
     },
     {
       "provider": "CopilotApp",
       "model": "gpt-4",
       "capability": "text",
-      "response_time": 0.873
+      "response_time": 0.874
     },
     {
       "provider": "CopilotApp",
       "model": "gpt-4o",
       "capability": "text",
-      "response_time": 1.032
+      "response_time": 0.852
     },
     {
       "provider": "Felo",
       "model": "felo-chat",
       "capability": "text",
-      "response_time": 2.022
+      "response_time": 2.151
     },
     {
       "provider": "Felo",
       "model": "felo-document",
       "capability": "text",
-      "response_time": 5.849
+      "response_time": 6.8
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-max-preview",
       "capability": "text",
-      "response_time": 7.748
+      "response_time": 8.249
     },
     {
       "provider": "Qwen",
       "model": "qwen-latest-series-invite-beta-v24",
       "capability": "text",
-      "response_time": 5.72
+      "response_time": 6.036
     },
     {
       "provider": "Qwen",
       "model": "qwen-latest-series-invite-beta-v16",
       "capability": "text",
-      "response_time": 4.092
+      "response_time": 3.811
     },
     {
       "provider": "Qwen",
       "model": "qwen3.5-max-2026-03-08",
       "capability": "text",
-      "response_time": 9.292
+      "response_time": 12.059
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-plus-preview",
       "capability": "text",
-      "response_time": 6.75
+      "response_time": 5.848
+    },
+    {
+      "provider": "TeachAnything",
+      "model": "gemma",
+      "capability": "text",
+      "response_time": 2.25
     },
     {
       "provider": "WeWordle",
       "model": "v3",
       "capability": "text",
-      "response_time": 3.805
+      "response_time": 2.922
     },
     {
       "provider": "WeWordle",
       "model": "gpt-4",
       "capability": "text",
-      "response_time": 1.474
-    },
-    {
-      "provider": "WeWordle",
-      "model": "gpt-4o-mini",
-      "capability": "text",
-      "response_time": 0.942
+      "response_time": 4.078
     },
     {
       "provider": "WeWordle",
       "model": "deepseek",
       "capability": "text",
-      "response_time": 1.899
+      "response_time": 2.289
     },
     {
       "provider": "WeWordle",
       "model": "deepseek-reasoner",
       "capability": "text",
-      "response_time": 2.143
+      "response_time": 1.973
     },
     {
       "provider": "WeWordle",
       "model": "deepseek-r1",
       "capability": "text",
-      "response_time": 13.875
-    },
-    {
-      "provider": "Yqcloud",
-      "model": "gpt-4",
-      "capability": "text",
-      "response_time": 2.868
+      "response_time": 2.082
     }
   ],
   "image": [
@@ -150,7 +138,7 @@
       "provider": "OperaAria",
       "model": "aria",
       "capability": "image",
-      "response_time": 14.408
+      "response_time": 10.863
     }
   ],
   "audio": [],
