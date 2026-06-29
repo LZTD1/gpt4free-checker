@@ -4,17 +4,17 @@
 - **URL:** https://felo.ai
 - **Models:** 5
 - **Working tests:** 2 / 5
-- **Avg response time:** 4.41s
+- **Avg response time:** 6.58s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `felo-chat` | text | ✅ `ok` | 2.33s | contains expected token 'PONG' |
-| `felo-document` | text | ✅ `ok` | 6.49s | contains expected token 'PONG' |
-| `felo-scholar` | text | ❌ `rate_limited` | 0.20s | RateLimitError: Response 429: {'detail': 'Rate limit exceeded.'} |
-| `felo-search` | text | ❌ `exception` | 5.00s | TypeError: sequence item 2: expected str instance, Sources found |
-| `felo-social` | text | ❌ `exception` | 5.66s | TypeError: sequence item 2: expected str instance, Sources found |
+| `felo-chat` | text | ✅ `ok` | 2.03s | contains expected token 'PONG' |
+| `felo-document` | text | ✅ `ok` | 11.13s | contains expected token 'PONG' |
+| `felo-scholar` | text | ❌ `rate_limited` | 0.30s | RateLimitError: Response 429: {'detail': 'Rate limit exceeded.'} |
+| `felo-search` | text | ❌ `exception` | 5.40s | TypeError: sequence item 2: expected str instance, Sources found |
+| `felo-social` | text | ❌ `exception` | 5.43s | TypeError: sequence item 2: expected str instance, Sources found |
 
 ## Sample successful responses
 
