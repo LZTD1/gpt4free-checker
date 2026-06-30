@@ -4,19 +4,19 @@
 - **URL:** https://play.google.com/store/apps/details?id=com.microsoft.copilot
 - **Models:** 7
 - **Working tests:** 7 / 7
-- **Avg response time:** 1.50s
+- **Avg response time:** 1.22s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ✅ `ok` | 0.86s | contains expected token 'PONG' |
-| `gpt-4` | text | ✅ `ok` | 1.18s | contains expected token 'PONG' |
-| `gpt-4o` | text | ✅ `ok` | 0.87s | contains expected token 'PONG' |
-| `reasoning` | text | ✅ `ok` | 4.28s | contains expected token 'PONG' |
-| `search` | text | ✅ `ok` | 0.72s | contains expected token 'PONG' |
-| `smart` | text | ✅ `ok` | 0.85s | contains expected token 'PONG' |
-| `study` | text | ✅ `ok` | 1.78s | contains expected token 'PONG' |
+| `chat` | text | ✅ `ok` | 1.15s | contains expected token 'PONG' |
+| `gpt-4` | text | ✅ `ok` | 1.25s | contains expected token 'PONG' |
+| `gpt-4o` | text | ✅ `ok` | 1.21s | contains expected token 'PONG' |
+| `reasoning` | text | ✅ `ok` | 1.21s | contains expected token 'PONG' |
+| `search` | text | ✅ `ok` | 1.10s | contains expected token 'PONG' |
+| `smart` | text | ✅ `ok` | 1.06s | contains expected token 'PONG' |
+| `study` | text | ✅ `ok` | 1.54s | contains expected token 'PONG' |
 
 ## Sample successful responses
 
@@ -41,7 +41,7 @@ PONG
 ### `study` — text
 
 ```
-It looks like you want me to reply with exactly one word — but since you're in **Study Mode**, I’m not allowed to just g
+PONG
 ```
 
 ### `search` — text
