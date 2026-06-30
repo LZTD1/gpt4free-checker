@@ -1,7 +1,8 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+_No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **Yqcloud** / `gpt-4` (text)
+- **BlackForestLabs_Flux1Dev** / `flux` (image)
+- **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
