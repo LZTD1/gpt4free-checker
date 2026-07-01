@@ -3,52 +3,40 @@
 - **Label:** Qwen
 - **URL:** https://chat.qwen.ai
 - **Models:** 23
-- **Working tests:** 5 / 23
-- **Avg response time:** 7.27s
+- **Working tests:** 3 / 23
+- **Avg response time:** 9.29s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `qwen-latest-series-invite-beta-v16` | text | ✅ `ok` | 3.60s | contains expected token 'PONG' |
-| `qwen-latest-series-invite-beta-v24` | text | ✅ `ok` | 6.44s | contains expected token 'PONG' |
-| `qwen3.5-max-2026-03-08` | text | ✅ `ok` | 12.70s | contains expected token 'PONG' |
-| `qwen3.6-max-preview` | text | ✅ `ok` | 7.23s | contains expected token 'PONG' |
-| `qwen3.6-plus-preview` | text | ✅ `ok` | 6.40s | contains expected token 'PONG' |
-| `qwen-plus-2025-07-28` | image | ❌ `exception` | 15.63s | NoMediaResponseError: No media response from Qwen |
-| `qwen3-coder-plus` | image | ❌ `exception` | 14.81s | NoMediaResponseError: No media response from Qwen |
-| `qwen3-max-2026-01-23` | image | ❌ `exception` | 8.38s | NoMediaResponseError: No media response from Qwen |
-| `qwen3-omni-flash-2025-12-01` | image | ❌ `exception` | 34.47s | NoMediaResponseError: No media response from Qwen |
-| `qwen3-vl-plus` | image | ❌ `timeout` | 55.38s | Timeout limit exceeded |
-| `qwen3.5-122b-a10b` | image | ❌ `exception` | 6.86s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.5-27b` | image | ❌ `exception` | 16.61s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.5-35b-a3b` | image | ❌ `exception` | 6.65s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.5-397b-a17b` | image | ❌ `exception` | 33.24s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.5-flash` | image | ❌ `exception` | 3.30s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.5-omni-flash` | image | ❌ `exception` | 19.02s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.5-omni-plus` | image | ❌ `exception` | 20.00s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.5-plus` | image | ❌ `exception` | 10.93s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.6-27b` | image | ❌ `exception` | 18.09s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.6-35b-a3b` | image | ❌ `exception` | 11.57s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.6-plus` | image | ❌ `exception` | 12.64s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.7-max` | image | ❌ `exception` | 10.22s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.7-plus` | image | ❌ `exception` | 17.86s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.5-max-2026-03-08` | text | ✅ `ok` | 12.50s | contains expected token 'PONG' |
+| `qwen3.6-max-preview` | text | ✅ `ok` | 6.98s | contains expected token 'PONG' |
+| `qwen3.6-plus-preview` | text | ✅ `ok` | 8.39s | contains expected token 'PONG' |
+| `qwen-latest-series-invite-beta-v16` | text | ❌ `exception` | 4.42s | ResponseError: internal_error: An unexpected error occurred. Please try again later, or report the issue by emailing DPO_qwenlm-intl@service.alibaba.com. |
+| `qwen-latest-series-invite-beta-v24` | text | ❌ `exception` | 4.80s | ResponseError: internal_error: An unexpected error occurred. Please try again later, or report the issue by emailing DPO_qwenlm-intl@service.alibaba.com. |
+| `qwen-plus-2025-07-28` | image | ❌ `exception` | 17.45s | NoMediaResponseError: No media response from Qwen |
+| `qwen3-coder-plus` | image | ❌ `exception` | 18.28s | NoMediaResponseError: No media response from Qwen |
+| `qwen3-max-2026-01-23` | image | ❌ `exception` | 12.27s | NoMediaResponseError: No media response from Qwen |
+| `qwen3-omni-flash-2025-12-01` | image | ❌ `exception` | 30.23s | NoMediaResponseError: No media response from Qwen |
+| `qwen3-vl-plus` | image | ❌ `timeout` | 67.36s | Timeout limit exceeded |
+| `qwen3.5-122b-a10b` | image | ❌ `exception` | 5.38s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.5-27b` | image | ❌ `exception` | 8.27s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.5-35b-a3b` | image | ❌ `exception` | 27.10s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.5-397b-a17b` | image | ❌ `exception` | 24.52s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.5-flash` | image | ❌ `exception` | 10.73s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.5-omni-flash` | image | ❌ `exception` | 17.81s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.5-omni-plus` | image | ❌ `exception` | 15.06s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.5-plus` | image | ❌ `exception` | 11.27s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.6-27b` | image | ❌ `exception` | 14.62s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.6-35b-a3b` | image | ❌ `exception` | 9.95s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.6-plus` | image | ❌ `exception` | 12.35s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.7-max` | image | ❌ `exception` | 11.81s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.7-plus` | image | ❌ `exception` | 25.41s | NoMediaResponseError: No media response from Qwen |
 
 ## Sample successful responses
 
 ### `qwen3.6-max-preview` — text
-
-```
-PONG
-```
-
-### `qwen-latest-series-invite-beta-v24` — text
-
-```
-PONG
-```
-
-### `qwen-latest-series-invite-beta-v16` — text
 
 ```
 PONG

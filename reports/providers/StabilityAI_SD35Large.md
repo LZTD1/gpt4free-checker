@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `sd-3.5-large` | image | ❌ `api_error` | 0.35s | ResponseError: GPU token limit exceeded: data: {"error": "You have exceeded your ZeroGPU quota (65s requested vs. 94s left). Try again in 14:25:52. Authenticate |
+| `sd-3.5-large` | image | ❌ `api_error` | 0.15s | ResponseError: GPU token limit exceeded: data: {"error": "You have exceeded your ZeroGPU quota (65s requested vs. 56s left). Try again in 0:09:00. Authenticate  |
