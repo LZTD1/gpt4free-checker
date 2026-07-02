@@ -4,141 +4,141 @@
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-a-03-2025",
       "capability": "text",
-      "response_time": 0.659
+      "response_time": 0.341
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r-plus-08-2024",
       "capability": "text",
-      "response_time": 0.333
+      "response_time": 0.408
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-12-2024",
       "capability": "text",
-      "response_time": 0.33
+      "response_time": 0.312
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-arabic-02-2025",
       "capability": "text",
-      "response_time": 0.379
+      "response_time": 0.323
     },
     {
       "provider": "CopilotApp",
       "model": "smart",
       "capability": "text",
-      "response_time": 1.016
+      "response_time": 0.992
     },
     {
       "provider": "CopilotApp",
       "model": "reasoning",
       "capability": "text",
-      "response_time": 1.037
+      "response_time": 1.159
     },
     {
       "provider": "CopilotApp",
       "model": "chat",
       "capability": "text",
-      "response_time": 1.411
+      "response_time": 0.873
+    },
+    {
+      "provider": "CopilotApp",
+      "model": "study",
+      "capability": "text",
+      "response_time": 1.408
     },
     {
       "provider": "CopilotApp",
       "model": "search",
       "capability": "text",
-      "response_time": 0.745
+      "response_time": 0.82
     },
     {
       "provider": "Felo",
       "model": "felo-chat",
       "capability": "text",
-      "response_time": 1.535
-    },
-    {
-      "provider": "Felo",
-      "model": "felo-scholar",
-      "capability": "text",
-      "response_time": 10.433
+      "response_time": 1.934
     },
     {
       "provider": "Felo",
       "model": "felo-document",
       "capability": "text",
-      "response_time": 7.699
+      "response_time": 11.087
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-max-preview",
       "capability": "text",
-      "response_time": 7.439
+      "response_time": 5.355
     },
     {
       "provider": "Qwen",
       "model": "qwen-latest-series-invite-beta-v24",
       "capability": "text",
-      "response_time": 6.963
+      "response_time": 3.722
     },
     {
       "provider": "Qwen",
       "model": "qwen-latest-series-invite-beta-v16",
       "capability": "text",
-      "response_time": 4.316
+      "response_time": 5.613
     },
     {
       "provider": "Qwen",
       "model": "qwen3.5-max-2026-03-08",
       "capability": "text",
-      "response_time": 8.317
+      "response_time": 9.024
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-plus-preview",
       "capability": "text",
-      "response_time": 5.698
+      "response_time": 5.888
     },
     {
       "provider": "WeWordle",
       "model": "v3",
       "capability": "text",
-      "response_time": 3.258
+      "response_time": 2.69
     },
     {
       "provider": "WeWordle",
       "model": "gpt-4",
       "capability": "text",
-      "response_time": 2.499
-    },
-    {
-      "provider": "WeWordle",
-      "model": "gpt-4o",
-      "capability": "text",
-      "response_time": 1.68
+      "response_time": 1.662
     },
     {
       "provider": "WeWordle",
       "model": "deepseek",
       "capability": "text",
-      "response_time": 2.067
+      "response_time": 1.577
     },
     {
       "provider": "WeWordle",
       "model": "deepseek-reasoner",
       "capability": "text",
-      "response_time": 12.71
+      "response_time": 1.547
     },
     {
       "provider": "WeWordle",
       "model": "deepseek-r1",
       "capability": "text",
-      "response_time": 2.606
+      "response_time": 2.135
     }
   ],
   "image": [
     {
+      "provider": "BlackForestLabs_Flux1Dev",
+      "model": "flux-dev",
+      "capability": "image",
+      "response_time": 28.893
+    },
+    {
       "provider": "OperaAria",
       "model": "aria",
       "capability": "image",
-      "response_time": 15.532
+      "response_time": 13.042
     }
   ],
   "audio": [],
