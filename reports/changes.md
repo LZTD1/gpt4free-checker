@@ -1,8 +1,9 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **BlackForestLabs_Flux1Dev** / `flux` (image)
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+- **CopilotApp** / `study` (text)
 
 ## Newly Broken ❌
-- **CopilotApp** / `study` (text)
+- **BlackForestLabs_Flux1Dev** / `flux` (image)
+- **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
+- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
