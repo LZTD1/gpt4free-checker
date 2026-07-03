@@ -4,20 +4,20 @@
 - **URL:** https://play.google.com/store/apps/details?id=com.opera.browser
 - **Models:** 2
 - **Working tests:** 1 / 2
-- **Avg response time:** 13.04s
+- **Avg response time:** 12.89s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `aria` | image | ✅ `ok` | 13.04s | Valid image generation output |
-| `aria-legacy` | text | ❌ `http_error` | 2.13s | ClientResponseError: 404, message='Not Found', url='https://composer.opera-api.com/api/v1/a-chat' |
+| `aria` | image | ✅ `ok` | 12.89s | Valid image generation output |
+| `aria-legacy` | text | ❌ `http_error` | 2.30s | ClientResponseError: 404, message='Not Found', url='https://composer.opera-api.com/api/v1/a-chat' |
 
 ## Sample successful responses
 
 ### `aria` — image
 
 ```
-/media/1783020951_a_single_red_apple_on_a_white_background,_minimalist_bdd1a88053536162.png?url=http
+/media/1783070651_a_single_red_apple_on_a_white_background,_minimalist_6379159da68f8cac.png?url=http
 ```
 
