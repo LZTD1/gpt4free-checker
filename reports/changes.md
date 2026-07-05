@@ -1,7 +1,8 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **Perplexity** / `pplx_pro` (text)
+- **TeachAnything** / `gemma` (text)
 
 ## Newly Broken ❌
-- **CopilotApp** / `study` (text)
+- **Perplexity** / `pplx_pro` (text)
+- **Yqcloud** / `gpt-4` (text)
