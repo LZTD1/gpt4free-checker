@@ -1,7 +1,7 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **CopilotApp** / `study` (text)
+- **Perplexity** / `pplx_pro` (text)
 
 ## Newly Broken ❌
-- **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
+- **CopilotApp** / `study` (text)
