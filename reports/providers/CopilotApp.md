@@ -4,17 +4,17 @@
 - **URL:** https://play.google.com/store/apps/details?id=com.microsoft.copilot
 - **Models:** 5
 - **Working tests:** 4 / 5
-- **Avg response time:** 2.31s
+- **Avg response time:** 1.36s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ✅ `ok` | 1.43s | contains expected token 'PONG' |
-| `reasoning` | text | ✅ `ok` | 5.76s | contains expected token 'PONG' |
-| `search` | text | ✅ `ok` | 0.74s | contains expected token 'PONG' |
-| `smart` | text | ✅ `ok` | 1.32s | contains expected token 'PONG' |
-| `study` | text | ❌ `invalid` | 2.85s | expected 'PONG', got: 'It looks like you’re asking me to output exactly one word — **but** since you’re' |
+| `chat` | text | ✅ `ok` | 1.08s | contains expected token 'PONG' |
+| `reasoning` | text | ✅ `ok` | 2.67s | contains expected token 'PONG' |
+| `search` | text | ✅ `ok` | 0.70s | contains expected token 'PONG' |
+| `smart` | text | ✅ `ok` | 1.00s | contains expected token 'PONG' |
+| `study` | text | ❌ `invalid` | 2.62s | expected 'PONG', got: 'I can do that — but since you’re in **Study Mode**, I need to check one thing fi' |
 
 ## Sample successful responses
 

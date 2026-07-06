@@ -1,8 +1,9 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **TeachAnything** / `gemma` (text)
+- **BlackForestLabs_Flux1Dev** / `flux` (image)
+- **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
+- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
 
 ## Newly Broken ❌
-- **Perplexity** / `pplx_pro` (text)
-- **Yqcloud** / `gpt-4` (text)
+- **TeachAnything** / `gemma` (text)
