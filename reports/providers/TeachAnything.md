@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gemma` | text | ❌ `exception` | 0.64s | HTTPError: HTTP Error 500:  |
+| `gemma` | text | ❌ `exception` | 1.07s | HTTPError: HTTP Error 500:  |
