@@ -1,6 +1,6 @@
 # g4f providers — daily test report
 
-_Generated: `2026-07-06T20:52:45.163831+00:00`_
+_Generated: `2026-07-07T10:38:00.915694+00:00`_
 
 ## Overview
 
@@ -8,14 +8,14 @@ _Generated: `2026-07-06T20:52:45.163831+00:00`_
 - **Models discovered:** 151
 - **Tests run:** 151
 - **Successful:** 25 (16.56%)
-- **Avg response time (OK):** 4.224s
+- **Avg response time (OK):** 5.501s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 23 |
-| image | 2 |
+| text | 22 |
+| image | 3 |
 | audio | 0 |
 | video | 0 |
 
@@ -23,27 +23,27 @@ _Generated: `2026-07-06T20:52:45.163831+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `timeout` | 50 |
-| `invalid` | 43 |
+| `timeout` | 49 |
+| `invalid` | 42 |
 | `ok` | 25 |
 | `exception` | 21 |
 | `empty` | 8 |
-| `api_error` | 2 |
-| `rate_limited` | 1 |
-| `http_error` | 1 |
+| `http_error` | 3 |
+| `rate_limited` | 2 |
+| `api_error` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 1 | 22.80s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 0.40s | text | ✅ |
-| [ CopilotApp ](providers/CopilotApp.md) | 5 | 5 | 0 | 1.14s | text | ✅ |
-| [ Felo ](providers/Felo.md) | 5 | 3 | 2 | 5.42s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 2 | 1 | 1 | 13.16s | image | ✅ |
-| [ Qwen ](providers/Qwen.md) | 23 | 5 | 18 | 5.69s | text | ✅ |
-| [ WeWordle ](providers/WeWordle.md) | 7 | 5 | 2 | 1.88s | text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 8.23s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 23.71s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 1.90s | text | ✅ |
+| [ CopilotApp ](providers/CopilotApp.md) | 5 | 5 | 0 | 1.11s | text | ✅ |
+| [ Felo ](providers/Felo.md) | 5 | 3 | 2 | 5.37s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 2 | 1 | 1 | 13.51s | image | ✅ |
+| [ Qwen ](providers/Qwen.md) | 23 | 3 | 20 | 9.71s | text | ✅ |
+| [ WeWordle ](providers/WeWordle.md) | 7 | 6 | 1 | 2.61s | text | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 2.55s | text | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
