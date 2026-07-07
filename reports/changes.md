@@ -1,9 +1,9 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **BlackForestLabs_Flux1Dev** / `flux` (image)
-- **WeWordle** / `gpt-4o` (text)
+_No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **Qwen** / `qwen-latest-series-invite-beta-v16` (text)
-- **Qwen** / `qwen-latest-series-invite-beta-v24` (text)
+- **BlackForestLabs_Flux1Dev** / `flux` (image)
+- **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
+- **Yqcloud** / `gpt-4` (text)
