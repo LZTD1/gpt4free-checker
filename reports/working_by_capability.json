@@ -4,135 +4,147 @@
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-a-03-2025",
       "capability": "text",
-      "response_time": 0.363
+      "response_time": 8.17
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r-plus-08-2024",
       "capability": "text",
-      "response_time": 0.267
+      "response_time": 5.933
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-12-2024",
       "capability": "text",
-      "response_time": 0.253
+      "response_time": 2.955
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-arabic-02-2025",
       "capability": "text",
-      "response_time": 0.242
+      "response_time": 2.898
     },
     {
       "provider": "CopilotApp",
       "model": "smart",
       "capability": "text",
-      "response_time": 0.741
+      "response_time": 0.959
     },
     {
       "provider": "CopilotApp",
       "model": "reasoning",
       "capability": "text",
-      "response_time": 4.707
+      "response_time": 2.676
     },
     {
       "provider": "CopilotApp",
       "model": "chat",
       "capability": "text",
-      "response_time": 1.494
+      "response_time": 0.82
     },
     {
       "provider": "CopilotApp",
       "model": "study",
       "capability": "text",
-      "response_time": 3.396
+      "response_time": 2.291
     },
     {
       "provider": "CopilotApp",
       "model": "search",
       "capability": "text",
-      "response_time": 0.756
+      "response_time": 0.656
     },
     {
       "provider": "Felo",
       "model": "felo-chat",
       "capability": "text",
-      "response_time": 1.931
+      "response_time": 2.251
     },
     {
       "provider": "Felo",
       "model": "felo-scholar",
       "capability": "text",
-      "response_time": 10.517
+      "response_time": 9.385
     },
     {
       "provider": "Felo",
       "model": "felo-document",
       "capability": "text",
-      "response_time": 3.999
+      "response_time": 3.742
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-max-preview",
       "capability": "text",
-      "response_time": 5.924
+      "response_time": 7.481
     },
     {
       "provider": "Qwen",
       "model": "qwen3.5-max-2026-03-08",
       "capability": "text",
-      "response_time": 12.709
+      "response_time": 10.42
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-plus-preview",
       "capability": "text",
-      "response_time": 7.314
+      "response_time": 5.463
     },
     {
       "provider": "WeWordle",
       "model": "v3",
       "capability": "text",
-      "response_time": 2.753
+      "response_time": 1.395
     },
     {
       "provider": "WeWordle",
       "model": "gpt-4",
       "capability": "text",
-      "response_time": 1.624
+      "response_time": 4.055
     },
     {
       "provider": "WeWordle",
-      "model": "gpt-4o",
+      "model": "gpt-4o-mini",
       "capability": "text",
-      "response_time": 1.148
+      "response_time": 1.933
     },
     {
       "provider": "WeWordle",
       "model": "deepseek",
       "capability": "text",
-      "response_time": 1.716
+      "response_time": 2.85
     },
     {
       "provider": "WeWordle",
       "model": "deepseek-reasoner",
       "capability": "text",
-      "response_time": 1.898
+      "response_time": 2.28
     },
     {
       "provider": "WeWordle",
       "model": "deepseek-r1",
       "capability": "text",
-      "response_time": 1.015
+      "response_time": 2.898
     }
   ],
   "image": [
     {
+      "provider": "BlackForestLabs_Flux1Dev",
+      "model": "flux-dev",
+      "capability": "image",
+      "response_time": 23.441
+    },
+    {
+      "provider": "BlackForestLabs_Flux1Dev",
+      "model": "flux",
+      "capability": "image",
+      "response_time": 19.968
+    },
+    {
       "provider": "OperaAria",
       "model": "aria",
       "capability": "image",
-      "response_time": 12.557
+      "response_time": 14.711
     }
   ],
   "audio": [],
