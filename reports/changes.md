@@ -1,7 +1,9 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **Perplexity** / `o3_research` (text)
+- **Perplexity** / `claude40opus` (text)
+- **TeachAnything** / `gemma` (text)
 
 ## Newly Broken ❌
-- **Perplexity** / `claude40sonnetthinking_labs` (text)
+- **Perplexity** / `o3_research` (text)
+- **Yqcloud** / `gpt-4` (text)

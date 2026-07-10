@@ -18,7 +18,7 @@
 | `gpt-4o` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-4o-mini` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-5` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `gpt-5-1` | text | ❌ `exception` | 10.23s | Exception: 
+| `gpt-5-1` | text | ❌ `exception` | 9.53s | Exception: 
                 ---------------------
                 Failed to connect to browser
                 ---------------------
@@ -33,7 +33,7 @@
 | `gpt-image` | image | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `o1` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `o1-mini` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `o3-mini` | text | ❌ `exception` | 4.37s | Exception: 
+| `o3-mini` | text | ❌ `exception` | 7.57s | Exception: 
                 ---------------------
                 Failed to connect to browser
                 ---------------------
