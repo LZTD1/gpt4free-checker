@@ -1,7 +1,9 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **CopilotApp** / `study` (text)
+- **Perplexity** / `claude40sonnetthinking_labs` (text)
 
 ## Newly Broken ❌
-- **Perplexity** / `claude40opus` (text)
+- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+- **CopilotApp** / `study` (text)
+- **TeachAnything** / `gemma` (text)
