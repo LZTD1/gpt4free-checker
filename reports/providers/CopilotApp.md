@@ -4,17 +4,17 @@
 - **URL:** https://play.google.com/store/apps/details?id=com.microsoft.copilot
 - **Models:** 5
 - **Working tests:** 4 / 5
-- **Avg response time:** 0.93s
+- **Avg response time:** 0.95s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ✅ `ok` | 1.01s | contains expected token 'PONG' |
-| `reasoning` | text | ✅ `ok` | 1.27s | contains expected token 'PONG' |
-| `search` | text | ✅ `ok` | 0.65s | contains expected token 'PONG' |
-| `smart` | text | ✅ `ok` | 0.81s | contains expected token 'PONG' |
-| `study` | text | ❌ `invalid` | 3.42s | expected 'PONG', got: 'It looks like you’re asking for a **single-word reply**, but since you’re in **S' |
+| `chat` | text | ✅ `ok` | 0.96s | contains expected token 'PONG' |
+| `reasoning` | text | ✅ `ok` | 1.13s | contains expected token 'PONG' |
+| `search` | text | ✅ `ok` | 0.68s | contains expected token 'PONG' |
+| `smart` | text | ✅ `ok` | 1.05s | contains expected token 'PONG' |
+| `study` | text | ❌ `invalid` | 1.75s | expected 'PONG', got: "Before I reply: you're in **Study mode**, and one of the strict rules is that I " |
 
 ## Sample successful responses
 
