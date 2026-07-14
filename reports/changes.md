@@ -1,9 +1,8 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-_No newly working capabilities since last run._
+- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+- **WeWordle** / `gpt-4o-mini` (text)
 
 ## Newly Broken ❌
-- **Perplexity** / `r1` (text)
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
-- **TeachAnything** / `gemma` (text)
+- **Felo** / `felo-scholar` (text)
