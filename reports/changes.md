@@ -1,12 +1,9 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
-- **CopilotApp** / `study` (text)
-- **Perplexity** / `r1` (text)
-- **Qwen** / `qwen3.5-max-2026-03-08` (text)
+_No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **Perplexity** / `claude40opus` (text)
-- **WeWordle** / `gpt-4o` (text)
-- **Yqcloud** / `gpt-4` (text)
+- **Perplexity** / `r1` (text)
+- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+- **TeachAnything** / `gemma` (text)
