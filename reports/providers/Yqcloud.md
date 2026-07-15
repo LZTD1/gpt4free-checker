@@ -4,13 +4,13 @@
 - **URL:** https://chat9.yqcloud.top
 - **Models:** 1
 - **Working tests:** 1 / 1
-- **Avg response time:** 10.05s
+- **Avg response time:** 2.83s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gpt-4` | text | ✅ `ok` | 10.05s | contains expected token 'PONG' |
+| `gpt-4` | text | ✅ `ok` | 2.83s | contains expected token 'PONG' |
 
 ## Sample successful responses
 
