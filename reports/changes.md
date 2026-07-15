@@ -1,8 +1,10 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
-- **WeWordle** / `gpt-4o-mini` (text)
+- **Yqcloud** / `gpt-4` (text)
 
 ## Newly Broken ❌
-- **Felo** / `felo-scholar` (text)
+- **BlackForestLabs_Flux1Dev** / `flux` (image)
+- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+- **WeWordle** / `gpt-4o-mini` (text)
