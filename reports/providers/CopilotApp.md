@@ -4,17 +4,17 @@
 - **URL:** https://play.google.com/store/apps/details?id=com.microsoft.copilot
 - **Models:** 5
 - **Working tests:** 5 / 5
-- **Avg response time:** 1.23s
+- **Avg response time:** 0.93s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ✅ `ok` | 1.66s | contains expected token 'PONG' |
-| `reasoning` | text | ✅ `ok` | 1.38s | contains expected token 'PONG' |
-| `search` | text | ✅ `ok` | 0.89s | contains expected token 'PONG' |
-| `smart` | text | ✅ `ok` | 1.21s | contains expected token 'PONG' |
-| `study` | text | ✅ `ok` | 1.00s | contains expected token 'PONG' |
+| `chat` | text | ✅ `ok` | 0.82s | contains expected token 'PONG' |
+| `reasoning` | text | ✅ `ok` | 1.52s | contains expected token 'PONG' |
+| `search` | text | ✅ `ok` | 0.54s | contains expected token 'PONG' |
+| `smart` | text | ✅ `ok` | 1.00s | contains expected token 'PONG' |
+| `study` | text | ✅ `ok` | 0.77s | contains expected token 'PONG' |
 
 ## Sample successful responses
 
