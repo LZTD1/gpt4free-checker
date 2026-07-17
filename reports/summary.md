@@ -1,20 +1,20 @@
 # g4f providers — daily test report
 
-_Generated: `2026-07-16T20:07:54.731249+00:00`_
+_Generated: `2026-07-17T09:08:06.001445+00:00`_
 
 ## Overview
 
 - **Providers:** 7 / 38 working
 - **Models discovered:** 151
 - **Tests run:** 151
-- **Successful:** 19 (12.58%)
-- **Avg response time (OK):** 6.443s
+- **Successful:** 20 (13.25%)
+- **Avg response time (OK):** 5.494s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 16 |
+| text | 17 |
 | image | 3 |
 | audio | 0 |
 | video | 0 |
@@ -23,25 +23,25 @@ _Generated: `2026-07-16T20:07:54.731249+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `timeout` | 50 |
-| `invalid` | 45 |
-| `exception` | 21 |
-| `ok` | 19 |
-| `empty` | 8 |
+| `timeout` | 49 |
+| `invalid` | 44 |
+| `exception` | 22 |
+| `ok` | 20 |
+| `empty` | 7 |
 | `http_error` | 7 |
-| `rate_limited` | 1 |
+| `rate_limited` | 2 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 22.04s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.34s | text | ✅ |
-| [ CopilotApp ](providers/CopilotApp.md) | 5 | 5 | 0 | 0.93s | text | ✅ |
-| [ Felo ](providers/Felo.md) | 5 | 2 | 3 | 5.82s | text | ✅ |
-| [ Qwen ](providers/Qwen.md) | 23 | 1 | 22 | 2.59s | text | ✅ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 1 | 0 | 34.35s | image | ✅ |
-| [ WeWordle ](providers/WeWordle.md) | 7 | 5 | 2 | 4.82s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 21.47s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.63s | text | ✅ |
+| [ CopilotApp ](providers/CopilotApp.md) | 5 | 5 | 0 | 1.01s | text | ✅ |
+| [ Felo ](providers/Felo.md) | 5 | 2 | 3 | 3.72s | text | ✅ |
+| [ Qwen ](providers/Qwen.md) | 23 | 1 | 22 | 2.33s | text | ✅ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 1 | 0 | 34.98s | image | ✅ |
+| [ WeWordle ](providers/WeWordle.md) | 7 | 6 | 1 | 2.54s | text | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
