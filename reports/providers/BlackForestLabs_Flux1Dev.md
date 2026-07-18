@@ -3,27 +3,12 @@
 - **Label:** BlackForestLabs Flux-1-Dev
 - **URL:** https://black-forest-labs-flux-1-dev.hf.space
 - **Models:** 2
-- **Working tests:** 2 / 2
-- **Avg response time:** 21.47s
+- **Working tests:** 0 / 2
+- **Avg response time:** —
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `flux` | image | ✅ `ok` | 19.84s | Valid image generation output |
-| `flux-dev` | image | ✅ `ok` | 23.10s | Valid image generation output |
-
-## Sample successful responses
-
-### `flux-dev` — image
-
-```
-/media/1784276279_a_single_red_apple_on_a_white_background,_minimalist_5654cc8f72e97344.webp?url=htt
-```
-
-### `flux` — image
-
-```
-/media/1784276301_a_single_red_apple_on_a_white_background,_minimalist_e667086c45cbfede.webp?url=htt
-```
-
+| `flux` | image | ❌ `api_error` | 0.17s | ResponseError: You have exceeded your ZeroGPU quota (112s requested vs. 79s left). Try again in 5:47:15. Authenticate with a Hugging Face token for more quota - |
+| `flux-dev` | image | ❌ `api_error` | 0.10s | ResponseError: You have exceeded your ZeroGPU quota (112s requested vs. 79s left). Try again in 5:47:59. Authenticate with a Hugging Face token for more quota - |

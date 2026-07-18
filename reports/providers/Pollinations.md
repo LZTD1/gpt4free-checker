@@ -1,4 +1,4 @@
-# PollinationsAI
+# Pollinations
 
 - **Label:** Pollinations 🌸
 - **URL:** https://pollinations.ai
