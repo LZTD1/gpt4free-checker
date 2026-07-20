@@ -1,10 +1,9 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **CopilotApp** / `study` (text)
-- **OperaAria** / `aria` (image)
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+- **Perplexity** / `o3` (text)
 
 ## Newly Broken ❌
-- **Perplexity** / `gpt5` (text)
-- **Perplexity** / `o3` (text)
+- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+- **CopilotApp** / `study` (text)
+- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
