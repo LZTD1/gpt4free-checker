@@ -1,11 +1,10 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **BlackForestLabs_Flux1Dev** / `flux` (image)
-- **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
-- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
-- **Perplexity** / `pplx_beta` (text)
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+- **Perplexity** / `claude2` (text)
+- **WeWordle** / `gpt-4o` (text)
 
 ## Newly Broken ❌
-- **Yqcloud** / `gpt-4` (text)
+- **CohereForAI_C4AI_Command** / `command-r-plus-08-2024` (text)
+- **Perplexity** / `pplx_beta` (text)
+- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
