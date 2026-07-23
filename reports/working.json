@@ -1,116 +1,110 @@
 [
   {
-    "provider": "BlackForestLabs_Flux1Dev",
-    "model": "flux-dev",
-    "capability": "image",
-    "response_time": 41.394
-  },
-  {
-    "provider": "BlackForestLabs_Flux1Dev",
-    "model": "flux",
-    "capability": "image",
-    "response_time": 42.565
-  },
-  {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-a-03-2025",
     "capability": "text",
-    "response_time": 43.047
+    "response_time": 43.153
+  },
+  {
+    "provider": "CohereForAI_C4AI_Command",
+    "model": "command-r-plus-08-2024",
+    "capability": "text",
+    "response_time": 44.209
   },
   {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-r7b-12-2024",
     "capability": "text",
-    "response_time": 43.752
+    "response_time": 22.613
   },
   {
     "provider": "CohereForAI_C4AI_Command",
     "model": "command-r7b-arabic-02-2025",
     "capability": "text",
-    "response_time": 22.023
+    "response_time": 42.568
   },
   {
     "provider": "CopilotApp",
     "model": "smart",
     "capability": "text",
-    "response_time": 0.843
+    "response_time": 0.915
   },
   {
     "provider": "CopilotApp",
     "model": "reasoning",
     "capability": "text",
-    "response_time": 1.209
+    "response_time": 1.082
   },
   {
     "provider": "CopilotApp",
     "model": "chat",
     "capability": "text",
-    "response_time": 0.852
-  },
-  {
-    "provider": "CopilotApp",
-    "model": "study",
-    "capability": "text",
-    "response_time": 21.025
+    "response_time": 1.059
   },
   {
     "provider": "CopilotApp",
     "model": "search",
     "capability": "text",
-    "response_time": 0.623
+    "response_time": 0.708
   },
   {
     "provider": "OperaAria",
     "model": "aria",
     "capability": "image",
-    "response_time": 43.545
+    "response_time": 44.285
   },
   {
     "provider": "Perplexity",
-    "model": "claude2",
+    "model": "gpt5",
     "capability": "text",
-    "response_time": 22.026
+    "response_time": 1.801
+  },
+  {
+    "provider": "Perplexity",
+    "model": "claude45sonnet",
+    "capability": "text",
+    "response_time": 22.025
   },
   {
     "provider": "Qwen",
     "model": "qwen3.6-max-preview",
     "capability": "text",
-    "response_time": 41.961
+    "response_time": 42.617
   },
   {
     "provider": "WeWordle",
     "model": "v3",
     "capability": "text",
-    "response_time": 22.025
+    "response_time": 22.033
   },
   {
     "provider": "WeWordle",
     "model": "gpt-4",
     "capability": "text",
-    "response_time": 41.125
-  },
-  {
-    "provider": "WeWordle",
-    "model": "gpt-4o",
-    "capability": "text",
-    "response_time": 21.028
+    "response_time": 22.028
   },
   {
     "provider": "WeWordle",
     "model": "deepseek",
     "capability": "text",
-    "response_time": 22.026
+    "response_time": 21.028
   },
   {
     "provider": "WeWordle",
     "model": "deepseek-reasoner",
     "capability": "text",
-    "response_time": 21.034
+    "response_time": 22.469
   },
   {
     "provider": "WeWordle",
     "model": "deepseek-r1",
     "capability": "text",
-    "response_time": 1.365
+    "response_time": 1.575
+  },
+  {
+    "provider": "Yqcloud",
+    "model": "gpt-4",
+    "capability": "text",
+    "response_time": 21.025
   }
 ]
