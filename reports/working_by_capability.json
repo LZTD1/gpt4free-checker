@@ -2,113 +2,143 @@
   "text": [
     {
       "provider": "CohereForAI_C4AI_Command",
-      "model": "command-a-03-2025",
-      "capability": "text",
-      "response_time": 43.153
-    },
-    {
-      "provider": "CohereForAI_C4AI_Command",
       "model": "command-r-plus-08-2024",
       "capability": "text",
-      "response_time": 44.209
+      "response_time": 0.451
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-12-2024",
       "capability": "text",
-      "response_time": 22.613
+      "response_time": 0.51
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-arabic-02-2025",
       "capability": "text",
-      "response_time": 42.568
+      "response_time": 1.498
     },
     {
       "provider": "CopilotApp",
       "model": "smart",
       "capability": "text",
-      "response_time": 0.915
+      "response_time": 21.072
     },
     {
       "provider": "CopilotApp",
       "model": "reasoning",
       "capability": "text",
-      "response_time": 1.082
+      "response_time": 1.176
     },
     {
       "provider": "CopilotApp",
       "model": "chat",
       "capability": "text",
-      "response_time": 1.059
+      "response_time": 0.941
+    },
+    {
+      "provider": "CopilotApp",
+      "model": "study",
+      "capability": "text",
+      "response_time": 1.064
     },
     {
       "provider": "CopilotApp",
       "model": "search",
       "capability": "text",
-      "response_time": 0.708
+      "response_time": 0.831
     },
     {
-      "provider": "Perplexity",
-      "model": "gpt5",
+      "provider": "Gemini",
+      "model": "gemini-auto",
       "capability": "text",
-      "response_time": 1.801
+      "response_time": 21.028
     },
     {
-      "provider": "Perplexity",
-      "model": "claude45sonnet",
+      "provider": "Gemini",
+      "model": "gemini-2.0",
       "capability": "text",
-      "response_time": 22.025
+      "response_time": 20.243
+    },
+    {
+      "provider": "Gemini",
+      "model": "gemini-2.0-flash",
+      "capability": "text",
+      "response_time": 22.026
+    },
+    {
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash",
+      "capability": "text",
+      "response_time": 22.026
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-max-preview",
       "capability": "text",
-      "response_time": 42.617
+      "response_time": 42.006
     },
     {
       "provider": "WeWordle",
       "model": "v3",
       "capability": "text",
-      "response_time": 22.033
+      "response_time": 22.027
     },
     {
       "provider": "WeWordle",
       "model": "gpt-4",
       "capability": "text",
-      "response_time": 22.028
+      "response_time": 21.031
     },
     {
       "provider": "WeWordle",
       "model": "deepseek",
       "capability": "text",
-      "response_time": 21.028
+      "response_time": 21.911
     },
     {
       "provider": "WeWordle",
       "model": "deepseek-reasoner",
       "capability": "text",
-      "response_time": 22.469
+      "response_time": 21.03
     },
     {
       "provider": "WeWordle",
       "model": "deepseek-r1",
       "capability": "text",
-      "response_time": 1.575
+      "response_time": 22.424
     },
     {
       "provider": "Yqcloud",
       "model": "gpt-4",
       "capability": "text",
-      "response_time": 21.025
+      "response_time": 21.03
     }
   ],
   "image": [
     {
+      "provider": "BlackForestLabs_Flux1Dev",
+      "model": "flux-dev",
+      "capability": "image",
+      "response_time": 41.301
+    },
+    {
+      "provider": "BlackForestLabs_Flux1Dev",
+      "model": "flux",
+      "capability": "image",
+      "response_time": 22.146
+    },
+    {
       "provider": "OperaAria",
       "model": "aria",
       "capability": "image",
-      "response_time": 44.285
+      "response_time": 43.899
+    },
+    {
+      "provider": "StabilityAI_SD35Large",
+      "model": "sd-3.5-large",
+      "capability": "image",
+      "response_time": 43.249
     }
   ],
   "audio": [],
