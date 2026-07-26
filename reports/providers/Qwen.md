@@ -4,35 +4,35 @@
 - **URL:** https://chat.qwen.ai
 - **Models:** 23
 - **Working tests:** 1 / 23
-- **Avg response time:** 42.28s
+- **Avg response time:** 41.13s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `qwen3.6-max-preview` | text | ✅ `ok` | 42.28s | contains expected token 'PONG' |
-| `qwen-latest-series-invite-beta-v16` | text | ❌ `http_error` | 0.77s | RuntimeError: Response: {'success': False, 'request_id': '892ed583-2192-434c-aa26-6cd9c5dd9871', 'data': {'code': 'Not_Found', 'details': 'Model not found'}} |
-| `qwen-latest-series-invite-beta-v24` | text | ❌ `http_error` | 0.73s | RuntimeError: Response: {'success': False, 'request_id': '6b68eb09-3259-4aef-bc11-aa8b782dc815', 'data': {'code': 'Not_Found', 'details': 'Model not found'}} |
-| `qwen-plus-2025-07-28` | image | ❌ `exception` | 41.21s | NoMediaResponseError: No media response from Qwen |
-| `qwen3-coder-plus` | image | ❌ `exception` | 41.46s | NoMediaResponseError: No media response from Qwen |
-| `qwen3-max-2026-01-23` | image | ❌ `exception` | 41.41s | NoMediaResponseError: No media response from Qwen |
-| `qwen3-omni-flash-2025-12-01` | image | ❌ `exception` | 21.03s | NoMediaResponseError: No media response from Qwen |
-| `qwen3-vl-plus` | image | ❌ `exception` | 41.53s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.5-122b-a10b` | image | ❌ `http_error` | 1.00s | RuntimeError: Response: {'success': False, 'request_id': '3f32c15b-3dfd-4d12-a7f3-029b0b48602f', 'data': {'code': 'Not_Found', 'details': 'Model not found'}} |
-| `qwen3.5-27b` | image | ❌ `http_error` | 0.74s | RuntimeError: Response: {'success': False, 'request_id': '8411e064-6a89-47ad-955a-089d84f9695b', 'data': {'code': 'Not_Found', 'details': 'Model not found'}} |
-| `qwen3.5-35b-a3b` | image | ❌ `http_error` | 0.75s | RuntimeError: Response: {'success': False, 'request_id': '1314fa78-38bf-4652-af8a-a09c534e77a8', 'data': {'code': 'Not_Found', 'details': 'Model not found'}} |
-| `qwen3.5-397b-a17b` | image | ❌ `exception` | 41.45s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.6-max-preview` | text | ✅ `ok` | 41.13s | contains expected token 'PONG' |
+| `qwen-latest-series-invite-beta-v16` | text | ❌ `http_error` | 0.87s | RuntimeError: Response: {'success': False, 'request_id': '63385418-cdeb-4208-bfd6-c488d940effa', 'data': {'code': 'Not_Found', 'details': 'Model not found'}} |
+| `qwen-latest-series-invite-beta-v24` | text | ❌ `http_error` | 1.29s | RuntimeError: Response: {'success': False, 'request_id': '1ca8953a-8e76-4f03-a2ec-4e636d6f9032', 'data': {'code': 'Not_Found', 'details': 'Model not found'}} |
+| `qwen-plus-2025-07-28` | image | ❌ `exception` | 21.03s | NoMediaResponseError: No media response from Qwen |
+| `qwen3-coder-plus` | image | ❌ `exception` | 41.27s | NoMediaResponseError: No media response from Qwen |
+| `qwen3-max-2026-01-23` | image | ❌ `exception` | 41.22s | NoMediaResponseError: No media response from Qwen |
+| `qwen3-omni-flash-2025-12-01` | image | ❌ `exception` | 21.04s | NoMediaResponseError: No media response from Qwen |
+| `qwen3-vl-plus` | image | ❌ `exception` | 43.05s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.5-122b-a10b` | image | ❌ `http_error` | 0.91s | RuntimeError: Response: {'success': False, 'request_id': 'dbee49cd-01ad-42ce-b468-00e3b0f36da5', 'data': {'code': 'Not_Found', 'details': 'Model not found'}} |
+| `qwen3.5-27b` | image | ❌ `http_error` | 0.96s | RuntimeError: Response: {'success': False, 'request_id': '9e31be7a-40b4-4545-832f-d3ffdb017287', 'data': {'code': 'Not_Found', 'details': 'Model not found'}} |
+| `qwen3.5-35b-a3b` | image | ❌ `http_error` | 0.84s | RuntimeError: Response: {'success': False, 'request_id': 'bf0da17d-3512-4dc7-a1e4-08a83f3261da', 'data': {'code': 'Not_Found', 'details': 'Model not found'}} |
+| `qwen3.5-397b-a17b` | image | ❌ `exception` | 21.03s | NoMediaResponseError: No media response from Qwen |
 | `qwen3.5-flash` | image | ❌ `exception` | 21.03s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.5-max-2026-03-08` | text | ❌ `http_error` | 0.78s | RuntimeError: Response: {'success': False, 'request_id': 'ce18facd-85d5-4da2-a118-75e4d883a34e', 'data': {'code': 'Not_Found', 'details': 'Model not found'}} |
-| `qwen3.5-omni-flash` | image | ❌ `exception` | 43.05s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.5-omni-plus` | image | ❌ `exception` | 41.53s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.5-plus` | image | ❌ `exception` | 41.42s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.6-27b` | image | ❌ `exception` | 41.40s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.6-35b-a3b` | image | ❌ `exception` | 22.03s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.6-plus` | image | ❌ `exception` | 21.03s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.6-plus-preview` | text | ❌ `http_error` | 0.79s | RuntimeError: Response: {'success': False, 'request_id': '2f4e66ba-149b-4c7e-9d17-7aedd1339007', 'data': {'code': 'Not_Found', 'details': 'Model not found'}} |
-| `qwen3.7-max` | image | ❌ `exception` | 21.03s | NoMediaResponseError: No media response from Qwen |
-| `qwen3.7-plus` | image | ❌ `exception` | 21.03s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.5-max-2026-03-08` | text | ❌ `http_error` | 1.13s | RuntimeError: Response: {'success': False, 'request_id': 'df009270-f55a-475f-be30-5186347c0af0', 'data': {'code': 'Not_Found', 'details': 'Model not found'}} |
+| `qwen3.5-omni-flash` | image | ❌ `exception` | 41.51s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.5-omni-plus` | image | ❌ `exception` | 21.03s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.5-plus` | image | ❌ `exception` | 41.27s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.6-27b` | image | ❌ `exception` | 22.03s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.6-35b-a3b` | image | ❌ `timeout` | 63.49s | Timeout limit exceeded |
+| `qwen3.6-plus` | image | ❌ `exception` | 43.05s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.6-plus-preview` | text | ❌ `http_error` | 0.82s | RuntimeError: Response: {'success': False, 'request_id': 'd11c6987-7058-4e18-90cf-3cca98033aca', 'data': {'code': 'Not_Found', 'details': 'Model not found'}} |
+| `qwen3.7-max` | image | ❌ `exception` | 41.51s | NoMediaResponseError: No media response from Qwen |
+| `qwen3.7-plus` | image | ❌ `exception` | 22.02s | NoMediaResponseError: No media response from Qwen |
 
 ## Sample successful responses
 
