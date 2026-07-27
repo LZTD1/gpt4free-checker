@@ -3,18 +3,18 @@
 - **Label:** Copilot App
 - **URL:** https://play.google.com/store/apps/details?id=com.microsoft.copilot
 - **Models:** 5
-- **Working tests:** 5 / 5
-- **Avg response time:** 4.98s
+- **Working tests:** 4 / 5
+- **Avg response time:** 10.93s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ✅ `ok` | 1.04s | contains expected token 'PONG' |
-| `reasoning` | text | ✅ `ok` | 1.24s | contains expected token 'PONG' |
-| `search` | text | ✅ `ok` | 0.76s | contains expected token 'PONG' |
-| `smart` | text | ✅ `ok` | 0.87s | contains expected token 'PONG' |
-| `study` | text | ✅ `ok` | 20.99s | contains expected token 'PONG' |
+| `chat` | text | ✅ `ok` | 0.95s | contains expected token 'PONG' |
+| `reasoning` | text | ✅ `ok` | 21.07s | contains expected token 'PONG' |
+| `search` | text | ✅ `ok` | 0.66s | contains expected token 'PONG' |
+| `smart` | text | ✅ `ok` | 21.04s | contains expected token 'PONG' |
+| `study` | text | ❌ `invalid` | 1.78s | expected 'PONG', got: 'It looks like you’re asking me to reply with exactly one word — **but** in Study' |
 
 ## Sample successful responses
 
@@ -34,13 +34,6 @@ PONG
 
 ```
 PONG
-```
-
-### `study` — text
-
-```
-I can do that.  
-**PONG**
 ```
 
 ### `search` — text
