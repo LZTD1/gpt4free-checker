@@ -10,5 +10,5 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `deepseek` | text | ❌ `exception` | 0.31s | RuntimeError: Failed to extract nonce from PhindAi response |
-| `deepseek-v3` | text | ❌ `exception` | 0.38s | RuntimeError: Failed to extract nonce from PhindAi response |
+| `deepseek` | text | ❌ `exception` | 0.30s | RuntimeError: Failed to extract nonce from PhindAi response |
+| `deepseek-v3` | text | ❌ `exception` | 0.29s | RuntimeError: Failed to extract nonce from PhindAi response |
