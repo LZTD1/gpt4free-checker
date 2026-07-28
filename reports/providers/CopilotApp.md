@@ -3,18 +3,18 @@
 - **Label:** Copilot App
 - **URL:** https://play.google.com/store/apps/details?id=com.microsoft.copilot
 - **Models:** 5
-- **Working tests:** 4 / 5
-- **Avg response time:** 10.93s
+- **Working tests:** 5 / 5
+- **Avg response time:** 16.79s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ✅ `ok` | 0.95s | contains expected token 'PONG' |
-| `reasoning` | text | ✅ `ok` | 21.07s | contains expected token 'PONG' |
-| `search` | text | ✅ `ok` | 0.66s | contains expected token 'PONG' |
+| `chat` | text | ✅ `ok` | 21.03s | contains expected token 'PONG' |
+| `reasoning` | text | ✅ `ok` | 1.33s | contains expected token 'PONG' |
+| `search` | text | ✅ `ok` | 20.28s | contains expected token 'PONG' |
 | `smart` | text | ✅ `ok` | 21.04s | contains expected token 'PONG' |
-| `study` | text | ❌ `invalid` | 1.78s | expected 'PONG', got: 'It looks like you’re asking me to reply with exactly one word — **but** in Study' |
+| `study` | text | ✅ `ok` | 20.26s | contains expected token 'PONG' |
 
 ## Sample successful responses
 
@@ -31,6 +31,12 @@ PONG
 ```
 
 ### `chat` — text
+
+```
+PONG
+```
+
+### `study` — text
 
 ```
 PONG

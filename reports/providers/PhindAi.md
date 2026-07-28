@@ -10,5 +10,5 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `deepseek` | text | ❌ `exception` | 20.26s | ResponseStatusError: Response 403: {'success': False, 'data': {'message': 'Security check is required. Please refresh the page and try again.'}} |
-| `deepseek-v3` | text | ❌ `exception` | 1.07s | ResponseStatusError: Response 403: {'success': False, 'data': {'message': 'Security check is required. Please refresh the page and try again.'}} |
+| `deepseek` | text | ❌ `exception` | 0.30s | RuntimeError: Failed to extract nonce from PhindAi response |
+| `deepseek-v3` | text | ❌ `exception` | 0.29s | RuntimeError: Failed to extract nonce from PhindAi response |
