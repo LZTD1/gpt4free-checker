@@ -4,17 +4,17 @@
 - **URL:** https://play.google.com/store/apps/details?id=com.microsoft.copilot
 - **Models:** 5
 - **Working tests:** 5 / 5
-- **Avg response time:** 5.10s
+- **Avg response time:** 4.85s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ✅ `ok` | 1.02s | contains expected token 'PONG' |
-| `reasoning` | text | ✅ `ok` | 1.84s | contains expected token 'PONG' |
-| `search` | text | ✅ `ok` | 21.03s | contains expected token 'PONG' |
-| `smart` | text | ✅ `ok` | 0.81s | contains expected token 'PONG' |
-| `study` | text | ✅ `ok` | 0.82s | contains expected token 'PONG' |
+| `chat` | text | ✅ `ok` | 0.90s | contains expected token 'PONG' |
+| `reasoning` | text | ✅ `ok` | 0.94s | contains expected token 'PONG' |
+| `search` | text | ✅ `ok` | 0.67s | contains expected token 'PONG' |
+| `smart` | text | ✅ `ok` | 0.76s | contains expected token 'PONG' |
+| `study` | text | ✅ `ok` | 21.00s | contains expected token 'PONG' |
 
 ## Sample successful responses
 
@@ -39,7 +39,9 @@ PONG
 ### `study` — text
 
 ```
-PONG
+It looks like you’re asking me to reply with exactly one word — **PONG** — and nothing else.
+
+Since you’re in **Study Mo
 ```
 
 ### `search` — text
