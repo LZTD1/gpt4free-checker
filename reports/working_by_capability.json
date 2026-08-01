@@ -2,117 +2,117 @@
   "text": [
     {
       "provider": "CohereForAI_C4AI_Command",
+      "model": "command-a-03-2025",
+      "capability": "text",
+      "response_time": 0.82
+    },
+    {
+      "provider": "CohereForAI_C4AI_Command",
       "model": "command-r-plus-08-2024",
       "capability": "text",
-      "response_time": 0.693
+      "response_time": 0.404
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-12-2024",
       "capability": "text",
-      "response_time": 1.355
+      "response_time": 0.343
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-arabic-02-2025",
       "capability": "text",
-      "response_time": 0.639
+      "response_time": 0.324
     },
     {
       "provider": "CopilotApp",
       "model": "smart",
       "capability": "text",
-      "response_time": 0.756
+      "response_time": 0.982
     },
     {
       "provider": "CopilotApp",
       "model": "reasoning",
       "capability": "text",
-      "response_time": 0.945
+      "response_time": 1.003
     },
     {
       "provider": "CopilotApp",
       "model": "chat",
       "capability": "text",
-      "response_time": 0.9
+      "response_time": 1.254
     },
     {
       "provider": "CopilotApp",
       "model": "study",
       "capability": "text",
-      "response_time": 21.0
+      "response_time": 21.016
     },
     {
       "provider": "CopilotApp",
       "model": "search",
       "capability": "text",
-      "response_time": 0.674
+      "response_time": 0.679
     },
     {
       "provider": "Gemini",
       "model": "gemini-auto",
       "capability": "text",
-      "response_time": 21.023
+      "response_time": 20.866
     },
     {
       "provider": "Gemini",
       "model": "gemini-2.0",
       "capability": "text",
-      "response_time": 21.025
+      "response_time": 21.029
     },
     {
       "provider": "Gemini",
       "model": "gemini-2.0-flash",
       "capability": "text",
-      "response_time": 21.573
+      "response_time": 2.36
     },
     {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "capability": "text",
-      "response_time": 20.157
+      "response_time": 21.559
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-max-preview",
       "capability": "text",
-      "response_time": 22.032
+      "response_time": 42.064
     },
     {
       "provider": "WeWordle",
       "model": "v3",
       "capability": "text",
-      "response_time": 21.591
+      "response_time": 41.108
     },
     {
       "provider": "WeWordle",
       "model": "gpt-4",
       "capability": "text",
-      "response_time": 20.677
+      "response_time": 21.799
     },
     {
       "provider": "WeWordle",
       "model": "deepseek",
       "capability": "text",
-      "response_time": 22.027
+      "response_time": 21.029
     },
     {
       "provider": "WeWordle",
       "model": "deepseek-reasoner",
       "capability": "text",
-      "response_time": 41.613
+      "response_time": 22.28
     },
     {
       "provider": "WeWordle",
       "model": "deepseek-r1",
       "capability": "text",
-      "response_time": 42.424
-    },
-    {
-      "provider": "Yqcloud",
-      "model": "gpt-4",
-      "capability": "text",
-      "response_time": 21.027
+      "response_time": 0.915
     }
   ],
   "image": [
@@ -120,19 +120,25 @@
       "provider": "BlackForestLabs_Flux1Dev",
       "model": "flux-dev",
       "capability": "image",
-      "response_time": 41.602
+      "response_time": 41.199
     },
     {
       "provider": "BlackForestLabs_Flux1Dev",
       "model": "flux",
       "capability": "image",
-      "response_time": 43.571
+      "response_time": 22.247
     },
     {
       "provider": "OperaAria",
       "model": "aria",
       "capability": "image",
-      "response_time": 44.221
+      "response_time": 43.603
+    },
+    {
+      "provider": "StabilityAI_SD35Large",
+      "model": "sd-3.5-large",
+      "capability": "image",
+      "response_time": 43.24
     }
   ],
   "audio": [],
