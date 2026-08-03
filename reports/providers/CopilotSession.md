@@ -10,11 +10,7 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `Copilot` | text | ❌ `exception` | 44.11s | Exception: 
-                ---------------------
-                Failed to connect to browser
-                ---------------------
-                One of the  |
-| `Smart (GPT-5)` | text | ❌ `timeout` | 64.94s | Timeout limit exceeded |
-| `Study` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `Think Deeper` | text | ❌ `timeout` | 63.34s | Timeout limit exceeded |
+| `Copilot` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
+| `Smart (GPT-5)` | text | ❌ `timeout` | 64.64s | Timeout limit exceeded |
+| `Study` | text | ❌ `timeout` | 64.81s | Timeout limit exceeded |
+| `Think Deeper` | text | ❌ `timeout` | 63.20s | Timeout limit exceeded |
