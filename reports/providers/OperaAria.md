@@ -10,5 +10,5 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `aria` | image | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `aria-legacy` | text | ❌ `http_error` | 22.55s | ClientResponseError: 404, message='Not Found', url='https://composer.opera-api.com/api/v1/a-chat' |
+| `aria` | image | ❌ `timeout` | 64.63s | Timeout limit exceeded |
+| `aria-legacy` | text | ❌ `http_error` | 1.76s | ClientResponseError: 404, message='Not Found', url='https://composer.opera-api.com/api/v1/a-chat' |
