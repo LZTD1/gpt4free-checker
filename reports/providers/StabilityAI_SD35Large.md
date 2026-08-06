@@ -4,19 +4,19 @@
 - **URL:** https://stabilityai-stable-diffusion-3-5-large.hf.space
 - **Models:** 1
 - **Working tests:** 1 / 1
-- **Avg response time:** 43.41s
+- **Avg response time:** 43.20s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `sd-3.5-large` | image | ✅ `ok` | 43.41s | Valid image generation output |
+| `sd-3.5-large` | image | ✅ `ok` | 43.20s | Valid image generation output |
 
 ## Sample successful responses
 
 ### `sd-3.5-large` — image
 
 ```
-/media/1785959288_a_single_red_apple_on_a_white_background,_minimalist_f5a186de348ec6a0.webp?url=htt
+/media/1786006344_a_single_red_apple_on_a_white_background,_minimalist_29fd84762dcd2da4.webp?url=htt
 ```
 

@@ -2,31 +2,35 @@
 
 - **Label:** Google Gemini
 - **URL:** https://gemini.google.com
-- **Models:** 13
-- **Working tests:** 4 / 13
-- **Avg response time:** 20.94s
+- **Models:** 17
+- **Working tests:** 14 / 17
+- **Avg response time:** 19.73s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gemini-2.0` | text | ✅ `ok` | 20.28s | contains expected token 'PONG' |
-| `gemini-2.0-flash` | text | ✅ `ok` | 22.03s | contains expected token 'PONG' |
-| `gemini-2.5-flash` | text | ✅ `ok` | 20.43s | contains expected token 'PONG' |
-| `gemini-auto` | text | ✅ `ok` | 21.03s | contains expected token 'PONG' |
-| `gemini-2.0-flash-thinking` | text | ❌ `api_error` | 0.00s | MissingAuthError: Gemini session is unauthenticated; model 'gemini-3.5-flash-thinking' would fall back to Flash |
-| `gemini-2.0-flash-thinking-with-apps` | text | ❌ `api_error` | 0.00s | MissingAuthError: Gemini session is unauthenticated; model 'gemini-3.5-flash-thinking' would fall back to Flash |
-| `gemini-2.5-pro` | text | ❌ `api_error` | 0.01s | MissingAuthError: Gemini session is unauthenticated; model 'gemini-3.1-pro' would fall back to Flash |
-| `gemini-3.1-flash-lite` | text | ❌ `api_error` | 0.00s | MissingAuthError: Gemini session is unauthenticated; model 'gemini-flash-lite' would fall back to Flash |
+| `gemini-2.0` | text | ✅ `ok` | 21.03s | contains expected token 'PONG' |
+| `gemini-2.0-flash` | text | ✅ `ok` | 20.20s | contains expected token 'PONG' |
+| `gemini-2.0-flash-thinking` | text | ✅ `ok` | 21.03s | contains expected token 'PONG' |
+| `gemini-2.0-flash-thinking-with-apps` | text | ✅ `ok` | 21.84s | contains expected token 'PONG' |
+| `gemini-2.5-flash` | text | ✅ `ok` | 1.69s | contains expected token 'PONG' |
+| `gemini-3.1-flash-lite` | text | ✅ `ok` | 20.42s | contains expected token 'PONG' |
+| `gemini-3.5-flash` | text | ✅ `ok` | 22.03s | contains expected token 'PONG' |
+| `gemini-3.5-flash-lite` | text | ✅ `ok` | 22.00s | contains expected token 'PONG' |
+| `gemini-3.5-flash-lite-thinking` | text | ✅ `ok` | 20.27s | contains expected token 'PONG' |
+| `gemini-3.5-flash-thinking` | text | ✅ `ok` | 20.24s | contains expected token 'PONG' |
+| `gemini-3.5-flash-thinking-lite` | text | ✅ `ok` | 20.40s | contains expected token 'PONG' |
+| `gemini-3.6-flash-thinking` | text | ✅ `ok` | 22.03s | contains expected token 'PONG' |
+| `gemini-auto` | text | ✅ `ok` | 21.02s | contains expected token 'PONG' |
+| `gemini-flash-lite` | text | ✅ `ok` | 22.03s | contains expected token 'PONG' |
+| `gemini-2.5-pro` | text | ❌ `api_error` | 0.00s | MissingAuthError: Gemini session is unauthenticated; model 'gemini-3.1-pro' would fall back to Flash |
 | `gemini-3.1-pro` | text | ❌ `api_error` | 0.00s | MissingAuthError: Gemini session is unauthenticated; model 'gemini-3.1-pro' would fall back to Flash |
-| `gemini-3.5-flash` | image | ❌ `timeout` | 64.72s | Timeout limit exceeded |
-| `gemini-3.5-flash-thinking` | text | ❌ `api_error` | 0.00s | MissingAuthError: Gemini session is unauthenticated; model 'gemini-3.5-flash-thinking' would fall back to Flash |
-| `gemini-3.5-flash-thinking-lite` | text | ❌ `api_error` | 0.00s | MissingAuthError: Gemini session is unauthenticated; model 'gemini-3.5-flash-thinking-lite' would fall back to Flash |
-| `gemini-flash-lite` | text | ❌ `api_error` | 0.00s | MissingAuthError: Gemini session is unauthenticated; model 'gemini-flash-lite' would fall back to Flash |
+| `gemini-3.6-flash` | image | ❌ `exception` | 1.61s | NoMediaResponseError: No media response from Gemini |
 
 ## Sample successful responses
 
-### `gemini-auto` — text
+### `gemini-3.5-flash-lite` — text
 
 ```
 PONG
@@ -44,7 +48,43 @@ PONG
 PONG
 ```
 
+### `gemini-2.0-flash-thinking` — text
+
+```
+PONG
+```
+
+### `gemini-2.0-flash-thinking-with-apps` — text
+
+```
+PONG
+```
+
 ### `gemini-2.5-flash` — text
+
+```
+PONG
+```
+
+### `gemini-3.1-flash-lite` — text
+
+```
+PONG
+```
+
+### `gemini-3.5-flash` — text
+
+```
+PONG
+```
+
+### `gemini-3.5-flash-thinking` — text
+
+```
+PONG
+```
+
+### `gemini-3.6-flash-thinking` — text
 
 ```
 PONG

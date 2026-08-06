@@ -4,17 +4,17 @@
 - **URL:** https://play.google.com/store/apps/details?id=com.microsoft.copilot
 - **Models:** 5
 - **Working tests:** 5 / 5
-- **Avg response time:** 4.98s
+- **Avg response time:** 5.54s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ✅ `ok` | 0.81s | contains expected token 'PONG' |
-| `reasoning` | text | ✅ `ok` | 1.22s | contains expected token 'PONG' |
-| `search` | text | ✅ `ok` | 0.81s | contains expected token 'PONG' |
-| `smart` | text | ✅ `ok` | 21.03s | contains expected token 'PONG' |
-| `study` | text | ✅ `ok` | 1.04s | contains expected token 'PONG' |
+| `chat` | text | ✅ `ok` | 0.95s | contains expected token 'PONG' |
+| `reasoning` | text | ✅ `ok` | 1.11s | contains expected token 'PONG' |
+| `search` | text | ✅ `ok` | 0.88s | contains expected token 'PONG' |
+| `smart` | text | ✅ `ok` | 0.80s | contains expected token 'PONG' |
+| `study` | text | ✅ `ok` | 23.94s | contains expected token 'PONG' |
 
 ## Sample successful responses
 
@@ -39,7 +39,7 @@ PONG
 ### `study` — text
 
 ```
-PONG
+I see you’re asking for **exactly one word**, but since you’re in **Study mode**, I can’t just give the final answer out
 ```
 
 ### `search` — text
