@@ -2,171 +2,177 @@
   "text": [
     {
       "provider": "CohereForAI_C4AI_Command",
-      "model": "command-a-03-2025",
-      "capability": "text",
-      "response_time": 0.414
-    },
-    {
-      "provider": "CohereForAI_C4AI_Command",
       "model": "command-r-plus-08-2024",
       "capability": "text",
-      "response_time": 0.731
+      "response_time": 20.141
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-12-2024",
       "capability": "text",
-      "response_time": 20.829
+      "response_time": 0.381
     },
     {
       "provider": "CohereForAI_C4AI_Command",
       "model": "command-r7b-arabic-02-2025",
       "capability": "text",
-      "response_time": 22.032
+      "response_time": 0.308
     },
     {
       "provider": "CopilotApp",
       "model": "smart",
       "capability": "text",
-      "response_time": 0.855
+      "response_time": 21.06
     },
     {
       "provider": "CopilotApp",
       "model": "reasoning",
       "capability": "text",
-      "response_time": 22.037
+      "response_time": 20.526
     },
     {
       "provider": "CopilotApp",
       "model": "chat",
       "capability": "text",
-      "response_time": 20.502
+      "response_time": 20.485
+    },
+    {
+      "provider": "CopilotApp",
+      "model": "study",
+      "capability": "text",
+      "response_time": 1.001
     },
     {
       "provider": "CopilotApp",
       "model": "search",
       "capability": "text",
-      "response_time": 1.594
+      "response_time": 21.026
     },
     {
       "provider": "Gemini",
       "model": "gemini-3.5-flash-lite",
       "capability": "text",
-      "response_time": 21.033
+      "response_time": 21.032
     },
     {
       "provider": "Gemini",
       "model": "gemini-2.0",
       "capability": "text",
-      "response_time": 22.027
+      "response_time": 22.032
     },
     {
       "provider": "Gemini",
       "model": "gemini-2.0-flash",
       "capability": "text",
-      "response_time": 20.668
+      "response_time": 21.029
     },
     {
       "provider": "Gemini",
       "model": "gemini-2.0-flash-thinking",
       "capability": "text",
-      "response_time": 22.028
+      "response_time": 20.13
     },
     {
       "provider": "Gemini",
       "model": "gemini-2.0-flash-thinking-with-apps",
       "capability": "text",
-      "response_time": 20.501
+      "response_time": 21.033
     },
     {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "capability": "text",
-      "response_time": 1.918
+      "response_time": 1.465
     },
     {
       "provider": "Gemini",
       "model": "gemini-3.1-flash-lite",
       "capability": "text",
-      "response_time": 22.031
+      "response_time": 21.029
     },
     {
       "provider": "Gemini",
       "model": "gemini-3.5-flash",
       "capability": "text",
-      "response_time": 21.03
+      "response_time": 1.345
     },
     {
       "provider": "Gemini",
       "model": "gemini-3.5-flash-thinking",
       "capability": "text",
-      "response_time": 1.99
+      "response_time": 21.029
     },
     {
       "provider": "Gemini",
       "model": "gemini-3.6-flash-thinking",
       "capability": "text",
-      "response_time": 21.027
+      "response_time": 2.207
     },
     {
       "provider": "Gemini",
       "model": "gemini-auto",
       "capability": "text",
-      "response_time": 20.392
+      "response_time": 21.03
     },
     {
       "provider": "Gemini",
       "model": "gemini-3.5-flash-thinking-lite",
       "capability": "text",
-      "response_time": 21.03
+      "response_time": 1.806
     },
     {
       "provider": "Gemini",
       "model": "gemini-3.5-flash-lite-thinking",
       "capability": "text",
-      "response_time": 21.973
+      "response_time": 21.031
     },
     {
       "provider": "Gemini",
       "model": "gemini-flash-lite",
       "capability": "text",
-      "response_time": 22.03
+      "response_time": 20.314
     },
     {
       "provider": "Qwen",
       "model": "qwen3.6-max-preview",
       "capability": "text",
-      "response_time": 22.087
+      "response_time": 22.234
     },
     {
       "provider": "WeWordle",
       "model": "v3",
       "capability": "text",
-      "response_time": 22.104
+      "response_time": 20.685
     },
     {
       "provider": "WeWordle",
       "model": "gpt-4",
       "capability": "text",
-      "response_time": 22.028
+      "response_time": 22.024
+    },
+    {
+      "provider": "WeWordle",
+      "model": "gpt-4o-mini",
+      "capability": "text",
+      "response_time": 1.066
     },
     {
       "provider": "WeWordle",
       "model": "deepseek",
       "capability": "text",
-      "response_time": 22.128
+      "response_time": 21.031
     },
     {
       "provider": "WeWordle",
       "model": "deepseek-reasoner",
       "capability": "text",
-      "response_time": 21.028
+      "response_time": 22.071
     },
     {
       "provider": "WeWordle",
       "model": "deepseek-r1",
       "capability": "text",
-      "response_time": 42.586
+      "response_time": 22.03
     }
   ],
   "image": [
@@ -174,13 +180,25 @@
       "provider": "BlackForestLabs_Flux1Dev",
       "model": "flux-dev",
       "capability": "image",
-      "response_time": 21.332
+      "response_time": 41.174
     },
     {
       "provider": "BlackForestLabs_Flux1Dev",
       "model": "flux",
       "capability": "image",
-      "response_time": 22.253
+      "response_time": 20.584
+    },
+    {
+      "provider": "OperaAria",
+      "model": "aria",
+      "capability": "image",
+      "response_time": 43.619
+    },
+    {
+      "provider": "StabilityAI_SD35Large",
+      "model": "sd-3.5-large",
+      "capability": "image",
+      "response_time": 43.813
     }
   ],
   "audio": [],
