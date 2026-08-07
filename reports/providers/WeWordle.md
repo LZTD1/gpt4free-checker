@@ -4,19 +4,19 @@
 - **URL:** https://chat-gpt.com
 - **Models:** 7
 - **Working tests:** 5 / 7
-- **Avg response time:** 25.45s
+- **Avg response time:** 25.97s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `deepseek` | text | ✅ `ok` | 21.14s | contains expected token 'PONG' |
-| `deepseek-r1` | text | ✅ `ok` | 1.46s | contains expected token 'PONG' |
-| `deepseek-reasoner` | text | ✅ `ok` | 41.20s | contains expected token 'PONG' |
-| `gpt-4` | text | ✅ `ok` | 22.16s | contains expected token 'PONG' |
-| `v3` | text | ✅ `ok` | 41.28s | contains expected token 'PONG' |
-| `gpt-4o` | text | ❌ `invalid` | 21.17s | expected 'PONG', got: 'PING' |
-| `gpt-4o-mini` | text | ❌ `invalid` | 1.14s | expected 'PONG', got: 'Game' |
+| `deepseek` | text | ✅ `ok` | 22.13s | contains expected token 'PONG' |
+| `deepseek-r1` | text | ✅ `ok` | 42.59s | contains expected token 'PONG' |
+| `deepseek-reasoner` | text | ✅ `ok` | 21.03s | contains expected token 'PONG' |
+| `gpt-4` | text | ✅ `ok` | 22.03s | contains expected token 'PONG' |
+| `v3` | text | ✅ `ok` | 22.10s | contains expected token 'PONG' |
+| `gpt-4o` | text | ❌ `invalid` | 21.12s | expected 'PONG', got: 'PING' |
+| `gpt-4o-mini` | text | ❌ `invalid` | 21.03s | expected 'PONG', got: 'Game' |
 
 ## Sample successful responses
 
