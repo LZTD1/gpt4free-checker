@@ -3,18 +3,18 @@
 - **Label:** Copilot App
 - **URL:** https://play.google.com/store/apps/details?id=com.microsoft.copilot
 - **Models:** 5
-- **Working tests:** 5 / 5
-- **Avg response time:** 5.54s
+- **Working tests:** 4 / 5
+- **Avg response time:** 11.30s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ✅ `ok` | 0.95s | contains expected token 'PONG' |
-| `reasoning` | text | ✅ `ok` | 1.11s | contains expected token 'PONG' |
-| `search` | text | ✅ `ok` | 0.88s | contains expected token 'PONG' |
-| `smart` | text | ✅ `ok` | 0.80s | contains expected token 'PONG' |
-| `study` | text | ✅ `ok` | 23.94s | contains expected token 'PONG' |
+| `chat` | text | ✅ `ok` | 21.03s | contains expected token 'PONG' |
+| `reasoning` | text | ✅ `ok` | 1.18s | contains expected token 'PONG' |
+| `search` | text | ✅ `ok` | 1.94s | contains expected token 'PONG' |
+| `smart` | text | ✅ `ok` | 21.03s | contains expected token 'PONG' |
+| `study` | text | ❌ `exception` | 0.26s | WSServerHandshakeError: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=83039f6f-0801-4281-95c |
 
 ## Sample successful responses
 
@@ -34,12 +34,6 @@ PONG
 
 ```
 PONG
-```
-
-### `study` — text
-
-```
-I see you’re asking for **exactly one word**, but since you’re in **Study mode**, I can’t just give the final answer out
 ```
 
 ### `search` — text
