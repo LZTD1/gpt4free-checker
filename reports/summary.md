@@ -1,20 +1,20 @@
 # g4f providers — daily test report
 
-_Generated: `2026-08-08T08:03:23.630068+00:00`_
+_Generated: `2026-08-08T19:44:08.708781+00:00`_
 
 ## Overview
 
-- **Providers:** 8 / 37 working
-- **Models discovered:** 211
-- **Tests run:** 211
-- **Successful:** 33 (15.64%)
-- **Avg response time (OK):** 19.692s
+- **Providers:** 7 / 36 working
+- **Models discovered:** 204
+- **Tests run:** 204
+- **Successful:** 27 (13.24%)
+- **Avg response time (OK):** 21.689s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 30 |
+| text | 24 |
 | image | 3 |
 | audio | 0 |
 | video | 0 |
@@ -23,26 +23,26 @@ _Generated: `2026-08-08T08:03:23.630068+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 76 |
-| `invalid` | 43 |
-| `timeout` | 41 |
-| `ok` | 33 |
-| `http_error` | 8 |
-| `empty` | 7 |
+| `exception` | 74 |
+| `timeout` | 44 |
+| `invalid` | 40 |
+| `ok` | 27 |
+| `empty` | 8 |
+| `http_error` | 7 |
 | `api_error` | 3 |
+| `rate_limited` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 43.03s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 32.33s | text | ✅ |
-| [ CopilotApp ](providers/CopilotApp.md) | 5 | 5 | 0 | 4.90s | text | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 15.49s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 2 | 1 | 1 | 44.25s | image | ✅ |
-| [ Qwen ](providers/Qwen.md) | 23 | 1 | 22 | 41.17s | text | ✅ |
-| [ WeWordle ](providers/WeWordle.md) | 7 | 5 | 2 | 17.33s | text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 21.03s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 22.21s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 29.47s | text | ✅ |
+| [ CopilotApp ](providers/CopilotApp.md) | 5 | 5 | 0 | 12.96s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 19.96s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 2 | 1 | 1 | 44.39s | image | ✅ |
+| [ Qwen ](providers/Qwen.md) | 23 | 1 | 22 | 42.07s | text | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 22.03s | text | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
