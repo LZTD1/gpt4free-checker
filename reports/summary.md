@@ -1,21 +1,21 @@
 # g4f providers — daily test report
 
-_Generated: `2026-08-09T08:04:32.268357+00:00`_
+_Generated: `2026-08-09T19:48:03.775104+00:00`_
 
 ## Overview
 
-- **Providers:** 6 / 36 working
+- **Providers:** 5 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 24 (11.76%)
-- **Avg response time (OK):** 18.089s
+- **Successful:** 25 (12.25%)
+- **Avg response time (OK):** 15.624s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 22 |
-| image | 2 |
+| text | 24 |
+| image | 1 |
 | audio | 0 |
 | video | 0 |
 
@@ -23,25 +23,24 @@ _Generated: `2026-08-09T08:04:32.268357+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 73 |
-| `timeout` | 44 |
+| `exception` | 72 |
+| `timeout` | 45 |
 | `invalid` | 42 |
-| `ok` | 24 |
-| `empty` | 8 |
-| `http_error` | 7 |
-| `api_error` | 5 |
+| `ok` | 25 |
+| `http_error` | 8 |
+| `empty` | 7 |
+| `api_error` | 4 |
 | `rate_limited` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 1 | 42.27s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 21.63s | text | ✅ |
-| [ CopilotApp ](providers/CopilotApp.md) | 5 | 4 | 1 | 0.82s | text | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 18.47s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 2 | 1 | 1 | 44.61s | image | ✅ |
-| [ Qwen ](providers/Qwen.md) | 23 | 1 | 22 | 20.45s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 1 | 42.87s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 0.63s | text | ✅ |
+| [ CopilotApp ](providers/CopilotApp.md) | 5 | 5 | 0 | 9.03s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 18.43s | text | ✅ |
+| [ Qwen ](providers/Qwen.md) | 23 | 1 | 22 | 42.01s | text | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -63,6 +62,7 @@ _Generated: `2026-08-09T08:04:32.268357+00:00`_
 | [ Ollama ](providers/Ollama.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ OpenaiChat ](providers/OpenaiChat.md) | 17 | 0 | 17 | — | — | ❌ |
 | [ OpenAIFM ](providers/OpenAIFM.md) | 17 | 0 | 17 | — | — | ❌ |
+| [ OperaAria ](providers/OperaAria.md) | 2 | 0 | 2 | — | — | ❌ |
 | [ Perplexity ](providers/Perplexity.md) | 46 | 0 | 46 | — | — | ❌ |
 | [ PhindAi ](providers/PhindAi.md) | 2 | 0 | 2 | — | — | ❌ |
 | [ Pi ](providers/Pi.md) | 1 | 0 | 1 | — | — | ❌ |
