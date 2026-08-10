@@ -3,18 +3,18 @@
 - **Label:** Copilot App
 - **URL:** https://play.google.com/store/apps/details?id=com.microsoft.copilot
 - **Models:** 5
-- **Working tests:** 5 / 5
-- **Avg response time:** 9.03s
+- **Working tests:** 4 / 5
+- **Avg response time:** 1.04s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ✅ `ok` | 0.75s | contains expected token 'PONG' |
-| `reasoning` | text | ✅ `ok` | 20.83s | contains expected token 'PONG' |
-| `search` | text | ✅ `ok` | 0.73s | contains expected token 'PONG' |
-| `smart` | text | ✅ `ok` | 0.81s | contains expected token 'PONG' |
-| `study` | text | ✅ `ok` | 22.03s | contains expected token 'PONG' |
+| `chat` | text | ✅ `ok` | 1.05s | contains expected token 'PONG' |
+| `reasoning` | text | ✅ `ok` | 1.27s | contains expected token 'PONG' |
+| `search` | text | ✅ `ok` | 0.97s | contains expected token 'PONG' |
+| `smart` | text | ✅ `ok` | 0.89s | contains expected token 'PONG' |
+| `study` | text | ❌ `invalid` | 22.03s | expected 'PONG', got: "It looks like you're asking for a **single‑word reply**, but you're also in **St" |
 
 ## Sample successful responses
 
@@ -34,14 +34,6 @@ PONG
 
 ```
 PONG
-```
-
-### `study` — text
-
-```
-It looks like you’re asking me to reply with exactly one word — **PONG** — and nothing else.
-
-Since you’re in **Study Mo
 ```
 
 ### `search` — text
