@@ -3,18 +3,18 @@
 - **Label:** Copilot App
 - **URL:** https://play.google.com/store/apps/details?id=com.microsoft.copilot
 - **Models:** 5
-- **Working tests:** 4 / 5
-- **Avg response time:** 1.04s
+- **Working tests:** 5 / 5
+- **Avg response time:** 0.86s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ✅ `ok` | 1.05s | contains expected token 'PONG' |
-| `reasoning` | text | ✅ `ok` | 1.27s | contains expected token 'PONG' |
-| `search` | text | ✅ `ok` | 0.97s | contains expected token 'PONG' |
-| `smart` | text | ✅ `ok` | 0.89s | contains expected token 'PONG' |
-| `study` | text | ❌ `invalid` | 22.03s | expected 'PONG', got: "It looks like you're asking for a **single‑word reply**, but you're also in **St" |
+| `chat` | text | ✅ `ok` | 0.77s | contains expected token 'PONG' |
+| `reasoning` | text | ✅ `ok` | 1.11s | contains expected token 'PONG' |
+| `search` | text | ✅ `ok` | 0.74s | contains expected token 'PONG' |
+| `smart` | text | ✅ `ok` | 0.70s | contains expected token 'PONG' |
+| `study` | text | ✅ `ok` | 0.98s | contains expected token 'PONG' |
 
 ## Sample successful responses
 
@@ -31,6 +31,12 @@ PONG
 ```
 
 ### `chat` — text
+
+```
+PONG
+```
+
+### `study` — text
 
 ```
 PONG

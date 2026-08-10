@@ -1,20 +1,20 @@
 # g4f providers — daily test report
 
-_Generated: `2026-08-10T08:49:41.936025+00:00`_
+_Generated: `2026-08-10T20:03:52.139209+00:00`_
 
 ## Overview
 
 - **Providers:** 8 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 28 (13.73%)
-- **Avg response time (OK):** 14.326s
+- **Successful:** 26 (12.75%)
+- **Avg response time (OK):** 18.159s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 24 |
+| text | 22 |
 | image | 4 |
 | audio | 0 |
 | video | 0 |
@@ -23,26 +23,26 @@ _Generated: `2026-08-10T08:49:41.936025+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 73 |
-| `timeout` | 43 |
+| `exception` | 70 |
+| `timeout` | 47 |
 | `invalid` | 42 |
-| `ok` | 28 |
+| `ok` | 26 |
+| `http_error` | 9 |
 | `empty` | 8 |
-| `http_error` | 8 |
 | `api_error` | 2 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 33.69s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 0.30s | text | ✅ |
-| [ CopilotApp ](providers/CopilotApp.md) | 5 | 4 | 1 | 1.04s | text | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 15.47s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 2 | 1 | 1 | 43.97s | image | ✅ |
-| [ Perplexity ](providers/Perplexity.md) | 46 | 1 | 45 | 2.68s | text | ✅ |
-| [ Qwen ](providers/Qwen.md) | 23 | 1 | 22 | 21.89s | text | ✅ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 1 | 0 | 43.26s | image | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 42.26s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 1 | 6 | 0.76s | text | ✅ |
+| [ CopilotApp ](providers/CopilotApp.md) | 5 | 5 | 0 | 0.86s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 18.09s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 2 | 1 | 1 | 44.04s | image | ✅ |
+| [ Perplexity ](providers/Perplexity.md) | 46 | 1 | 45 | 20.51s | text | ✅ |
+| [ Qwen ](providers/Qwen.md) | 23 | 1 | 22 | 21.02s | text | ✅ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 1 | 0 | 43.78s | image | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |

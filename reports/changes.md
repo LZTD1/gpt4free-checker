@@ -1,10 +1,11 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **BlackForestLabs_Flux1Dev** / `flux` (image)
-- **OperaAria** / `aria` (image)
-- **Perplexity** / `r1` (text)
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+- **CopilotApp** / `study` (text)
+- **Perplexity** / `o3` (text)
 
 ## Newly Broken ❌
-- **CopilotApp** / `study` (text)
+- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+- **CohereForAI_C4AI_Command** / `command-r-plus-08-2024` (text)
+- **CohereForAI_C4AI_Command** / `command-r7b-12-2024` (text)
+- **Perplexity** / `r1` (text)
