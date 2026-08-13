@@ -1,9 +1,8 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **CohereForAI_C4AI_Command** / `command-r-plus-08-2024` (text)
-- **Perplexity** / `o3_labs` (text)
+- **CohereForAI_C4AI_Command** / `command-r7b-arabic-02-2025` (text)
+- **Yqcloud** / `gpt-4` (text)
 
 ## Newly Broken ❌
-- **Perplexity** / `o3` (text)
-- **Yqcloud** / `gpt-4` (text)
+- **Perplexity** / `o3_labs` (text)
