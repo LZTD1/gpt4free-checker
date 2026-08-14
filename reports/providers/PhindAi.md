@@ -10,5 +10,5 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `deepseek` | text | ❌ `exception` | 22.02s | ResponseStatusError: Response 522: HTML content |
-| `deepseek-v3` | text | ❌ `exception` | 20.29s | ResponseStatusError: Response 522: HTML content |
+| `deepseek` | text | ❌ `exception` | 0.98s | ResponseStatusError: Response 403: {'success': False, 'data': {'message': 'Security check is required. Please refresh the page and try again.'}} |
+| `deepseek-v3` | text | ❌ `exception` | 0.74s | ResponseStatusError: Response 403: {'success': False, 'data': {'message': 'Security check is required. Please refresh the page and try again.'}} |
