@@ -1,21 +1,21 @@
 # g4f providers — daily test report
 
-_Generated: `2026-08-16T19:36:27.035713+00:00`_
+_Generated: `2026-08-17T08:04:55.368237+00:00`_
 
 ## Overview
 
-- **Providers:** 6 / 36 working
+- **Providers:** 3 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 22 (10.78%)
-- **Avg response time (OK):** 20.769s
+- **Successful:** 19 (9.31%)
+- **Avg response time (OK):** 20.078s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 18 |
-| image | 4 |
+| text | 19 |
+| image | 0 |
 | audio | 0 |
 | video | 0 |
 
@@ -23,25 +23,23 @@ _Generated: `2026-08-16T19:36:27.035713+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 78 |
-| `timeout` | 43 |
-| `invalid` | 41 |
-| `ok` | 22 |
+| `exception` | 86 |
+| `invalid` | 42 |
+| `timeout` | 39 |
+| `ok` | 19 |
 | `empty` | 8 |
-| `http_error` | 8 |
-| `rate_limited` | 2 |
+| `http_error` | 7 |
 | `api_error` | 2 |
+| `rate_limited` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 42.03s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 22.03s | text | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 12.68s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 2 | 1 | 1 | 43.64s | image | ✅ |
-| [ Qwen ](providers/Qwen.md) | 23 | 1 | 22 | 42.51s | text | ✅ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 1 | 0 | 43.18s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 21.95s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 19.41s | text | ✅ |
+| [ Qwen ](providers/Qwen.md) | 23 | 1 | 22 | 21.92s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 0 | 2 | — | — | ❌ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -64,11 +62,13 @@ _Generated: `2026-08-16T19:36:27.035713+00:00`_
 | [ Ollama ](providers/Ollama.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ OpenaiChat ](providers/OpenaiChat.md) | 17 | 0 | 17 | — | — | ❌ |
 | [ OpenAIFM ](providers/OpenAIFM.md) | 17 | 0 | 17 | — | — | ❌ |
+| [ OperaAria ](providers/OperaAria.md) | 2 | 0 | 2 | — | — | ❌ |
 | [ Perplexity ](providers/Perplexity.md) | 46 | 0 | 46 | — | — | ❌ |
 | [ PhindAi ](providers/PhindAi.md) | 2 | 0 | 2 | — | — | ❌ |
 | [ Pi ](providers/Pi.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ Pollinations ](providers/Pollinations.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ PollinationsAudio ](providers/PollinationsAudio.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ PollinationsImage ](providers/PollinationsImage.md) | 0 | 0 | 0 | — | — | ❌ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ Yqcloud ](providers/Yqcloud.md) | 1 | 0 | 1 | — | — | ❌ |
