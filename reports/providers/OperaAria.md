@@ -11,4 +11,4 @@
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
 | `aria` | image | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `aria-legacy` | text | ❌ `http_error` | 43.65s | ClientResponseError: 404, message='Not Found', url='https://composer.opera-api.com/api/v1/a-chat' |
+| `aria-legacy` | text | ❌ `api_error` | 22.37s | ClientResponseError: 503, message='Service Unavailable', url='https://auth.opera.com/account/v2/external/anonymous/signup' |
