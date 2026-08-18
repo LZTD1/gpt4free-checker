@@ -10,7 +10,11 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `Copilot` | text | ❌ `exception` | 0.00s | FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/.g4f/cookies' |
-| `Smart (GPT-5)` | text | ❌ `timeout` | 64.99s | Timeout limit exceeded |
-| `Study` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
+| `Copilot` | text | ❌ `exception` | 23.09s | Exception: 
+                ---------------------
+                Failed to connect to browser
+                ---------------------
+                One of the  |
+| `Smart (GPT-5)` | text | ❌ `timeout` | 63.37s | Timeout limit exceeded |
+| `Study` | text | ❌ `timeout` | 63.52s | Timeout limit exceeded |
 | `Think Deeper` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |

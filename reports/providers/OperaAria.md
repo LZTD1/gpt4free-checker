@@ -3,12 +3,21 @@
 - **Label:** Opera Aria
 - **URL:** https://play.google.com/store/apps/details?id=com.opera.browser
 - **Models:** 2
-- **Working tests:** 0 / 2
-- **Avg response time:** —
+- **Working tests:** 1 / 2
+- **Avg response time:** 43.81s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `aria` | image | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `aria-legacy` | text | ❌ `api_error` | 22.37s | ClientResponseError: 503, message='Service Unavailable', url='https://auth.opera.com/account/v2/external/anonymous/signup' |
+| `aria` | image | ✅ `ok` | 43.81s | Valid image generation output |
+| `aria-legacy` | text | ❌ `http_error` | 21.95s | ClientResponseError: 404, message='Not Found', url='https://composer.opera-api.com/api/v1/a-chat' |
+
+## Sample successful responses
+
+### `aria` — image
+
+```
+/media/1787035750_a_single_red_apple_on_a_white_background,_minimalist_8623027030167973.png?url=http
+```
+
