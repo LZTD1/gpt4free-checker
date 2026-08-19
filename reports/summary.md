@@ -1,21 +1,21 @@
 # g4f providers — daily test report
 
-_Generated: `2026-08-19T07:53:06.058974+00:00`_
+_Generated: `2026-08-19T19:41:51.917730+00:00`_
 
 ## Overview
 
-- **Providers:** 4 / 36 working
+- **Providers:** 3 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 19 (9.31%)
-- **Avg response time (OK):** 22.628s
+- **Successful:** 18 (8.82%)
+- **Avg response time (OK):** 15.997s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 16 |
-| image | 3 |
+| text | 17 |
+| image | 1 |
 | audio | 0 |
 | video | 0 |
 
@@ -23,22 +23,22 @@ _Generated: `2026-08-19T07:53:06.058974+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 86 |
-| `invalid` | 43 |
-| `timeout` | 43 |
-| `ok` | 19 |
+| `exception` | 89 |
+| `invalid` | 42 |
+| `timeout` | 41 |
+| `ok` | 18 |
 | `empty` | 8 |
-| `api_error` | 3 |
-| `http_error` | 2 |
+| `api_error` | 5 |
+| `http_error` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 42.88s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 2 | 5 | 11.48s | text | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 19.84s | text | ✅ |
-| [ OperaAria ](providers/OperaAria.md) | 2 | 1 | 1 | 43.50s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 28.62s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 11.33s | text | ✅ |
+| [ OperaAria ](providers/OperaAria.md) | 2 | 1 | 1 | 43.53s | image | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 0 | 2 | — | — | ❌ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
