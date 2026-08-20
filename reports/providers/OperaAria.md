@@ -3,21 +3,12 @@
 - **Label:** Opera Aria
 - **URL:** https://play.google.com/store/apps/details?id=com.opera.browser
 - **Models:** 2
-- **Working tests:** 1 / 2
-- **Avg response time:** 44.14s
+- **Working tests:** 0 / 2
+- **Avg response time:** —
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `aria` | image | ✅ `ok` | 44.14s | Valid image generation output |
-| `aria-legacy` | text | ❌ `http_error` | 22.53s | ClientResponseError: 404, message='Not Found', url='https://composer.opera-api.com/api/v1/a-chat' |
-
-## Sample successful responses
-
-### `aria` — image
-
-```
-/media/1787208742_a_single_red_apple_on_a_white_background,_minimalist_03ae84b206a6b5c4.png?url=http
-```
-
+| `aria` | image | ❌ `api_error` | 21.03s | ClientResponseError: 401, message='Unauthorized', url='https://oauth2.opera-api.com/oauth2/v1/token/' |
+| `aria-legacy` | text | ❌ `api_error` | 21.03s | ClientResponseError: 401, message='Unauthorized', url='https://oauth2.opera-api.com/oauth2/v1/token/' |

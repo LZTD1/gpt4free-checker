@@ -1,8 +1,7 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **BlackForestLabs_Flux1Dev** / `flux` (image)
-- **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
+_No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+- **OperaAria** / `aria` (image)
