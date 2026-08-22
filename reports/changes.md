@@ -1,8 +1,8 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-_No newly working capabilities since last run._
+- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+- **Perplexity** / `pplx_pro_upgraded` (text)
 
 ## Newly Broken ❌
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
-- **Yqcloud** / `gpt-4` (text)
+- **BlackForestLabs_Flux1Dev** / `flux` (image)
