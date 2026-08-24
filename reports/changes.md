@@ -1,8 +1,8 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+_No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **Perplexity** / `o3pro_labs` (text)
-- **Perplexity** / `pplx_pro_upgraded` (text)
+- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
