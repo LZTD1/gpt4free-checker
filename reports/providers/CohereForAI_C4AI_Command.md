@@ -4,19 +4,19 @@
 - **URL:** https://coherelabs-c4ai-command.hf.space
 - **Models:** 7
 - **Working tests:** 3 / 7
-- **Avg response time:** 7.32s
+- **Avg response time:** 7.24s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `command-r-plus-08-2024` | text | ✅ `ok` | 21.03s | contains expected token 'PONG' |
-| `command-r7b-12-2024` | text | ✅ `ok` | 0.45s | contains expected token 'PONG' |
-| `command-r7b-arabic-02-2025` | text | ✅ `ok` | 0.48s | contains expected token 'PONG' |
-| `command-a-03-2025` | text | ❌ `invalid` | 1.28s | expected 'PONG', got: 'PING' |
-| `command-r` | text | ❌ `empty` | 0.24s | Empty response |
-| `command-r-08-2024` | text | ❌ `invalid` | 0.54s | expected 'PONG', got: 'Ping' |
-| `command-r-plus` | text | ❌ `empty` | 0.21s | Empty response |
+| `command-r-plus-08-2024` | text | ✅ `ok` | 0.68s | contains expected token 'PONG' |
+| `command-r7b-12-2024` | text | ✅ `ok` | 20.48s | contains expected token 'PONG' |
+| `command-r7b-arabic-02-2025` | text | ✅ `ok` | 0.54s | contains expected token 'PONG' |
+| `command-a-03-2025` | text | ❌ `invalid` | 0.47s | expected 'PONG', got: 'PING' |
+| `command-r` | text | ❌ `empty` | 0.52s | Empty response |
+| `command-r-08-2024` | text | ❌ `invalid` | 0.66s | expected 'PONG', got: 'Ping' |
+| `command-r-plus` | text | ❌ `empty` | 0.90s | Empty response |
 
 ## Sample successful responses
 
