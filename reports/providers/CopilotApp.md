@@ -10,8 +10,8 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ❌ `exception` | 0.13s | WSServerHandshakeError: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=dc09c236-cdee-4b47-96b |
-| `reasoning` | text | ❌ `exception` | 0.14s | WSServerHandshakeError: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=6c679781-b212-4362-8d4 |
-| `search` | text | ❌ `exception` | 0.17s | WSServerHandshakeError: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=98540a54-0303-4310-b0a |
-| `smart` | text | ❌ `exception` | 0.11s | WSServerHandshakeError: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=7a1181f6-33fa-427f-8cd |
-| `study` | text | ❌ `exception` | 0.13s | WSServerHandshakeError: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=cc1ecac5-3d1b-48c6-aaf |
+| `chat` | text | ❌ `exception` | 0.16s | WSServerHandshakeError: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=65f1c03a-7316-41a9-8b4 |
+| `reasoning` | text | ❌ `exception` | 0.12s | WSServerHandshakeError: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=c27f480e-5616-4c8f-a02 |
+| `search` | text | ❌ `exception` | 0.15s | WSServerHandshakeError: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=4865950c-0ef2-46bd-8fa |
+| `smart` | text | ❌ `exception` | 0.13s | WSServerHandshakeError: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=68fd0060-6046-480d-a59 |
+| `study` | text | ❌ `exception` | 0.15s | WSServerHandshakeError: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=ab1d3942-bf57-4785-afa |
