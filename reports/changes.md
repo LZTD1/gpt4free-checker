@@ -1,8 +1,7 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **Qwen** / `qwen3.6-max-preview` (text)
-- **Yqcloud** / `gpt-4` (text)
+_No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+_No working models broke since last run._
