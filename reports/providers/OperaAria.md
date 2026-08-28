@@ -10,5 +10,5 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `aria` | image | ❌ `api_error` | 20.85s | ClientResponseError: 401, message='Unauthorized', url='https://oauth2.opera-api.com/oauth2/v1/token/' |
-| `aria-legacy` | text | ❌ `api_error` | 0.63s | ClientResponseError: 401, message='Unauthorized', url='https://oauth2.opera-api.com/oauth2/v1/token/' |
+| `aria` | image | ❌ `api_error` | 1.09s | ClientResponseError: 401, message='Unauthorized', url='https://oauth2.opera-api.com/oauth2/v1/token/' |
+| `aria-legacy` | text | ❌ `api_error` | 0.57s | ClientResponseError: 401, message='Unauthorized', url='https://oauth2.opera-api.com/oauth2/v1/token/' |

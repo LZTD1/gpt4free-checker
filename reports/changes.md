@@ -1,7 +1,9 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **Perplexity** / `pplx_pro` (text)
+- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+- **Perplexity** / `claude40opusthinking` (text)
 
 ## Newly Broken ❌
-- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+- **Perplexity** / `pplx_pro` (text)
+- **Qwen** / `qwen3.6-max-preview` (text)
