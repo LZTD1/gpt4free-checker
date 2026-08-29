@@ -10,7 +10,7 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `pi` | text | ❌ `exception` | 43.81s | Exception: 
+| `pi` | text | ❌ `exception` | 23.79s | Exception: 
                 ---------------------
                 Failed to connect to browser
                 ---------------------
