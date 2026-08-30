@@ -1,7 +1,7 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+_No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **Perplexity** / `claude2` (text)
+_No working models broke since last run._
