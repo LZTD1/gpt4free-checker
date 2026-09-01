@@ -3,11 +3,20 @@
 - **Label:** StabilityAI SD-3.5-Large
 - **URL:** https://stabilityai-stable-diffusion-3-5-large.hf.space
 - **Models:** 1
-- **Working tests:** 0 / 1
-- **Avg response time:** —
+- **Working tests:** 1 / 1
+- **Avg response time:** 44.40s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `sd-3.5-large` | image | ❌ `api_error` | 0.28s | ResponseError: GPU token limit exceeded: data: {"error": "You have exceeded your ZeroGPU quota (65s requested vs. 0s left). Try again in 0:00:00. Authenticate w |
+| `sd-3.5-large` | image | ✅ `ok` | 44.40s | Valid image generation output |
+
+## Sample successful responses
+
+### `sd-3.5-large` — image
+
+```
+/media/1788262172_a_single_red_apple_on_a_white_background,_minimalist_2282e981d779ded1.webp?url=htt
+```
+
