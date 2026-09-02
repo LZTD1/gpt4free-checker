@@ -3,20 +3,11 @@
 - **Label:** StabilityAI SD-3.5-Large
 - **URL:** https://stabilityai-stable-diffusion-3-5-large.hf.space
 - **Models:** 1
-- **Working tests:** 1 / 1
-- **Avg response time:** 41.79s
+- **Working tests:** 0 / 1
+- **Avg response time:** —
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `sd-3.5-large` | image | ✅ `ok` | 41.79s | Valid image generation output |
-
-## Sample successful responses
-
-### `sd-3.5-large` — image
-
-```
-/media/1788346998_a_single_red_apple_on_a_white_background,_minimalist_0dde0ac5e920dec3.webp?url=htt
-```
-
+| `sd-3.5-large` | image | ❌ `timeout` | 64.69s | Timeout limit exceeded |
