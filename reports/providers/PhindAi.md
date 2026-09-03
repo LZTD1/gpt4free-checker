@@ -10,5 +10,5 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `deepseek` | text | ❌ `timeout` | 64.74s | Timeout limit exceeded |
-| `deepseek-v3` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
+| `deepseek` | text | ❌ `exception` | 1.13s | ResponseStatusError: Response 403: {'success': False, 'data': {'message': 'Security check is required. Please refresh the page and try again.'}} |
+| `deepseek-v3` | text | ❌ `exception` | 1.65s | ResponseStatusError: Response 403: {'success': False, 'data': {'message': 'Security check is required. Please refresh the page and try again.'}} |
