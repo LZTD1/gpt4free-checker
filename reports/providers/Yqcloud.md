@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gpt-4` | text | ❌ `invalid` | 0.64s | expected 'PONG', got: 'sorry, 您的ip已由于触发防滥用检测而被封禁，如果你使用代理 请关闭代理后再试,本服务网址是https://iai.aichatos8.com.cn/ 如' |
+| `gpt-4` | text | ❌ `invalid` | 0.41s | expected 'PONG', got: 'sorry, 您的ip已由于触发防滥用检测而被封禁，如果你使用代理 请关闭代理后再试,本服务网址是https://iai.aichatos8.com.cn/ 如' |
