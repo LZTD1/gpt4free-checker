@@ -10,5 +10,5 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `deepseek` | text | ❌ `exception` | 43.35s | ResponseStatusError: Response 520: HTML content |
+| `deepseek` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `deepseek-v3` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
