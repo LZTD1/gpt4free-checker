@@ -1,7 +1,8 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **Perplexity** / `o4mini` (text)
+- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
 
 ## Newly Broken ❌
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+- **Perplexity** / `o4mini` (text)
+- **Yqcloud** / `gpt-4` (text)

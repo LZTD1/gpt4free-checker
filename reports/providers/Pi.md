@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `pi` | text | ❌ `timeout` | 64.59s | Timeout limit exceeded |
+| `pi` | text | ❌ `timeout` | 63.24s | Timeout limit exceeded |
