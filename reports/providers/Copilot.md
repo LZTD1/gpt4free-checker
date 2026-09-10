@@ -12,5 +12,5 @@
 | --- | --- | :---: | ---: | --- |
 | `Copilot` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `Smart (GPT-5)` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `Study` | text | ❌ `timeout` | 63.39s | Timeout limit exceeded |
-| `Think Deeper` | text | ❌ `timeout` | 45.54s | Timeout limit exceeded |
+| `Study` | text | ❌ `timeout` | 64.60s | Timeout limit exceeded |
+| `Think Deeper` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
