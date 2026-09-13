@@ -10,5 +10,5 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `deepseek` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `deepseek-v3` | text | ❌ `timeout` | 64.66s | Timeout limit exceeded |
+| `deepseek` | text | ❌ `exception` | 22.02s | ResponseStatusError: Response 522: HTML content |
+| `deepseek-v3` | text | ❌ `exception` | 20.04s | ConnectionError: Failed to perform, curl: (56) Connection closed abruptly. See https://curl.se/libcurl/c/libcurl-errors.html first for more details. |
