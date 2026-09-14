@@ -1,10 +1,9 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
-- **Perplexity** / `r1` (text)
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+- **Perplexity** / `claude40opus` (text)
 
 ## Newly Broken ❌
-- **Perplexity** / `claude40sonnetthinking_research` (text)
-- **Yqcloud** / `gpt-4` (text)
+- **CohereForAI_C4AI_Command** / `command-r7b-arabic-02-2025` (text)
+- **Perplexity** / `pplx_pro` (text)
+- **Perplexity** / `r1` (text)
