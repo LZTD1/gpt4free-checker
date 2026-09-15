@@ -1,8 +1,10 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-_No newly working capabilities since last run._
+- **Perplexity** / `claude40opusthinking` (text)
+- **Perplexity** / `experimental` (text)
+- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+- **Yqcloud** / `gpt-4` (text)
 
 ## Newly Broken ❌
-- **Perplexity** / `claude40opus` (text)
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+_No working models broke since last run._
