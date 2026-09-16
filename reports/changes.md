@@ -4,4 +4,4 @@
 _No newly working capabilities since last run._
 
 ## Newly Broken ❌
-_No working models broke since last run._
+- **BlackForestLabs_Flux1Dev** / `flux` (image)
