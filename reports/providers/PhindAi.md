@@ -10,5 +10,5 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `deepseek` | text | ❌ `timeout` | 63.18s | Timeout limit exceeded |
-| `deepseek-v3` | text | ❌ `timeout` | 64.98s | Timeout limit exceeded |
+| `deepseek` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
+| `deepseek-v3` | text | ❌ `timeout` | 64.86s | Timeout limit exceeded |
