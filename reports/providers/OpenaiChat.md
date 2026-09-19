@@ -10,20 +10,20 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `auto` | text | ❌ `timeout` | 64.60s | Timeout limit exceeded |
-| `gpt-4` | text | ❌ `timeout` | 63.49s | Timeout limit exceeded |
-| `gpt-4.1` | text | ❌ `timeout` | 64.84s | Timeout limit exceeded |
+| `auto` | text | ❌ `timeout` | 64.85s | Timeout limit exceeded |
+| `gpt-4` | text | ❌ `timeout` | 63.34s | Timeout limit exceeded |
+| `gpt-4.1` | text | ❌ `timeout` | 64.81s | Timeout limit exceeded |
 | `gpt-4.1-mini` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-4.5` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `gpt-4o` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `gpt-4o-mini` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `gpt-5` | text | ❌ `timeout` | 64.65s | Timeout limit exceeded |
-| `gpt-5-1` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `gpt-5-2` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
+| `gpt-4o` | text | ❌ `timeout` | 65.00s | Timeout limit exceeded |
+| `gpt-4o-mini` | text | ❌ `timeout` | 64.82s | Timeout limit exceeded |
+| `gpt-5` | text | ❌ `timeout` | 63.37s | Timeout limit exceeded |
+| `gpt-5-1` | text | ❌ `timeout` | 63.39s | Timeout limit exceeded |
+| `gpt-5-2` | text | ❌ `timeout` | 64.97s | Timeout limit exceeded |
 | `gpt-image` | image | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `o1` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `o1-mini` | text | ❌ `timeout` | 64.97s | Timeout limit exceeded |
-| `o3-mini` | text | ❌ `timeout` | 64.87s | Timeout limit exceeded |
-| `o3-mini-high` | text | ❌ `timeout` | 64.67s | Timeout limit exceeded |
-| `o4-mini` | text | ❌ `timeout` | 64.78s | Timeout limit exceeded |
-| `o4-mini-high` | text | ❌ `timeout` | 64.99s | Timeout limit exceeded |
+| `o1` | text | ❌ `timeout` | 51.04s | Timeout limit exceeded |
+| `o1-mini` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
+| `o3-mini` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
+| `o3-mini-high` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
+| `o4-mini` | text | ❌ `timeout` | 64.87s | Timeout limit exceeded |
+| `o4-mini-high` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
