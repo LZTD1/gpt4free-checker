@@ -1,7 +1,7 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+_No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+- **BlackForestLabs_Flux1Dev** / `flux` (image)
