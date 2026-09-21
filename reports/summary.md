@@ -1,14 +1,14 @@
 # g4f providers — daily test report
 
-_Generated: `2026-09-21T13:22:54.168081+00:00`_
+_Generated: `2026-09-21T22:52:53.162841+00:00`_
 
 ## Overview
 
-- **Providers:** 3 / 36 working
+- **Providers:** 4 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
 - **Successful:** 19 (9.31%)
-- **Avg response time (OK):** 19.188s
+- **Avg response time (OK):** 18.9s
 
 ## Results by capability
 
@@ -23,21 +23,23 @@ _Generated: `2026-09-21T13:22:54.168081+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 87 |
-| `invalid` | 42 |
-| `timeout` | 41 |
+| `exception` | 85 |
+| `timeout` | 43 |
+| `invalid` | 41 |
 | `ok` | 19 |
 | `empty` | 8 |
 | `api_error` | 6 |
 | `http_error` | 1 |
+| `rate_limited` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 1 | 41.76s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 0.29s | text | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 22.97s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 1 | 41.99s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.53s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 21.00s | text | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 21.47s | text | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -70,4 +72,3 @@ _Generated: `2026-09-21T13:22:54.168081+00:00`_
 | [ Qwen ](providers/Qwen.md) | 23 | 0 | 23 | — | — | ❌ |
 | [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 1 | — | — | ❌ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 0 | 1 | — | — | ❌ |
