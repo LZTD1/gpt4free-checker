@@ -1,7 +1,8 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **Yqcloud** / `gpt-4` (text)
+- **BlackForestLabs_Flux1Dev** / `flux` (image)
+- **CohereForAI_C4AI_Command** / `command-r7b-arabic-02-2025` (text)
 
 ## Newly Broken ❌
-- **CohereForAI_C4AI_Command** / `command-r7b-arabic-02-2025` (text)
+- **Yqcloud** / `gpt-4` (text)
