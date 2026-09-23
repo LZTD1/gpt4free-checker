@@ -3,38 +3,17 @@
 - **Label:** CohereForAI C4AI Command
 - **URL:** https://coherelabs-c4ai-command.hf.space
 - **Models:** 7
-- **Working tests:** 3 / 7
-- **Avg response time:** 13.82s
+- **Working tests:** 0 / 7
+- **Avg response time:** —
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `command-a-03-2025` | text | ✅ `ok` | 21.03s | contains expected token 'PONG' |
-| `command-r-plus-08-2024` | text | ✅ `ok` | 20.18s | contains expected token 'PONG' |
-| `command-r7b-12-2024` | text | ✅ `ok` | 0.24s | contains expected token 'PONG' |
-| `command-r` | text | ❌ `empty` | 0.11s | Empty response |
-| `command-r-08-2024` | text | ❌ `invalid` | 0.44s | expected 'PONG', got: 'Ping' |
-| `command-r-plus` | text | ❌ `empty` | 0.11s | Empty response |
-| `command-r7b-arabic-02-2025` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-
-## Sample successful responses
-
-### `command-a-03-2025` — text
-
-```
-PONG
-```
-
-### `command-r-plus-08-2024` — text
-
-```
-PONG
-```
-
-### `command-r7b-12-2024` — text
-
-```
-PONG
-```
-
+| `command-a-03-2025` | text | ❌ `empty` | 44.58s | Empty response |
+| `command-r` | text | ❌ `timeout` | 63.19s | Timeout limit exceeded |
+| `command-r-08-2024` | text | ❌ `invalid` | 44.34s | expected 'PONG', got: 'Ping' |
+| `command-r-plus` | text | ❌ `empty` | 43.05s | Empty response |
+| `command-r-plus-08-2024` | text | ❌ `timeout` | 64.90s | Timeout limit exceeded |
+| `command-r7b-12-2024` | text | ❌ `timeout` | 65.00s | Timeout limit exceeded |
+| `command-r7b-arabic-02-2025` | text | ❌ `timeout` | 64.97s | Timeout limit exceeded |
