@@ -1,21 +1,21 @@
 # g4f providers — daily test report
 
-_Generated: `2026-09-23T22:19:32.743495+00:00`_
+_Generated: `2026-09-24T12:24:02.423101+00:00`_
 
 ## Overview
 
-- **Providers:** 3 / 36 working
+- **Providers:** 4 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 16 (7.84%)
-- **Avg response time (OK):** 22.697s
+- **Successful:** 19 (9.31%)
+- **Avg response time (OK):** 18.406s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 15 |
-| image | 1 |
+| text | 17 |
+| image | 2 |
 | audio | 0 |
 | video | 0 |
 
@@ -23,27 +23,26 @@ _Generated: `2026-09-23T22:19:32.743495+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 93 |
-| `invalid` | 41 |
-| `timeout` | 39 |
-| `ok` | 16 |
+| `exception` | 85 |
+| `timeout` | 43 |
+| `invalid` | 42 |
+| `ok` | 19 |
 | `empty` | 8 |
 | `api_error` | 5 |
-| `http_error` | 1 |
-| `rate_limited` | 1 |
+| `rate_limited` | 2 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 1 | 42.09s | image | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 21.43s | text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 21.03s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 32.64s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 2 | 5 | 0.33s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 17.20s | text | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 43.05s | text | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Cloudflare ](providers/Cloudflare.md) | 54 | 0 | 54 | — | — | ❌ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 0 | 7 | — | — | ❌ |
 | [ Copilot ](providers/Copilot.md) | 4 | 0 | 4 | — | — | ❌ |
 | [ CopilotApp ](providers/CopilotApp.md) | 5 | 0 | 5 | — | — | ❌ |
 | [ CopilotSession ](providers/CopilotSession.md) | 4 | 0 | 4 | — | — | ❌ |
