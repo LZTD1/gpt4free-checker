@@ -1,20 +1,20 @@
 # g4f providers — daily test report
 
-_Generated: `2026-09-24T22:20:03.005989+00:00`_
+_Generated: `2026-09-25T12:30:22.523483+00:00`_
 
 ## Overview
 
 - **Providers:** 3 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 5 (2.45%)
-- **Avg response time (OK):** 17.489s
+- **Successful:** 19 (9.31%)
+- **Avg response time (OK):** 20.063s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 3 |
+| text | 17 |
 | image | 2 |
 | audio | 0 |
 | video | 0 |
@@ -23,22 +23,22 @@ _Generated: `2026-09-24T22:20:03.005989+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 81 |
-| `timeout` | 44 |
+| `exception` | 85 |
+| `timeout` | 43 |
 | `invalid` | 42 |
-| `rate_limited` | 17 |
-| `empty` | 8 |
-| `ok` | 5 |
+| `ok` | 19 |
+| `empty` | 7 |
 | `api_error` | 5 |
 | `http_error` | 2 |
+| `rate_limited` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 32.19s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 2 | 5 | 0.44s | text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 22.17s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 42.91s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.63s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 20.96s | text | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -48,7 +48,6 @@ _Generated: `2026-09-24T22:20:03.005989+00:00`_
 | [ CopilotSession ](providers/CopilotSession.md) | 4 | 0 | 4 | — | — | ❌ |
 | [ Custom ](providers/Custom.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ DeepInfra ](providers/DeepInfra.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ Gemini ](providers/Gemini.md) | 17 | 0 | 17 | — | — | ❌ |
 | [ GeminiPro ](providers/GeminiPro.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ GLM ](providers/GLM.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ GoogleSearch ](providers/GoogleSearch.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -72,3 +71,4 @@ _Generated: `2026-09-24T22:20:03.005989+00:00`_
 | [ Qwen ](providers/Qwen.md) | 23 | 0 | 23 | — | — | ❌ |
 | [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 1 | — | — | ❌ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 0 | 1 | — | — | ❌ |

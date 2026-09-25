@@ -1,9 +1,7 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-_No newly working capabilities since last run._
-
-## Newly Broken ❌
+- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
 - **Gemini** / `gemini-2.0` (text)
 - **Gemini** / `gemini-2.0-flash` (text)
 - **Gemini** / `gemini-2.0-flash-thinking` (text)
@@ -18,3 +16,6 @@ _No newly working capabilities since last run._
 - **Gemini** / `gemini-3.6-flash-thinking` (text)
 - **Gemini** / `gemini-auto` (text)
 - **Gemini** / `gemini-flash-lite` (text)
+
+## Newly Broken ❌
+- **Yqcloud** / `gpt-4` (text)
