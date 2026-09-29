@@ -1,20 +1,20 @@
 # g4f providers — daily test report
 
-_Generated: `2026-09-28T14:20:20.158449+00:00`_
+_Generated: `2026-09-29T00:06:15.232123+00:00`_
 
 ## Overview
 
-- **Providers:** 3 / 36 working
+- **Providers:** 4 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 6 (2.94%)
-- **Avg response time (OK):** 18.05s
+- **Successful:** 18 (8.82%)
+- **Avg response time (OK):** 20.069s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 4 |
+| text | 16 |
 | image | 2 |
 | audio | 0 |
 | video | 0 |
@@ -23,22 +23,23 @@ _Generated: `2026-09-28T14:20:20.158449+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 83 |
-| `invalid` | 55 |
-| `timeout` | 44 |
-| `empty` | 7 |
-| `ok` | 6 |
-| `api_error` | 5 |
-| `rate_limited` | 3 |
+| `exception` | 87 |
+| `invalid` | 43 |
+| `timeout` | 41 |
+| `ok` | 18 |
+| `empty` | 8 |
+| `api_error` | 4 |
+| `rate_limited` | 2 |
 | `http_error` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 42.28s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.57s | text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 22.03s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 1 | 21.09s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 2 | 5 | 0.31s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 21.17s | text | ✅ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 1 | 0 | 43.10s | image | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -48,7 +49,6 @@ _Generated: `2026-09-28T14:20:20.158449+00:00`_
 | [ CopilotSession ](providers/CopilotSession.md) | 4 | 0 | 4 | — | — | ❌ |
 | [ Custom ](providers/Custom.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ DeepInfra ](providers/DeepInfra.md) | 0 | 0 | 0 | — | — | ❌ |
-| [ Gemini ](providers/Gemini.md) | 17 | 0 | 17 | — | — | ❌ |
 | [ GeminiPro ](providers/GeminiPro.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ GLM ](providers/GLM.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ GoogleSearch ](providers/GoogleSearch.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -70,5 +70,5 @@ _Generated: `2026-09-28T14:20:20.158449+00:00`_
 | [ PollinationsAudio ](providers/PollinationsAudio.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ PollinationsImage ](providers/PollinationsImage.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Qwen ](providers/Qwen.md) | 23 | 0 | 23 | — | — | ❌ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 1 | — | — | ❌ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 0 | 1 | — | — | ❌ |

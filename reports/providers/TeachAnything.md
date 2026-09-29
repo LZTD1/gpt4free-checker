@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gemma` | text | ❌ `exception` | 0.13s | HTTPError: HTTP Error 403:  |
+| `gemma` | text | ❌ `exception` | 0.04s | HTTPError: HTTP Error 403:  |
