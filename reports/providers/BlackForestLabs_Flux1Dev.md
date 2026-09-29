@@ -4,20 +4,20 @@
 - **URL:** https://black-forest-labs-flux-1-dev.hf.space
 - **Models:** 2
 - **Working tests:** 1 / 2
-- **Avg response time:** 21.09s
+- **Avg response time:** 21.19s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `flux` | image | ✅ `ok` | 21.09s | Valid image generation output |
-| `flux-dev` | image | ❌ `exception` | 0.10s | ResponseStatusError: Response 502: HTML content |
+| `flux-dev` | image | ✅ `ok` | 21.19s | Valid image generation output |
+| `flux` | image | ❌ `api_error` | 0.26s | ResponseError: You have exceeded your ZeroGPU runs limit. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens |
 
 ## Sample successful responses
 
-### `flux` — image
+### `flux-dev` — image
 
 ```
-/media/1790636737_a_single_red_apple_on_a_white_background,_minimalist_868f5d328d198d3d.webp?url=htt
+/media/1790684736_a_single_red_apple_on_a_white_background,_minimalist_eba421c6a8c6f47d.webp?url=htt
 ```
 
