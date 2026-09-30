@@ -10,5 +10,5 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `deepseek` | text | ❌ `exception` | 0.80s | ResponseStatusError: Response 403: HTML content |
-| `deepseek-v3` | text | ❌ `exception` | 0.53s | ResponseStatusError: Response 403: HTML content |
+| `deepseek` | text | ❌ `exception` | 0.37s | ResponseStatusError: Response 403: HTML content |
+| `deepseek-v3` | text | ❌ `exception` | 0.83s | ResponseStatusError: Response 403: HTML content |

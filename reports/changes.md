@@ -1,8 +1,7 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **BlackForestLabs_Flux1Dev** / `flux` (image)
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+_No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **Yqcloud** / `gpt-4` (text)
+_No working models broke since last run._

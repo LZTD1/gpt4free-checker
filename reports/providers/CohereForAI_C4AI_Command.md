@@ -10,13 +10,13 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `command-r-plus-08-2024` | text | ✅ `ok` | 0.64s | contains expected token 'PONG' |
-| `command-r7b-12-2024` | text | ✅ `ok` | 0.35s | contains expected token 'PONG' |
-| `command-a-03-2025` | text | ❌ `empty` | 0.40s | Empty response |
-| `command-r` | text | ❌ `empty` | 0.25s | Empty response |
-| `command-r-08-2024` | text | ❌ `invalid` | 20.22s | expected 'PONG', got: 'Ping' |
-| `command-r-plus` | text | ❌ `empty` | 0.30s | Empty response |
-| `command-r7b-arabic-02-2025` | text | ❌ `timeout` | 64.77s | Timeout limit exceeded |
+| `command-r-plus-08-2024` | text | ✅ `ok` | 0.65s | contains expected token 'PONG' |
+| `command-r7b-12-2024` | text | ✅ `ok` | 0.36s | contains expected token 'PONG' |
+| `command-a-03-2025` | text | ❌ `invalid` | 0.38s | expected 'PONG', got: 'PING' |
+| `command-r` | text | ❌ `empty` | 0.20s | Empty response |
+| `command-r-08-2024` | text | ❌ `invalid` | 0.39s | expected 'PONG', got: 'Ping' |
+| `command-r-plus` | text | ❌ `empty` | 0.23s | Empty response |
+| `command-r7b-arabic-02-2025` | text | ❌ `timeout` | 64.99s | Timeout limit exceeded |
 
 ## Sample successful responses
 
