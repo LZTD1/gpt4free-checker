@@ -1,7 +1,8 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **Yqcloud** / `gpt-4` (text)
+- **Perplexity** / `claude2` (text)
+- **Perplexity** / `claude40opusthinking_research` (text)
 
 ## Newly Broken ❌
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+- **Yqcloud** / `gpt-4` (text)
