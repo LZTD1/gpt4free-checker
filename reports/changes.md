@@ -1,8 +1,9 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **Perplexity** / `claude2` (text)
-- **Perplexity** / `claude40opusthinking_research` (text)
+- **Yqcloud** / `gpt-4` (text)
 
 ## Newly Broken ❌
-- **Yqcloud** / `gpt-4` (text)
+- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+- **Perplexity** / `claude2` (text)
+- **Perplexity** / `claude40opusthinking_research` (text)
