@@ -1,8 +1,8 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+- **Perplexity** / `gpt45` (text)
+- **Yqcloud** / `gpt-4` (text)
 
 ## Newly Broken ❌
-- **Yqcloud** / `gpt-4` (text)
+_No working models broke since last run._
