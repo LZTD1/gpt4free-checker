@@ -1,8 +1,7 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
-- **CohereForAI_C4AI_Command** / `command-r7b-arabic-02-2025` (text)
+_No newly working capabilities since last run._
 
 ## Newly Broken ❌
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+- **CohereForAI_C4AI_Command** / `command-r7b-arabic-02-2025` (text)
