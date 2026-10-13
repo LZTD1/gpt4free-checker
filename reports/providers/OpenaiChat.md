@@ -10,20 +10,36 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `auto` | text | ❌ `timeout` | 65.00s | Timeout limit exceeded |
-| `gpt-4` | text | ❌ `timeout` | 63.21s | Timeout limit exceeded |
-| `gpt-4.1` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `gpt-4.1-mini` | text | ❌ `timeout` | 63.20s | Timeout limit exceeded |
-| `gpt-4.5` | text | ❌ `timeout` | 64.58s | Timeout limit exceeded |
-| `gpt-4o` | text | ❌ `timeout` | 65.00s | Timeout limit exceeded |
-| `gpt-4o-mini` | text | ❌ `timeout` | 64.70s | Timeout limit exceeded |
-| `gpt-5` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `gpt-5-1` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
+| `auto` | text | ❌ `timeout` | 47.52s | Timeout limit exceeded |
+| `gpt-4` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
+| `gpt-4.1` | text | ❌ `timeout` | 64.98s | Timeout limit exceeded |
+| `gpt-4.1-mini` | text | ❌ `exception` | 44.66s | Exception: 
+                ---------------------
+                Failed to connect to browser
+                ---------------------
+                One of the  |
+| `gpt-4.5` | text | ❌ `timeout` | 64.92s | Timeout limit exceeded |
+| `gpt-4o` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
+| `gpt-4o-mini` | text | ❌ `exception` | 42.67s | Exception: 
+                ---------------------
+                Failed to connect to browser
+                ---------------------
+                One of the  |
+| `gpt-5` | text | ❌ `timeout` | 63.18s | Timeout limit exceeded |
+| `gpt-5-1` | text | ❌ `timeout` | 63.07s | Timeout limit exceeded |
 | `gpt-5-2` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `gpt-image` | image | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `o1` | text | ❌ `timeout` | 64.59s | Timeout limit exceeded |
-| `o1-mini` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `o3-mini` | text | ❌ `timeout` | 64.70s | Timeout limit exceeded |
-| `o3-mini-high` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
+| `gpt-image` | image | ❌ `timeout` | 64.66s | Timeout limit exceeded |
+| `o1` | text | ❌ `timeout` | 63.48s | Timeout limit exceeded |
+| `o1-mini` | text | ❌ `timeout` | 63.55s | Timeout limit exceeded |
+| `o3-mini` | text | ❌ `exception` | 43.55s | Exception: 
+                ---------------------
+                Failed to connect to browser
+                ---------------------
+                One of the  |
+| `o3-mini-high` | text | ❌ `timeout` | 64.95s | Timeout limit exceeded |
 | `o4-mini` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `o4-mini-high` | text | ❌ `timeout` | 64.80s | Timeout limit exceeded |
+| `o4-mini-high` | text | ❌ `exception` | 43.54s | Exception: 
+                ---------------------
+                Failed to connect to browser
+                ---------------------
+                One of the  |
