@@ -1,7 +1,10 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
+- **CohereForAI_C4AI_Command** / `command-r7b-arabic-02-2025` (text)
+- **Perplexity** / `gpt5` (text)
+- **Perplexity** / `gpt5_thinking` (text)
 
 ## Newly Broken ❌
-- **CohereForAI_C4AI_Command** / `command-r7b-arabic-02-2025` (text)
+- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+- **StabilityAI_SD35Large** / `sd-3.5-large` (image)
