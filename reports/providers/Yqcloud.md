@@ -10,4 +10,4 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gpt-4` | text | ❌ `exception` | 1.68s | ResponseStatusError: Response 502: Bad Gateway |
+| `gpt-4` | text | ❌ `exception` | 22.02s | ResponseStatusError: Response 502: Bad Gateway |

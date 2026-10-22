@@ -10,20 +10,20 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `auto` | text | ❌ `timeout` | 64.97s | Timeout limit exceeded |
-| `gpt-4` | text | ❌ `timeout` | 64.83s | Timeout limit exceeded |
-| `gpt-4.1` | text | ❌ `timeout` | 63.06s | Timeout limit exceeded |
+| `auto` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
+| `gpt-4` | text | ❌ `timeout` | 64.61s | Timeout limit exceeded |
+| `gpt-4.1` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-4.1-mini` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `gpt-4.5` | text | ❌ `timeout` | 64.82s | Timeout limit exceeded |
+| `gpt-4.5` | text | ❌ `timeout` | 64.94s | Timeout limit exceeded |
 | `gpt-4o` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-4o-mini` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-5` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `gpt-5-1` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `gpt-5-2` | text | ❌ `timeout` | 64.70s | Timeout limit exceeded |
+| `gpt-5-1` | text | ❌ `timeout` | 64.94s | Timeout limit exceeded |
+| `gpt-5-2` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `gpt-image` | image | ❌ `timeout` | 45.00s | Timeout limit exceeded |
 | `o1` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `o1-mini` | text | ❌ `timeout` | 64.80s | Timeout limit exceeded |
-| `o3-mini` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `o3-mini-high` | text | ❌ `timeout` | 64.85s | Timeout limit exceeded |
+| `o1-mini` | text | ❌ `timeout` | 63.37s | Timeout limit exceeded |
+| `o3-mini` | text | ❌ `timeout` | 63.47s | Timeout limit exceeded |
+| `o3-mini-high` | text | ❌ `timeout` | 63.24s | Timeout limit exceeded |
 | `o4-mini` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
-| `o4-mini-high` | text | ❌ `timeout` | 64.73s | Timeout limit exceeded |
+| `o4-mini-high` | text | ❌ `timeout` | 45.00s | Timeout limit exceeded |
