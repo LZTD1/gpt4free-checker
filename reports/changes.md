@@ -4,4 +4,6 @@
 _No newly working capabilities since last run._
 
 ## Newly Broken ❌
-_No working models broke since last run._
+- **BlackForestLabs_Flux1Dev** / `flux` (image)
+- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+- **StabilityAI_SD35Large** / `sd-3.5-large` (image)

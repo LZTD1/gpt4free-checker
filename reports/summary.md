@@ -1,21 +1,21 @@
 # g4f providers — daily test report
 
-_Generated: `2026-10-22T22:20:59.889048+00:00`_
+_Generated: `2026-10-23T12:21:58.963461+00:00`_
 
 ## Overview
 
-- **Providers:** 4 / 36 working
+- **Providers:** 3 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 21 (10.29%)
-- **Avg response time (OK):** 20.756s
+- **Successful:** 18 (8.82%)
+- **Avg response time (OK):** 21.078s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 18 |
-| image | 3 |
+| text | 17 |
+| image | 1 |
 | audio | 0 |
 | video | 0 |
 
@@ -23,22 +23,22 @@ _Generated: `2026-10-22T22:20:59.889048+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 87 |
-| `timeout` | 42 |
-| `invalid` | 41 |
-| `ok` | 21 |
-| `empty` | 8 |
-| `api_error` | 4 |
-| `http_error` | 1 |
+| `exception` | 86 |
+| `invalid` | 42 |
+| `timeout` | 40 |
+| `ok` | 18 |
+| `empty` | 7 |
+| `api_error` | 6 |
+| `rate_limited` | 3 |
+| `http_error` | 2 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 31.71s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 5.82s | text | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 21.95s | text | ✅ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 1 | 0 | 41.93s | image | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 1 | 41.97s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 7.34s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 22.53s | text | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -69,5 +69,6 @@ _Generated: `2026-10-22T22:20:59.889048+00:00`_
 | [ PollinationsAudio ](providers/PollinationsAudio.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ PollinationsImage ](providers/PollinationsImage.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Qwen ](providers/Qwen.md) | 23 | 0 | 23 | — | — | ❌ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ Yqcloud ](providers/Yqcloud.md) | 1 | 0 | 1 | — | — | ❌ |
