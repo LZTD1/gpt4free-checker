@@ -1,21 +1,21 @@
 # g4f providers — daily test report
 
-_Generated: `2026-10-25T11:59:55.488783+00:00`_
+_Generated: `2026-10-25T21:34:50.464118+00:00`_
 
 ## Overview
 
-- **Providers:** 5 / 36 working
+- **Providers:** 4 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 21 (10.29%)
-- **Avg response time (OK):** 18.765s
+- **Successful:** 20 (9.8%)
+- **Avg response time (OK):** 24.676s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
 | text | 18 |
-| image | 3 |
+| image | 2 |
 | audio | 0 |
 | video | 0 |
 
@@ -23,24 +23,22 @@ _Generated: `2026-10-25T11:59:55.488783+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 85 |
+| `exception` | 86 |
 | `timeout` | 43 |
-| `invalid` | 41 |
-| `ok` | 21 |
+| `invalid` | 40 |
+| `ok` | 20 |
 | `empty` | 6 |
-| `api_error` | 4 |
-| `http_error` | 2 |
-| `rate_limited` | 2 |
+| `api_error` | 5 |
+| `rate_limited` | 4 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 42.44s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.54s | text | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 15.92s | text | ✅ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 1 | 0 | 43.26s | image | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 41.40s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 31.55s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 43.04s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 20.03s | text | ✅ |
+| [ Perplexity ](providers/Perplexity.md) | 46 | 1 | 45 | 20.83s | text | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -64,11 +62,12 @@ _Generated: `2026-10-25T11:59:55.488783+00:00`_
 | [ OpenaiChat ](providers/OpenaiChat.md) | 17 | 0 | 17 | — | — | ❌ |
 | [ OpenAIFM ](providers/OpenAIFM.md) | 17 | 0 | 17 | — | — | ❌ |
 | [ OperaAria ](providers/OperaAria.md) | 2 | 0 | 2 | — | — | ❌ |
-| [ Perplexity ](providers/Perplexity.md) | 46 | 0 | 46 | — | — | ❌ |
 | [ PhindAi ](providers/PhindAi.md) | 2 | 0 | 2 | — | — | ❌ |
 | [ Pi ](providers/Pi.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ Pollinations ](providers/Pollinations.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ PollinationsAudio ](providers/PollinationsAudio.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ PollinationsImage ](providers/PollinationsImage.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Qwen ](providers/Qwen.md) | 23 | 0 | 23 | — | — | ❌ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 1 | — | — | ❌ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 0 | 1 | — | — | ❌ |

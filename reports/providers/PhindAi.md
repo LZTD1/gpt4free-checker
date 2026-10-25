@@ -10,5 +10,5 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `deepseek` | text | ❌ `exception` | 21.60s | ResponseStatusError: Response 406: HTML content |
-| `deepseek-v3` | text | ❌ `exception` | 43.03s | ResponseStatusError: Response 406: HTML content |
+| `deepseek` | text | ❌ `exception` | 42.68s | ResponseStatusError: Response 406: HTML content |
+| `deepseek-v3` | text | ❌ `exception` | 22.80s | ResponseStatusError: Response 406: HTML content |
