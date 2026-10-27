@@ -3,27 +3,21 @@
 - **Label:** BlackForestLabs Flux-1-Dev
 - **URL:** https://black-forest-labs-flux-1-dev.hf.space
 - **Models:** 2
-- **Working tests:** 2 / 2
-- **Avg response time:** 21.82s
+- **Working tests:** 1 / 2
+- **Avg response time:** 41.25s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `flux` | image | ✅ `ok` | 22.20s | Valid image generation output |
-| `flux-dev` | image | ✅ `ok` | 21.43s | Valid image generation output |
+| `flux-dev` | image | ✅ `ok` | 41.25s | Valid image generation output |
+| `flux` | image | ❌ `api_error` | 0.37s | ResponseError: You have exceeded your ZeroGPU runs limit. Authenticate with a Hugging Face token for more quota - https://huggingface.co/settings/tokens |
 
 ## Sample successful responses
 
 ### `flux-dev` — image
 
 ```
-/media/1793101826_a_single_red_apple_on_a_white_background,_minimalist_3b59866c27456be0.webp?url=htt
-```
-
-### `flux` — image
-
-```
-/media/1793101868_a_single_red_apple_on_a_white_background,_minimalist_0d0245e338fb134a.webp?url=htt
+/media/1793138257_a_single_red_apple_on_a_white_background,_minimalist_681869a29c4e424f.webp?url=htt
 ```
 
