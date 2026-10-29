@@ -1,20 +1,20 @@
 # g4f providers — daily test report
 
-_Generated: `2026-10-29T13:32:48.778280+00:00`_
+_Generated: `2026-10-29T23:36:03.678582+00:00`_
 
 ## Overview
 
 - **Providers:** 5 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 22 (10.78%)
-- **Avg response time (OK):** 22.431s
+- **Successful:** 21 (10.29%)
+- **Avg response time (OK):** 20.579s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 19 |
+| text | 18 |
 | image | 3 |
 | audio | 0 |
 | video | 0 |
@@ -23,24 +23,23 @@ _Generated: `2026-10-29T13:32:48.778280+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 90 |
-| `invalid` | 41 |
-| `timeout` | 39 |
-| `ok` | 22 |
-| `empty` | 6 |
+| `exception` | 84 |
+| `timeout` | 43 |
+| `invalid` | 40 |
+| `ok` | 21 |
+| `empty` | 7 |
+| `rate_limited` | 5 |
 | `api_error` | 4 |
-| `rate_limited` | 1 |
-| `http_error` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 31.63s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 16.85s | text | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 21.16s | text | ✅ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 1 | 0 | 44.65s | image | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 22.02s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 43.45s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 7.20s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 18.59s | text | ✅ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 1 | 0 | 41.40s | image | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 22.03s | text | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
