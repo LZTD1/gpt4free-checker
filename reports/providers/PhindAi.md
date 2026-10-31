@@ -10,5 +10,5 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `deepseek` | text | ❌ `exception` | 0.66s | ResponseStatusError: Response 400: HTML content |
-| `deepseek-v3` | text | ❌ `exception` | 21.02s | ResponseStatusError: Response 400: HTML content |
+| `deepseek` | text | ❌ `exception` | 0.74s | ResponseStatusError: Response 400: HTML content |
+| `deepseek-v3` | text | ❌ `exception` | 0.91s | ResponseStatusError: Response 400: HTML content |
