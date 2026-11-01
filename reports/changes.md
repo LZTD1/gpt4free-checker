@@ -4,4 +4,5 @@
 _No newly working capabilities since last run._
 
 ## Newly Broken ❌
-_No working models broke since last run._
+- **Gemini** / `gemini-flash-lite` (text)
+- **Yqcloud** / `gpt-4` (text)

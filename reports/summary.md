@@ -1,20 +1,20 @@
 # g4f providers — daily test report
 
-_Generated: `2026-11-01T13:55:32.890629+00:00`_
+_Generated: `2026-11-01T22:51:13.071812+00:00`_
 
 ## Overview
 
-- **Providers:** 4 / 36 working
+- **Providers:** 3 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 21 (10.29%)
-- **Avg response time (OK):** 19.711s
+- **Successful:** 19 (9.31%)
+- **Avg response time (OK):** 17.943s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 19 |
+| text | 17 |
 | image | 2 |
 | audio | 0 |
 | video | 0 |
@@ -23,22 +23,21 @@ _Generated: `2026-11-01T13:55:32.890629+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 92 |
+| `exception` | 88 |
+| `timeout` | 42 |
 | `invalid` | 40 |
-| `timeout` | 38 |
-| `ok` | 21 |
+| `ok` | 19 |
 | `empty` | 7 |
 | `api_error` | 5 |
-| `rate_limited` | 1 |
+| `rate_limited` | 3 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 43.14s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 5.67s | text | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 21.67s | text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 1.57s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 41.97s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 0.37s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 13 | 4 | 19.65s | text | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -71,3 +70,4 @@ _Generated: `2026-11-01T13:55:32.890629+00:00`_
 | [ Qwen ](providers/Qwen.md) | 23 | 0 | 23 | — | — | ❌ |
 | [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 1 | — | — | ❌ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 0 | 1 | — | — | ❌ |
