@@ -10,8 +10,8 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ❌ `exception` | 0.19s | WSServerHandshakeError: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=7b78d40f-453a-4d29-870 |
-| `reasoning` | text | ❌ `exception` | 0.19s | WSServerHandshakeError: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=76dac487-b131-40ca-8cf |
-| `search` | text | ❌ `exception` | 0.20s | WSServerHandshakeError: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=db3e3de0-f13f-43b6-9fe |
-| `smart` | text | ❌ `exception` | 0.19s | WSServerHandshakeError: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=ae8cae9c-6b68-4728-96b |
-| `study` | text | ❌ `exception` | 0.20s | WSServerHandshakeError: 460, message='Invalid response status', url='wss://copilot.microsoft.com/c/api/chat?api-version=2&clientSessionId=ff3c4e4f-9e95-48d4-ba2 |
+| `chat` | text | ❌ `invalid` | 0.17s | expected 'PONG', got: '### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or A' |
+| `reasoning` | text | ❌ `invalid` | 0.31s | expected 'PONG', got: '### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or A' |
+| `search` | text | ❌ `invalid` | 0.17s | expected 'PONG', got: '### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or A' |
+| `smart` | text | ❌ `invalid` | 0.16s | expected 'PONG', got: '### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or A' |
+| `study` | text | ❌ `invalid` | 0.17s | expected 'PONG', got: '### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or A' |
