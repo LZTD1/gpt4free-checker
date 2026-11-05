@@ -1,21 +1,21 @@
 # g4f providers — daily test report
 
-_Generated: `2026-11-04T14:59:33.904972+00:00`_
+_Generated: `2026-11-05T00:25:12.248089+00:00`_
 
 ## Overview
 
-- **Providers:** 6 / 36 working
+- **Providers:** 4 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 23 (11.27%)
-- **Avg response time (OK):** 28.372s
+- **Successful:** 19 (9.31%)
+- **Avg response time (OK):** 18.327s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 20 |
-| image | 3 |
+| text | 18 |
+| image | 1 |
 | audio | 0 |
 | video | 0 |
 
@@ -23,24 +23,22 @@ _Generated: `2026-11-04T14:59:33.904972+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 79 |
-| `invalid` | 45 |
+| `exception` | 82 |
+| `invalid` | 46 |
 | `timeout` | 43 |
-| `ok` | 23 |
+| `ok` | 19 |
 | `empty` | 7 |
-| `api_error` | 4 |
-| `rate_limited` | 3 |
+| `api_error` | 6 |
+| `rate_limited` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 31.95s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 5.63s | text | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 34.31s | text | ✅ |
-| [ Perplexity ](providers/Perplexity.md) | 46 | 1 | 45 | 20.44s | text | ✅ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 1 | 0 | 43.39s | image | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 22.03s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 1 | 41.99s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 7.32s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 20.23s | text | ✅ |
+| [ Perplexity ](providers/Perplexity.md) | 46 | 1 | 45 | 0.99s | text | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -70,4 +68,6 @@ _Generated: `2026-11-04T14:59:33.904972+00:00`_
 | [ PollinationsAudio ](providers/PollinationsAudio.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ PollinationsImage ](providers/PollinationsImage.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Qwen ](providers/Qwen.md) | 23 | 0 | 23 | — | — | ❌ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 1 | — | — | ❌ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 0 | 1 | — | — | ❌ |
