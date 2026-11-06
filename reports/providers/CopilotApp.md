@@ -10,8 +10,8 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `chat` | text | ❌ `invalid` | 0.17s | expected 'PONG', got: '### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or A' |
-| `reasoning` | text | ❌ `invalid` | 0.14s | expected 'PONG', got: '### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or A' |
-| `search` | text | ❌ `invalid` | 0.16s | expected 'PONG', got: '### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or A' |
-| `smart` | text | ❌ `invalid` | 0.11s | expected 'PONG', got: '### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or A' |
-| `study` | text | ❌ `invalid` | 0.18s | expected 'PONG', got: '### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or A' |
+| `chat` | text | ❌ `invalid` | 0.11s | expected 'PONG', got: '### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or A' |
+| `reasoning` | text | ❌ `invalid` | 0.12s | expected 'PONG', got: '### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or A' |
+| `search` | text | ❌ `invalid` | 0.10s | expected 'PONG', got: '### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or A' |
+| `smart` | text | ❌ `invalid` | 0.10s | expected 'PONG', got: '### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or A' |
+| `study` | text | ❌ `invalid` | 0.17s | expected 'PONG', got: '### Copilot moved to a new app\n\n- Install the new Copilot app (needs iOS 26 or A' |
