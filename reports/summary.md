@@ -1,21 +1,21 @@
 # g4f providers — daily test report
 
-_Generated: `2026-11-07T13:41:36.460990+00:00`_
+_Generated: `2026-11-07T22:37:48.527911+00:00`_
 
 ## Overview
 
-- **Providers:** 4 / 36 working
+- **Providers:** 3 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 19 (9.31%)
-- **Avg response time (OK):** 22.518s
+- **Successful:** 18 (8.82%)
+- **Avg response time (OK):** 21.387s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 17 |
-| image | 2 |
+| text | 18 |
+| image | 0 |
 | audio | 0 |
 | video | 0 |
 
@@ -23,22 +23,23 @@ _Generated: `2026-11-07T13:41:36.460990+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 81 |
-| `invalid` | 46 |
-| `timeout` | 45 |
-| `ok` | 19 |
-| `empty` | 6 |
-| `api_error` | 5 |
+| `exception` | 80 |
+| `invalid` | 45 |
+| `timeout` | 43 |
+| `ok` | 18 |
+| `empty` | 8 |
+| `api_error` | 7 |
 | `rate_limited` | 2 |
+| `http_error` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 42.34s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 2 | 5 | 11.28s | text | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 21.40s | text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 21.03s | text | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 0.32s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 25.86s | text | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 22.03s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 0 | 2 | — | — | ❌ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
