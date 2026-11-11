@@ -4,29 +4,29 @@
 - **URL:** https://gemini.google.com
 - **Models:** 17
 - **Working tests:** 14 / 17
-- **Avg response time:** 22.87s
+- **Avg response time:** 22.83s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `gemini-2.0` | text | ✅ `ok` | 21.10s | contains expected token 'PONG' |
-| `gemini-2.0-flash` | text | ✅ `ok` | 21.71s | contains expected token 'PONG' |
-| `gemini-2.0-flash-thinking` | text | ✅ `ok` | 22.02s | contains expected token 'PONG' |
-| `gemini-2.0-flash-thinking-with-apps` | text | ✅ `ok` | 21.03s | contains expected token 'PONG' |
-| `gemini-2.5-flash` | text | ✅ `ok` | 21.80s | contains expected token 'PONG' |
-| `gemini-3.1-flash-lite` | text | ✅ `ok` | 41.19s | contains expected token 'PONG' |
-| `gemini-3.5-flash` | text | ✅ `ok` | 21.91s | contains expected token 'PONG' |
-| `gemini-3.5-flash-lite` | text | ✅ `ok` | 22.29s | contains expected token 'PONG' |
+| `gemini-2.0` | text | ✅ `ok` | 22.03s | contains expected token 'PONG' |
+| `gemini-2.0-flash` | text | ✅ `ok` | 21.03s | contains expected token 'PONG' |
+| `gemini-2.0-flash-thinking` | text | ✅ `ok` | 20.24s | contains expected token 'PONG' |
+| `gemini-2.0-flash-thinking-with-apps` | text | ✅ `ok` | 20.97s | contains expected token 'PONG' |
+| `gemini-2.5-flash` | text | ✅ `ok` | 22.04s | contains expected token 'PONG' |
+| `gemini-3.1-flash-lite` | text | ✅ `ok` | 21.03s | contains expected token 'PONG' |
+| `gemini-3.5-flash` | text | ✅ `ok` | 21.78s | contains expected token 'PONG' |
+| `gemini-3.5-flash-lite` | text | ✅ `ok` | 21.84s | contains expected token 'PONG' |
 | `gemini-3.5-flash-lite-thinking` | text | ✅ `ok` | 22.03s | contains expected token 'PONG' |
 | `gemini-3.5-flash-thinking` | text | ✅ `ok` | 22.03s | contains expected token 'PONG' |
-| `gemini-3.5-flash-thinking-lite` | text | ✅ `ok` | 20.07s | contains expected token 'PONG' |
-| `gemini-3.6-flash-thinking` | text | ✅ `ok` | 20.44s | contains expected token 'PONG' |
-| `gemini-auto` | text | ✅ `ok` | 22.02s | contains expected token 'PONG' |
-| `gemini-flash-lite` | text | ✅ `ok` | 20.56s | contains expected token 'PONG' |
+| `gemini-3.5-flash-thinking-lite` | text | ✅ `ok` | 20.24s | contains expected token 'PONG' |
+| `gemini-3.6-flash-thinking` | text | ✅ `ok` | 21.03s | contains expected token 'PONG' |
+| `gemini-auto` | text | ✅ `ok` | 20.28s | contains expected token 'PONG' |
+| `gemini-flash-lite` | text | ✅ `ok` | 43.05s | contains expected token 'PONG' |
 | `gemini-2.5-pro` | text | ❌ `api_error` | 0.00s | MissingAuthError: Gemini session is unauthenticated; model 'gemini-3.1-pro' would fall back to Flash |
 | `gemini-3.1-pro` | text | ❌ `api_error` | 0.00s | MissingAuthError: Gemini session is unauthenticated; model 'gemini-3.1-pro' would fall back to Flash |
-| `gemini-3.6-flash` | image | ❌ `exception` | 21.02s | NoMediaResponseError: No media response from Gemini |
+| `gemini-3.6-flash` | image | ❌ `exception` | 41.07s | NoMediaResponseError: No media response from Gemini |
 
 ## Sample successful responses
 
