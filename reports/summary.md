@@ -1,21 +1,21 @@
 # g4f providers — daily test report
 
-_Generated: `2026-11-15T14:41:40.850185+00:00`_
+_Generated: `2026-11-15T23:38:40.241769+00:00`_
 
 ## Overview
 
-- **Providers:** 3 / 36 working
+- **Providers:** 4 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 18 (8.82%)
-- **Avg response time (OK):** 18.884s
+- **Successful:** 20 (9.8%)
+- **Avg response time (OK):** 14.35s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 18 |
-| image | 0 |
+| text | 19 |
+| image | 1 |
 | audio | 0 |
 | video | 0 |
 
@@ -23,22 +23,23 @@ _Generated: `2026-11-15T14:41:40.850185+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 80 |
+| `exception` | 83 |
 | `invalid` | 46 |
-| `timeout` | 42 |
-| `ok` | 18 |
-| `empty` | 9 |
-| `api_error` | 7 |
+| `timeout` | 39 |
+| `ok` | 20 |
+| `empty` | 7 |
+| `api_error` | 6 |
 | `http_error` | 2 |
+| `rate_limited` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 3 | 4 | 6.93s | text | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 19.84s | text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 41.35s | text | ✅ |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 0 | 2 | — | — | ❌ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 1 | 1 | 21.71s | image | ✅ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 0.48s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 18.65s | text | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 2.21s | text | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
