@@ -1,8 +1,7 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
-- **CohereForAI_C4AI_Command** / `command-a-03-2025` (text)
+- **BlackForestLabs_Flux1Dev** / `flux` (image)
 
 ## Newly Broken ❌
-_No working models broke since last run._
+- **Yqcloud** / `gpt-4` (text)
