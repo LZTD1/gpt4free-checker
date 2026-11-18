@@ -1,20 +1,20 @@
 # g4f providers — daily test report
 
-_Generated: `2026-11-18T01:45:04.432590+00:00`_
+_Generated: `2026-11-18T16:21:29.111498+00:00`_
 
 ## Overview
 
-- **Providers:** 4 / 36 working
+- **Providers:** 2 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 21 (10.29%)
-- **Avg response time (OK):** 17.548s
+- **Successful:** 16 (7.84%)
+- **Avg response time (OK):** 24.353s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 19 |
+| text | 14 |
 | image | 2 |
 | audio | 0 |
 | video | 0 |
@@ -24,26 +24,24 @@ _Generated: `2026-11-18T01:45:04.432590+00:00`_
 | Status | Count |
 | --- | ---: |
 | `exception` | 81 |
-| `invalid` | 45 |
-| `timeout` | 42 |
-| `ok` | 21 |
-| `empty` | 8 |
-| `api_error` | 5 |
+| `invalid` | 46 |
+| `timeout` | 43 |
+| `ok` | 16 |
+| `api_error` | 12 |
+| `empty` | 5 |
 | `rate_limited` | 1 |
-| `http_error` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 32.72s | image | ✅ |
-| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 4 | 3 | 0.56s | text | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 19.91s | text | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 22.03s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 42.54s | image | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 21.76s | text | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Cloudflare ](providers/Cloudflare.md) | 54 | 0 | 54 | — | — | ❌ |
+| [ CohereForAI_C4AI_Command ](providers/CohereForAI_C4AI_Command.md) | 7 | 0 | 7 | — | — | ❌ |
 | [ Copilot ](providers/Copilot.md) | 4 | 0 | 4 | — | — | ❌ |
 | [ CopilotApp ](providers/CopilotApp.md) | 5 | 0 | 5 | — | — | ❌ |
 | [ CopilotSession ](providers/CopilotSession.md) | 4 | 0 | 4 | — | — | ❌ |
@@ -72,3 +70,4 @@ _Generated: `2026-11-18T01:45:04.432590+00:00`_
 | [ Qwen ](providers/Qwen.md) | 23 | 0 | 23 | — | — | ❌ |
 | [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 1 | — | — | ❌ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 0 | 1 | — | — | ❌ |

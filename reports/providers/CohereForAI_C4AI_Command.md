@@ -3,44 +3,17 @@
 - **Label:** CohereForAI C4AI Command
 - **URL:** https://coherelabs-c4ai-command.hf.space
 - **Models:** 7
-- **Working tests:** 4 / 7
-- **Avg response time:** 0.56s
+- **Working tests:** 0 / 7
+- **Avg response time:** —
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `command-a-03-2025` | text | ✅ `ok` | 0.44s | contains expected token 'PONG' |
-| `command-r-plus-08-2024` | text | ✅ `ok` | 0.98s | contains expected token 'PONG' |
-| `command-r7b-12-2024` | text | ✅ `ok` | 0.45s | contains expected token 'PONG' |
-| `command-r7b-arabic-02-2025` | text | ✅ `ok` | 0.38s | contains expected token 'PONG' |
-| `command-r` | text | ❌ `empty` | 0.33s | Empty response |
-| `command-r-08-2024` | text | ❌ `invalid` | 0.87s | expected 'PONG', got: 'Ping' |
-| `command-r-plus` | text | ❌ `empty` | 0.31s | Empty response |
-
-## Sample successful responses
-
-### `command-a-03-2025` — text
-
-```
-PONG
-```
-
-### `command-r-plus-08-2024` — text
-
-```
-PONG
-```
-
-### `command-r7b-12-2024` — text
-
-```
-PONG
-```
-
-### `command-r7b-arabic-02-2025` — text
-
-```
-PONG
-```
-
+| `command-a-03-2025` | text | ❌ `api_error` | 0.04s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
+| `command-r` | text | ❌ `api_error` | 0.05s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
+| `command-r-08-2024` | text | ❌ `api_error` | 0.07s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
+| `command-r-plus` | text | ❌ `api_error` | 0.14s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
+| `command-r-plus-08-2024` | text | ❌ `api_error` | 0.05s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
+| `command-r7b-12-2024` | text | ❌ `api_error` | 0.06s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
+| `command-r7b-arabic-02-2025` | text | ❌ `api_error` | 20.12s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
