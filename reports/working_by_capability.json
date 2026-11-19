@@ -10,79 +10,85 @@
       "provider": "Gemini",
       "model": "gemini-2.0",
       "capability": "text",
-      "response_time": 22.14
+      "response_time": 2.039
     },
     {
       "provider": "Gemini",
       "model": "gemini-2.0-flash",
       "capability": "text",
-      "response_time": 22.031
+      "response_time": 21.03
     },
     {
       "provider": "Gemini",
       "model": "gemini-2.0-flash-thinking",
       "capability": "text",
-      "response_time": 21.031
+      "response_time": 22.114
     },
     {
       "provider": "Gemini",
       "model": "gemini-2.0-flash-thinking-with-apps",
       "capability": "text",
-      "response_time": 22.513
+      "response_time": 22.023
     },
     {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "capability": "text",
-      "response_time": 22.034
+      "response_time": 20.479
     },
     {
       "provider": "Gemini",
       "model": "gemini-3.1-flash-lite",
       "capability": "text",
-      "response_time": 22.426
+      "response_time": 20.521
     },
     {
       "provider": "Gemini",
       "model": "gemini-3.5-flash",
       "capability": "text",
-      "response_time": 22.029
+      "response_time": 22.025
     },
     {
       "provider": "Gemini",
       "model": "gemini-3.5-flash-thinking",
       "capability": "text",
-      "response_time": 20.429
+      "response_time": 20.67
     },
     {
       "provider": "Gemini",
       "model": "gemini-3.6-flash-thinking",
       "capability": "text",
-      "response_time": 22.029
+      "response_time": 22.024
     },
     {
       "provider": "Gemini",
       "model": "gemini-auto",
       "capability": "text",
-      "response_time": 21.031
+      "response_time": 20.341
     },
     {
       "provider": "Gemini",
       "model": "gemini-3.5-flash-thinking-lite",
       "capability": "text",
-      "response_time": 22.412
+      "response_time": 22.026
     },
     {
       "provider": "Gemini",
       "model": "gemini-3.5-flash-lite-thinking",
       "capability": "text",
-      "response_time": 22.027
+      "response_time": 21.027
     },
     {
       "provider": "Gemini",
       "model": "gemini-flash-lite",
       "capability": "text",
-      "response_time": 20.41
+      "response_time": 20.205
+    },
+    {
+      "provider": "Yqcloud",
+      "model": "gpt-4",
+      "capability": "text",
+      "response_time": 21.025
     }
   ],
   "image": [
@@ -90,13 +96,19 @@
       "provider": "BlackForestLabs_Flux1Dev",
       "model": "flux-dev",
       "capability": "image",
-      "response_time": 41.997
+      "response_time": 41.289
     },
     {
       "provider": "BlackForestLabs_Flux1Dev",
       "model": "flux",
       "capability": "image",
-      "response_time": 43.078
+      "response_time": 20.329
+    },
+    {
+      "provider": "StabilityAI_SD35Large",
+      "model": "sd-3.5-large",
+      "capability": "image",
+      "response_time": 43.178
     }
   ],
   "audio": [],
