@@ -1,21 +1,21 @@
 # g4f providers — daily test report
 
-_Generated: `2026-11-19T01:02:13.946714+00:00`_
+_Generated: `2026-11-19T16:28:14.376109+00:00`_
 
 ## Overview
 
-- **Providers:** 4 / 36 working
+- **Providers:** 3 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 18 (8.82%)
-- **Avg response time (OK):** 22.465s
+- **Successful:** 16 (7.84%)
+- **Avg response time (OK):** 30.753s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 15 |
-| image | 3 |
+| text | 14 |
+| image | 2 |
 | audio | 0 |
 | video | 0 |
 
@@ -23,22 +23,22 @@ _Generated: `2026-11-19T01:02:13.946714+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 80 |
-| `invalid` | 45 |
-| `timeout` | 42 |
-| `ok` | 18 |
-| `api_error` | 11 |
-| `rate_limited` | 4 |
-| `empty` | 4 |
+| `exception` | 85 |
+| `invalid` | 46 |
+| `timeout` | 38 |
+| `ok` | 16 |
+| `api_error` | 12 |
+| `empty` | 5 |
+| `rate_limited` | 1 |
+| `http_error` | 1 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 30.81s | image | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 19.90s | text | ✅ |
-| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 1 | 0 | 43.18s | image | ✅ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 21.03s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 42.89s | image | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 13 | 4 | 29.63s | text | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 21.02s | text | ✅ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -70,4 +70,5 @@ _Generated: `2026-11-19T01:02:13.946714+00:00`_
 | [ PollinationsAudio ](providers/PollinationsAudio.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ PollinationsImage ](providers/PollinationsImage.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Qwen ](providers/Qwen.md) | 23 | 0 | 23 | — | — | ❌ |
+| [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 1 | — | — | ❌ |
