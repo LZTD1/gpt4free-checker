@@ -10,10 +10,10 @@
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `command-a-03-2025` | text | ❌ `api_error` | 0.15s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
-| `command-r` | text | ❌ `api_error` | 0.17s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
-| `command-r-08-2024` | text | ❌ `api_error` | 0.16s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
-| `command-r-plus` | text | ❌ `api_error` | 0.13s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
-| `command-r-plus-08-2024` | text | ❌ `api_error` | 0.15s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
-| `command-r7b-12-2024` | text | ❌ `api_error` | 0.13s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
-| `command-r7b-arabic-02-2025` | text | ❌ `api_error` | 0.14s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
+| `command-a-03-2025` | text | ❌ `api_error` | 0.21s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
+| `command-r` | text | ❌ `api_error` | 0.22s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
+| `command-r-08-2024` | text | ❌ `api_error` | 0.22s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
+| `command-r-plus` | text | ❌ `api_error` | 0.23s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
+| `command-r-plus-08-2024` | text | ❌ `api_error` | 0.22s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
+| `command-r7b-12-2024` | text | ❌ `api_error` | 0.22s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
+| `command-r7b-arabic-02-2025` | text | ❌ `api_error` | 0.20s | MissingAuthError: Response 401: You have to be logged in.: {'error': 'You have to be logged in.'} |
