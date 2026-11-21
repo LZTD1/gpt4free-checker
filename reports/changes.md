@@ -1,7 +1,7 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **Yqcloud** / `gpt-4` (text)
+- **Gemini** / `gemini-3.5-flash` (text)
 
 ## Newly Broken ❌
-- **Gemini** / `gemini-3.5-flash` (text)
+_No working models broke since last run._
