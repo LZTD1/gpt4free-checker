@@ -4,26 +4,26 @@
 - **URL:** https://black-forest-labs-flux-1-dev.hf.space
 - **Models:** 2
 - **Working tests:** 2 / 2
-- **Avg response time:** 42.87s
+- **Avg response time:** 32.41s
 
 ## Per-model results
 
 | Model | Capability | Status | Time | Notes |
 | --- | --- | :---: | ---: | --- |
-| `flux` | image | ✅ `ok` | 42.99s | Valid image generation output |
-| `flux-dev` | image | ✅ `ok` | 42.75s | Valid image generation output |
+| `flux` | image | ✅ `ok` | 22.62s | Valid image generation output |
+| `flux-dev` | image | ✅ `ok` | 42.19s | Valid image generation output |
 
 ## Sample successful responses
 
 ### `flux-dev` — image
 
 ```
-/media/1795572106_a_single_red_apple_on_a_white_background,_minimalist_731b4f3b624a6784.webp?url=htt
+/media/1795625914_a_single_red_apple_on_a_white_background,_minimalist_dce1921663c5eb6d.webp?url=htt
 ```
 
 ### `flux` — image
 
 ```
-/media/1795572156_a_single_red_apple_on_a_white_background,_minimalist_ed176a7878d15d8b.webp?url=htt
+/media/1795625978_a_single_red_apple_on_a_white_background,_minimalist_9f12bf217e9a1c9c.webp?url=htt
 ```
 
