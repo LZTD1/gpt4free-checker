@@ -1,2 +1,15 @@
-Gemini|gemini-2.0-flash-thinking-with-apps|text|21.028
-Yqcloud|gpt-4|text|1.634
+BlackForestLabs_Flux1Dev|flux-dev|image|42.130
+Gemini|gemini-2.0-flash-thinking-with-apps|text|22.245
+Gemini|gemini-2.0-flash-thinking|text|20.328
+Gemini|gemini-2.0-flash|text|43.457
+Gemini|gemini-2.0|text|21.035
+Gemini|gemini-2.5-flash|text|42.954
+Gemini|gemini-3.1-flash-lite|text|21.019
+Gemini|gemini-3.5-flash-lite-thinking|text|22.024
+Gemini|gemini-3.5-flash-lite|text|21.278
+Gemini|gemini-3.5-flash-thinking-lite|text|20.980
+Gemini|gemini-3.5-flash-thinking|text|21.028
+Gemini|gemini-3.5-flash|text|21.023
+Gemini|gemini-3.6-flash-thinking|text|42.619
+Gemini|gemini-flash-lite|text|21.028
+Yqcloud|gpt-4|text|21.025

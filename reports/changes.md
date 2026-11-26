@@ -1,10 +1,6 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-_No newly working capabilities since last run._
-
-## Newly Broken ❌
-- **BlackForestLabs_Flux1Dev** / `flux` (image)
 - **BlackForestLabs_Flux1Dev** / `flux-dev` (image)
 - **Gemini** / `gemini-2.0` (text)
 - **Gemini** / `gemini-2.0-flash` (text)
@@ -17,5 +13,7 @@ _No newly working capabilities since last run._
 - **Gemini** / `gemini-3.5-flash-thinking` (text)
 - **Gemini** / `gemini-3.5-flash-thinking-lite` (text)
 - **Gemini** / `gemini-3.6-flash-thinking` (text)
-- **Gemini** / `gemini-auto` (text)
 - **Gemini** / `gemini-flash-lite` (text)
+
+## Newly Broken ❌
+_No working models broke since last run._
