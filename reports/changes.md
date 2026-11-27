@@ -1,8 +1,7 @@
 # Daily Change Report (Diff)
 
 ## Newly Working ✅
-- **BlackForestLabs_Flux1Dev** / `flux` (image)
-- **Gemini** / `gemini-auto` (text)
+_No newly working capabilities since last run._
 
 ## Newly Broken ❌
-_No working models broke since last run._
+- **Yqcloud** / `gpt-4` (text)
