@@ -1,21 +1,21 @@
 # g4f providers — daily test report
 
-_Generated: `2026-11-27T17:22:42.791268+00:00`_
+_Generated: `2026-11-28T02:16:52.708295+00:00`_
 
 ## Overview
 
-- **Providers:** 2 / 36 working
+- **Providers:** 3 / 36 working
 - **Models discovered:** 204
 - **Tests run:** 204
-- **Successful:** 16 (7.84%)
-- **Avg response time (OK):** 33.302s
+- **Successful:** 3 (1.47%)
+- **Avg response time (OK):** 14.332s
 
 ## Results by capability
 
 | Capability | Working |
 | --- | ---: |
-| text | 14 |
-| image | 2 |
+| text | 3 |
+| image | 0 |
 | audio | 0 |
 | video | 0 |
 
@@ -23,20 +23,22 @@ _Generated: `2026-11-27T17:22:42.791268+00:00`_
 
 | Status | Count |
 | --- | ---: |
-| `exception` | 81 |
-| `invalid` | 46 |
-| `timeout` | 42 |
-| `ok` | 16 |
-| `api_error` | 12 |
+| `exception` | 80 |
+| `invalid` | 43 |
+| `timeout` | 41 |
+| `rate_limited` | 18 |
+| `api_error` | 14 |
 | `empty` | 5 |
-| `rate_limited` | 2 |
+| `ok` | 3 |
 
 ## Providers
 
 | Provider | Models | OK | Fail | Avg time | Capabilities | Status |
 | --- | ---: | ---: | ---: | ---: | --- | :---: |
-| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 2 | 0 | 32.04s | image | ✅ |
-| [ Gemini ](providers/Gemini.md) | 17 | 14 | 3 | 33.48s | text | ✅ |
+| [ Gemini ](providers/Gemini.md) | 17 | 1 | 16 | 21.03s | text | ✅ |
+| [ Perplexity ](providers/Perplexity.md) | 46 | 1 | 45 | 0.94s | text | ✅ |
+| [ Yqcloud ](providers/Yqcloud.md) | 1 | 1 | 0 | 21.03s | text | ✅ |
+| [ BlackForestLabs_Flux1Dev ](providers/BlackForestLabs_Flux1Dev.md) | 2 | 0 | 2 | — | — | ❌ |
 | [ BlackForestLabs_Flux1KontextDev ](providers/BlackForestLabs_Flux1KontextDev.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ CachedSearch ](providers/CachedSearch.md) | 0 | 0 | 0 | — | — | ❌ |
 | [ Claude ](providers/Claude.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -61,7 +63,6 @@ _Generated: `2026-11-27T17:22:42.791268+00:00`_
 | [ OpenaiChat ](providers/OpenaiChat.md) | 17 | 0 | 17 | — | — | ❌ |
 | [ OpenAIFM ](providers/OpenAIFM.md) | 17 | 0 | 17 | — | — | ❌ |
 | [ OperaAria ](providers/OperaAria.md) | 2 | 0 | 2 | — | — | ❌ |
-| [ Perplexity ](providers/Perplexity.md) | 46 | 0 | 46 | — | — | ❌ |
 | [ PhindAi ](providers/PhindAi.md) | 2 | 0 | 2 | — | — | ❌ |
 | [ Pi ](providers/Pi.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ Pollinations ](providers/Pollinations.md) | 0 | 0 | 0 | — | — | ❌ |
@@ -70,4 +71,3 @@ _Generated: `2026-11-27T17:22:42.791268+00:00`_
 | [ Qwen ](providers/Qwen.md) | 23 | 0 | 23 | — | — | ❌ |
 | [ StabilityAI_SD35Large ](providers/StabilityAI_SD35Large.md) | 1 | 0 | 1 | — | — | ❌ |
 | [ TeachAnything ](providers/TeachAnything.md) | 1 | 0 | 1 | — | — | ❌ |
-| [ Yqcloud ](providers/Yqcloud.md) | 1 | 0 | 1 | — | — | ❌ |
